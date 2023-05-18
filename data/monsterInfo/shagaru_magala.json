@@ -1,0 +1,5634 @@
+{
+    "monster": {
+        "id": 95,
+        "base_hp": 5500,
+        "size": "L",
+        "hp_mult_low": "0.00",
+        "hp_mult_high": "0.00",
+        "hp_mult_g": "0.00",
+        "crown_miniature": "1600.3",
+        "crown_large": "2080.4",
+        "crown_king": "2187.1",
+        "rage_duration": 120,
+        "rage_mod_attack": "1.4",
+        "rage_mod_defense": "1.0",
+        "rage_mod_speed": "1.2",
+        "limp_low": 16,
+        "cap_low": 0,
+        "limp_high": 15,
+        "cap_high": 0,
+        "limp_high_apex": 12,
+        "cap_high_apex": 0,
+        "limp_g": 12,
+        "cap_g": 0,
+        "limp_g_apex": 10,
+        "cap_g_apex": 0,
+        "local_name": "Shagaru Magala",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/shagaru-magala",
+        "monstersounds": [
+            {
+                "id": 28,
+                "monster_id": 95,
+                "filename": "em029_vo_bind"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 10,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 95,
+                    "monsterbodypart_id": 10,
+                    "type": "A",
+                    "res_cut": 65,
+                    "res_impact": 60,
+                    "res_shot": 60,
+                    "res_fire": 25,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 15,
+                    "res_dragon": 30,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 2,
+                "local_name": "Neck",
+                "pivot": {
+                    "monster_id": 95,
+                    "monsterbodypart_id": 2,
+                    "type": "A",
+                    "res_cut": 50,
+                    "res_impact": 40,
+                    "res_shot": 45,
+                    "res_fire": 15,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 10,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Torso",
+                "pivot": {
+                    "monster_id": 95,
+                    "monsterbodypart_id": 11,
+                    "type": "A",
+                    "res_cut": 25,
+                    "res_impact": 25,
+                    "res_shot": 25,
+                    "res_fire": 10,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 33,
+                "local_name": "Wing Limbs",
+                "pivot": {
+                    "monster_id": 95,
+                    "monsterbodypart_id": 33,
+                    "type": "A",
+                    "res_cut": 20,
+                    "res_impact": 20,
+                    "res_shot": 25,
+                    "res_fire": 30,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 15,
+                    "res_dragon": 30,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 95,
+                    "monsterbodypart_id": 12,
+                    "type": "A",
+                    "res_cut": 40,
+                    "res_impact": 40,
+                    "res_shot": 40,
+                    "res_fire": 10,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Back Leg",
+                "pivot": {
+                    "monster_id": 95,
+                    "monsterbodypart_id": 13,
+                    "type": "A",
+                    "res_cut": 36,
+                    "res_impact": 36,
+                    "res_shot": 45,
+                    "res_fire": 10,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 6,
+                "local_name": "Wing",
+                "pivot": {
+                    "monster_id": 95,
+                    "monsterbodypart_id": 6,
+                    "type": "A",
+                    "res_cut": 26,
+                    "res_impact": 26,
+                    "res_shot": 20,
+                    "res_fire": 15,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 10,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Tail",
+                "pivot": {
+                    "monster_id": 95,
+                    "monsterbodypart_id": 5,
+                    "type": "A",
+                    "res_cut": 36,
+                    "res_impact": 36,
+                    "res_shot": 35,
+                    "res_fire": 10,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 10,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 33,
+                "local_name": "Wing Limbs",
+                "pivot": {
+                    "monster_id": 95,
+                    "monsterbodypart_id": 33,
+                    "type": "B",
+                    "res_cut": 36,
+                    "res_impact": 36,
+                    "res_shot": 30,
+                    "res_fire": 20,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 15,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 225,
+                "monster_id": 95,
+                "region": "Head",
+                "value": 300,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 226,
+                "monster_id": 95,
+                "region": "Torso",
+                "value": 600,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 227,
+                "monster_id": 95,
+                "region": "Wings",
+                "value": 180,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 228,
+                "monster_id": 95,
+                "region": "Wing Limbs",
+                "value": 140,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 229,
+                "monster_id": 95,
+                "region": "Front Legs",
+                "value": 200,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 230,
+                "monster_id": 95,
+                "region": "Rear Legs",
+                "value": 160,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 231,
+                "monster_id": 95,
+                "region": "Tail",
+                "value": 240,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 232,
+                "monster_id": 95,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 95,
+                    "weaponspecialattack_id": 6,
+                    "initial": 180,
+                    "increase": 140,
+                    "max": 740,
+                    "duration": 60,
+                    "damage": 300,
+                    "reduction_time": 10,
+                    "reduction_amount": 10
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 95,
+                    "weaponspecialattack_id": 8,
+                    "initial": 200,
+                    "increase": 150,
+                    "max": 800,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 95,
+                    "weaponspecialattack_id": 7,
+                    "initial": 180,
+                    "increase": 120,
+                    "max": 780,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 95,
+                    "weaponspecialattack_id": 10,
+                    "initial": 200,
+                    "increase": 150,
+                    "max": 800,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 95,
+                    "weaponspecialattack_id": 11,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 95,
+                    "weaponspecialattack_id": 9,
+                    "initial": 70,
+                    "increase": 30,
+                    "max": 670,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 95,
+                    "weaponspecialattack_id": 12,
+                    "initial": 80,
+                    "increase": 120,
+                    "max": 650,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 95,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 60,
+                    "max": 410,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 78,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 66,
+                    "normal": 20,
+                    "enraged": 20,
+                    "fatigued": 30
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 79,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 31,
+            "monster_id": 95,
+            "normal": 0,
+            "enraged": 0,
+            "fatigued": 0
+        },
+        "monsterguildquestitems": [
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 879,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 700,
+                "buy": 7000,
+                "local_name": "S.Magala Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 879,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 889,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "S.Magala Caress+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 889,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 893,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 6550,
+                "buy": 65500,
+                "local_name": "S.Magala Plate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-plate",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 893,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 883,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "S.Magala Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-carapace",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 883,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 883,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "S.Magala Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-carapace",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 883,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 882,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 550,
+                "buy": 5500,
+                "local_name": "S.Magala Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-shell",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 882,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 885,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1270,
+                "buy": 12700,
+                "local_name": "S.Magala Prismwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 885,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 886,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "S.Magala Prismwing+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 886,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 888,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 880,
+                "buy": 8800,
+                "local_name": "S.Magala Caress",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 888,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 880,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1650,
+                "buy": 1650,
+                "local_name": "S.Magala Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 880,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 889,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "S.Magala Caress+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 889,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 893,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 6550,
+                "buy": 65500,
+                "local_name": "S.Magala Plate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-plate",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 893,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 883,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "S.Magala Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-carapace",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 883,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 883,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "S.Magala Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-carapace",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 883,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 886,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "S.Magala Prismwing+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 886,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 880,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1650,
+                "buy": 1650,
+                "local_name": "S.Magala Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 880,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 889,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "S.Magala Caress+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 889,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 893,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 6550,
+                "buy": 65500,
+                "local_name": "S.Magala Plate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-plate",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 893,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 883,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "S.Magala Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-carapace",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 883,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 886,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "S.Magala Prismwing+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 886,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 880,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1650,
+                "buy": 1650,
+                "local_name": "S.Magala Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 880,
+                    "quantity": 1,
+                    "percentage": 34,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 2,
+                    "percentage": 7,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 889,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "S.Magala Caress+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 889,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 884,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4500,
+                "buy": 45000,
+                "local_name": "S.Magala Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-cortex",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 884,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 886,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "S.Magala Prismwing+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 886,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 880,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1650,
+                "buy": 1650,
+                "local_name": "S.Magala Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 880,
+                    "quantity": 1,
+                    "percentage": 27,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 897,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "S.Magala Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-horn+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 897,
+                    "quantity": 1,
+                    "percentage": 9,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 2,
+                    "percentage": 7,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 889,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "S.Magala Caress+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 889,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 884,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4500,
+                "buy": 45000,
+                "local_name": "S.Magala Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-cortex",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 884,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 886,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "S.Magala Prismwing+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 886,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 880,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1650,
+                "buy": 1650,
+                "local_name": "S.Magala Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 880,
+                    "quantity": 1,
+                    "percentage": 27,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 897,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "S.Magala Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-horn+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 897,
+                    "quantity": 1,
+                    "percentage": 9,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 2,
+                    "percentage": 7,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 898,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9000,
+                "buy": 90000,
+                "local_name": "S.Magala Hardhorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-hardhorn",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 898,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 887,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "S.Magala Lightwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-lightwing",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 887,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 890,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "S.Magala Purifier",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-purifier",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 890,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 881,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4950,
+                "buy": 49500,
+                "local_name": "S.Magala Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-shard",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 881,
+                    "quantity": 1,
+                    "percentage": 27,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 884,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4500,
+                "buy": 45000,
+                "local_name": "S.Magala Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-cortex",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 884,
+                    "quantity": 1,
+                    "percentage": 22,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 884,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4500,
+                "buy": 45000,
+                "local_name": "S.Magala Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-cortex",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 884,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 880,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1650,
+                "buy": 1650,
+                "local_name": "S.Magala Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 880,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 895,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "S.Magala Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-mantle",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 895,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 2,
+                    "percentage": 7,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 898,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9000,
+                "buy": 90000,
+                "local_name": "S.Magala Hardhorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-hardhorn",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 898,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 887,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "S.Magala Lightwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-lightwing",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 887,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 890,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "S.Magala Purifier",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-purifier",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 890,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 881,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4950,
+                "buy": 49500,
+                "local_name": "S.Magala Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-shard",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 881,
+                    "quantity": 1,
+                    "percentage": 27,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 884,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4500,
+                "buy": 45000,
+                "local_name": "S.Magala Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-cortex",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 884,
+                    "quantity": 1,
+                    "percentage": 22,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 884,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4500,
+                "buy": 45000,
+                "local_name": "S.Magala Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-cortex",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 884,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 880,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1650,
+                "buy": 1650,
+                "local_name": "S.Magala Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 880,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 895,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "S.Magala Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-mantle",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 895,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1235,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1235,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1236,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1236,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 2,
+                    "percentage": 7,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 898,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9000,
+                "buy": 90000,
+                "local_name": "S.Magala Hardhorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-hardhorn",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 898,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 887,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "S.Magala Lightwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-lightwing",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 887,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 890,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "S.Magala Purifier",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-purifier",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 890,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 881,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4950,
+                "buy": 49500,
+                "local_name": "S.Magala Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-shard",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 881,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 884,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4500,
+                "buy": 45000,
+                "local_name": "S.Magala Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-cortex",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 884,
+                    "quantity": 1,
+                    "percentage": 22,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 884,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4500,
+                "buy": 45000,
+                "local_name": "S.Magala Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-cortex",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 884,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 880,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1650,
+                "buy": 1650,
+                "local_name": "S.Magala Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 880,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 895,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "S.Magala Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-mantle",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 895,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1235,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1235,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1236,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1236,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1235,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-weapon",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1235,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1236,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-armor",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1236,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            }
+        ],
+        "items": [
+            {
+                "id": 879,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 700,
+                "buy": 7000,
+                "local_name": "S.Magala Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 879,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 882,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 550,
+                "buy": 5500,
+                "local_name": "S.Magala Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-shell",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 882,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 888,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 880,
+                "buy": 8800,
+                "local_name": "S.Magala Caress",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 888,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 885,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1270,
+                "buy": 12700,
+                "local_name": "S.Magala Prismwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 885,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 891,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1430,
+                "buy": 14300,
+                "local_name": "S.Magala Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-tail",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 891,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 893,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 6550,
+                "buy": 65500,
+                "local_name": "S.Magala Plate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-plate",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 893,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 891,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1430,
+                "buy": 14300,
+                "local_name": "S.Magala Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-tail",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 891,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 879,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 700,
+                "buy": 7000,
+                "local_name": "S.Magala Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 879,
+                    "quantity": 1,
+                    "percentage": 21,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 893,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 6550,
+                "buy": 65500,
+                "local_name": "S.Magala Plate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-plate",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 893,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1321,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 300,
+                "local_name": "Dragon Treasure",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragon-treasure",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1321,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 1,
+                    "percentage": 23,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 893,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 6550,
+                "buy": 65500,
+                "local_name": "S.Magala Plate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-plate",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 893,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 896,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1600,
+                "buy": 16000,
+                "local_name": "S.Magala Horn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-horn",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 896,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 1,
+                    "percentage": 22,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 893,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 6550,
+                "buy": 65500,
+                "local_name": "S.Magala Plate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-plate",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 893,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 888,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 880,
+                "buy": 8800,
+                "local_name": "S.Magala Caress",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 888,
+                    "quantity": 1,
+                    "percentage": 80,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 467,
+                    "monsteritemmethod": {
+                        "id": 467,
+                        "local_name": "Break Wing Leg"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 467,
+                    "monsteritemmethod": {
+                        "id": 467,
+                        "local_name": "Break Wing Leg"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 885,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1270,
+                "buy": 12700,
+                "local_name": "S.Magala Prismwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 885,
+                    "quantity": 1,
+                    "percentage": 80,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 879,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 700,
+                "buy": 7000,
+                "local_name": "S.Magala Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 879,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 880,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1650,
+                "buy": 1650,
+                "local_name": "S.Magala Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 880,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 883,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "S.Magala Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-carapace",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 883,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 889,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "S.Magala Caress+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 889,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 886,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "S.Magala Prismwing+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 886,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 893,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 6550,
+                "buy": 65500,
+                "local_name": "S.Magala Plate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-plate",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 893,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 891,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1430,
+                "buy": 14300,
+                "local_name": "S.Magala Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-tail",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 891,
+                    "quantity": 1,
+                    "percentage": 64,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 880,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1650,
+                "buy": 1650,
+                "local_name": "S.Magala Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 880,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 893,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 6550,
+                "buy": 65500,
+                "local_name": "S.Magala Plate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-plate",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 893,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1321,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 300,
+                "local_name": "Dragon Treasure",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragon-treasure",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1321,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1322,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 500,
+                "local_name": "Old Dragon Treasure",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/old-dragon-treasure",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1322,
+                    "quantity": 1,
+                    "percentage": 37,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 893,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 6550,
+                "buy": 65500,
+                "local_name": "S.Magala Plate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-plate",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 893,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 897,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "S.Magala Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-horn+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 897,
+                    "quantity": 1,
+                    "percentage": 72,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 896,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1600,
+                "buy": 16000,
+                "local_name": "S.Magala Horn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-horn",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 896,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 893,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 6550,
+                "buy": 65500,
+                "local_name": "S.Magala Plate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-plate",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 893,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 889,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "S.Magala Caress+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 889,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 467,
+                    "monsteritemmethod": {
+                        "id": 467,
+                        "local_name": "Break Wing Leg"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 882,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 550,
+                "buy": 5500,
+                "local_name": "S.Magala Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-shell",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 882,
+                    "quantity": 2,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 467,
+                    "monsteritemmethod": {
+                        "id": 467,
+                        "local_name": "Break Wing Leg"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 888,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 880,
+                "buy": 8800,
+                "local_name": "S.Magala Caress",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 888,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 467,
+                    "monsteritemmethod": {
+                        "id": 467,
+                        "local_name": "Break Wing Leg"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 886,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "S.Magala Prismwing+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 886,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 880,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1650,
+                "buy": 1650,
+                "local_name": "S.Magala Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-scale+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 880,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 885,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1270,
+                "buy": 12700,
+                "local_name": "S.Magala Prismwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 885,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 881,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4950,
+                "buy": 49500,
+                "local_name": "S.Magala Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-shard",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 881,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 884,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4500,
+                "buy": 45000,
+                "local_name": "S.Magala Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-cortex",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 884,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 890,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "S.Magala Purifier",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-purifier",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 890,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 887,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "S.Magala Lightwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-lightwing",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 887,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 895,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "S.Magala Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-mantle",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 895,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 892,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8580,
+                "buy": 85800,
+                "local_name": "S.Magala Lash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-lash",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 892,
+                    "quantity": 1,
+                    "percentage": 64,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 881,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4950,
+                "buy": 49500,
+                "local_name": "S.Magala Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-shard",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 881,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 895,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "S.Magala Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-mantle",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 895,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1322,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 500,
+                "local_name": "Old Dragon Treasure",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/old-dragon-treasure",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1322,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 899,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Pure Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-scale",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 899,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 895,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "S.Magala Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-mantle",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 895,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 898,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9000,
+                "buy": 90000,
+                "local_name": "S.Magala Hardhorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-hardhorn",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 898,
+                    "quantity": 1,
+                    "percentage": 72,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 897,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "S.Magala Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-horn+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 897,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 894,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 10000,
+                "buy": 100000,
+                "local_name": "S.Magala Phosgem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-phosgem",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 894,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 895,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "S.Magala Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-mantle",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 895,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1085,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1084,
+                    "quantity": 2,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 1085,
+                    "quantity": 2,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 890,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "S.Magala Purifier",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-purifier",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 890,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 467,
+                    "monsteritemmethod": {
+                        "id": 467,
+                        "local_name": "Break Wing Leg"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 883,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "S.Magala Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-carapace",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 883,
+                    "quantity": 2,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 467,
+                    "monsteritemmethod": {
+                        "id": 467,
+                        "local_name": "Break Wing Leg"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 889,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "S.Magala Caress+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-caress+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 889,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 467,
+                    "monsteritemmethod": {
+                        "id": 467,
+                        "local_name": "Break Wing Leg"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 887,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "S.Magala Lightwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-lightwing",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 887,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 881,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4950,
+                "buy": 49500,
+                "local_name": "S.Magala Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-shard",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 881,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 886,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "S.Magala Prismwing+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/s.magala-prismwing+",
+                "pivot": {
+                    "monster_id": 95,
+                    "item_id": 886,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 94,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 6,
+                "questtype_id": 2,
+                "reward": 7200,
+                "questpriority_id": 3,
+                "questgoal_id": 94,
+                "questsubgoal_id": 94,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 800,
+                "time": 50,
+                "hrp": 400,
+                "map_id": 9,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Heaven's Wheel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/6\/advanced-heavens-wheel",
+                "pivot": {
+                    "monster_id": 95,
+                    "quest_id": 94
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 94,
+                    "local_name": "Slay Shagaru Magala"
+                },
+                "questsubgoal": {
+                    "id": 94,
+                    "local_name": "Break Shagaru Magala's horns"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            },
+            {
+                "id": 112,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 27000,
+                "questpriority_id": 3,
+                "questgoal_id": 102,
+                "questsubgoal_id": 1,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 2800,
+                "time": 50,
+                "hrp": 1480,
+                "map_id": 9,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "The Caravaneer's Challenge",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/6\/the-caravaneers-challenge",
+                "pivot": {
+                    "monster_id": 95,
+                    "quest_id": 112
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 102,
+                    "local_name": "Hunt all large monsters"
+                },
+                "questsubgoal": {
+                    "id": 1,
+                    "local_name": "None"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 330,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 7,
+                "questtype_id": 2,
+                "reward": 15600,
+                "questpriority_id": 3,
+                "questgoal_id": 94,
+                "questsubgoal_id": 94,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1600,
+                "time": 50,
+                "hrp": 960,
+                "map_id": 9,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Stop the Wheel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/7\/advanced-stop-the-wheel",
+                "pivot": {
+                    "monster_id": 95,
+                    "quest_id": 330
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 94,
+                    "local_name": "Slay Shagaru Magala"
+                },
+                "questsubgoal": {
+                    "id": 94,
+                    "local_name": "Break Shagaru Magala's horns"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            },
+            {
+                "id": 428,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 10,
+                "questtype_id": 2,
+                "reward": 26400,
+                "questpriority_id": 1,
+                "questgoal_id": 94,
+                "questsubgoal_id": 94,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 2700,
+                "time": 50,
+                "hrp": 1540,
+                "map_id": 9,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Wheel of Time",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/10\/advanced-wheel-of-time",
+                "pivot": {
+                    "monster_id": 95,
+                    "quest_id": 428
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 94,
+                    "local_name": "Slay Shagaru Magala"
+                },
+                "questsubgoal": {
+                    "id": 94,
+                    "local_name": "Break Shagaru Magala's horns"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            }
+        ],
+        "maps": [],
+        "weapons": [
+            {
+                "id": 36,
+                "weapontype_id": 1,
+                "weapon_parent_id": 35,
+                "final": 0,
+                "attack": 768,
+                "defense": null,
+                "affinity": 65,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "L'Apoth\u00e9ose",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/lapotheose",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 36
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 37,
+                "weapontype_id": 1,
+                "weapon_parent_id": 36,
+                "final": 0,
+                "attack": 1056,
+                "defense": null,
+                "affinity": 65,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "L'\u00c9clat",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/leclat",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 37
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 38,
+                "weapontype_id": 1,
+                "weapon_parent_id": 37,
+                "final": 1,
+                "attack": 1152,
+                "defense": null,
+                "affinity": 65,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "L'Origine",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/lorigine",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 38
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 215,
+                "weapontype_id": 2,
+                "weapon_parent_id": 214,
+                "final": 0,
+                "attack": 528,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "La Justici\u00e8re",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/la-justiciere",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 215
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 216,
+                "weapontype_id": 2,
+                "weapon_parent_id": 215,
+                "final": 0,
+                "attack": 726,
+                "defense": null,
+                "affinity": 45,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "La Loi",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/la-loi",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 216
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 217,
+                "weapontype_id": 2,
+                "weapon_parent_id": 216,
+                "final": 1,
+                "attack": 792,
+                "defense": null,
+                "affinity": 45,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Le D\u00e9calogue",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/le-decalogue",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 217
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 398,
+                "weapontype_id": 3,
+                "weapon_parent_id": 397,
+                "final": 0,
+                "attack": 252,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "Le D\u00e9tecteur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/le-detecteur",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 398
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 399,
+                "weapontype_id": 3,
+                "weapon_parent_id": 398,
+                "final": 0,
+                "attack": 322,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "La V\u00e9rit\u00e9",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/la-verite",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 399
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 400,
+                "weapontype_id": 3,
+                "weapon_parent_id": 399,
+                "final": 1,
+                "attack": 336,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Le Limier",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/le-limier",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 400
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 627,
+                "weapontype_id": 4,
+                "weapon_parent_id": 626,
+                "final": 0,
+                "attack": 224,
+                "defense": null,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "Les Ap\u00f4tres",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/les-apotres",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 627
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 628,
+                "weapontype_id": 4,
+                "weapon_parent_id": 627,
+                "final": 0,
+                "attack": 322,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Le Paradis",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/le-paradis",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 628
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 629,
+                "weapontype_id": 4,
+                "weapon_parent_id": 628,
+                "final": 1,
+                "attack": 350,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Le Shangri-La",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/le-shangri-la",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 629
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 830,
+                "weapontype_id": 5,
+                "weapon_parent_id": 829,
+                "final": 0,
+                "attack": 832,
+                "defense": null,
+                "affinity": 55,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "Le Jugement",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/le-jugement",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 830
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 831,
+                "weapontype_id": 5,
+                "weapon_parent_id": 830,
+                "final": 0,
+                "attack": 1092,
+                "defense": null,
+                "affinity": 55,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "La Naissance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/la-naissance",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 831
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 832,
+                "weapontype_id": 5,
+                "weapon_parent_id": 831,
+                "final": 1,
+                "attack": 1248,
+                "defense": null,
+                "affinity": 55,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "La Terre",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/la-terre",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 832
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 988,
+                "weapontype_id": 6,
+                "weapon_parent_id": 987,
+                "final": 0,
+                "attack": 884,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "La S\u00e9pulture",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/la-sepulture",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 988
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 989,
+                "weapontype_id": 6,
+                "weapon_parent_id": 988,
+                "final": 0,
+                "attack": 1196,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "La Joie",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/la-joie",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 989
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 990,
+                "weapontype_id": 6,
+                "weapon_parent_id": 989,
+                "final": 1,
+                "attack": 1352,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Le Gr\u00e9gorien",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/le-gregorien",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 990
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1142,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1141,
+                "final": 0,
+                "attack": 368,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "L'\u00c9gide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/legide",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1142
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1143,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1142,
+                "final": 0,
+                "attack": 506,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Le Sage",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/le-sage",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1143
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1144,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1143,
+                "final": 1,
+                "attack": 575,
+                "defense": null,
+                "affinity": 45,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Le Paladin",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/le-paladin",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1144
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1371,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1370,
+                "final": 0,
+                "attack": 368,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "L'Onde",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/londe",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1371
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1372,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1371,
+                "final": 0,
+                "attack": 506,
+                "defense": null,
+                "affinity": 50,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Le Mur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/le-mur",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1372
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1373,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1372,
+                "final": 1,
+                "attack": 552,
+                "defense": null,
+                "affinity": 55,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "La Forteresse",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/la-forteresse",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1373
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1562,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1561,
+                "final": 0,
+                "attack": 918,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "La Guillotine",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/la-guillotine",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1562
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1563,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1562,
+                "final": 0,
+                "attack": 1188,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Le Sursis",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/le-sursis",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1563
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1564,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1563,
+                "final": 1,
+                "attack": 1296,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "La Conclusion",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/la-conclusion",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1564
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1676,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1675,
+                "final": 0,
+                "attack": 648,
+                "defense": null,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "L'Oppresseur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/loppresseur",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1676
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1677,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1676,
+                "final": 0,
+                "attack": 828,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "L'Essor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/lessor",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1677
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1678,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1677,
+                "final": 1,
+                "attack": 900,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Le Salut",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/le-salut",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1678
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1751,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1750,
+                "final": 0,
+                "attack": 558,
+                "defense": null,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "Le Traqueur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/le-traqueur",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1751
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1752,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1751,
+                "final": 0,
+                "attack": 682,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "La Merveille",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/la-merveille",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1752
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1753,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1752,
+                "final": 1,
+                "attack": 744,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Le Miracle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/le-miracle",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1753
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1925,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1924,
+                "final": 0,
+                "attack": 234,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 50000,
+                "local_name": "La Lumi\u00e8re",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/la-lumiere",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1925
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1926,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1925,
+                "final": 0,
+                "attack": 247,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "Le Condamnateur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/le-condamnateur",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1926
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1927,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1926,
+                "final": 0,
+                "attack": 325,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "La Vertu",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/la-vertu",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1927
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1928,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1927,
+                "final": 1,
+                "attack": 351,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "L'\u00c9den",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/leden",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 1928
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 2115,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2114,
+                "final": 0,
+                "attack": 300,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Le D\u00e9sastre",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/le-desastre",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 2115
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2116,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2115,
+                "final": 0,
+                "attack": 360,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "La Foi",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/la-foi",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 2116
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2117,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2116,
+                "final": 1,
+                "attack": 405,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Le D\u00e9luge",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/le-deluge",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 2117
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2258,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2257,
+                "final": 0,
+                "attack": 204,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "Le Ravisseur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/le-ravisseur",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 2258
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2259,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2258,
+                "final": 0,
+                "attack": 264,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Le D\u00e9sir",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/le-desir",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 2259
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2260,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2259,
+                "final": 1,
+                "attack": 288,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "L'Innocence",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/linnocence",
+                "pivot": {
+                    "monster_id": 95,
+                    "weapon_id": 2260
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            }
+        ]
+    }
+}

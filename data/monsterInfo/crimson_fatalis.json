@@ -1,0 +1,1315 @@
+{
+    "monster": {
+        "id": 105,
+        "base_hp": 8000,
+        "size": "L",
+        "hp_mult_low": "0.00",
+        "hp_mult_high": "0.00",
+        "hp_mult_g": "0.00",
+        "crown_miniature": "0.0",
+        "crown_large": "0.0",
+        "crown_king": "0.0",
+        "rage_duration": 0,
+        "rage_mod_attack": "0.0",
+        "rage_mod_defense": "0.0",
+        "rage_mod_speed": "0.0",
+        "limp_low": 0,
+        "cap_low": 0,
+        "limp_high": 0,
+        "cap_high": 0,
+        "limp_high_apex": 0,
+        "cap_high_apex": 0,
+        "limp_g": 0,
+        "cap_g": 0,
+        "limp_g_apex": 0,
+        "cap_g_apex": 0,
+        "local_name": "Crimson Fatalis",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/crimson-fatalis",
+        "monstersounds": [
+            {
+                "id": 50,
+                "monster_id": 105,
+                "filename": "em078_vo_bind"
+            }
+        ],
+        "monsterbodyparts": [],
+        "monsterstaggerlimits": [
+            {
+                "id": 561,
+                "monster_id": 105,
+                "region": "",
+                "value": 700,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 562,
+                "monster_id": 105,
+                "region": "",
+                "value": 450,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 563,
+                "monster_id": 105,
+                "region": "",
+                "value": 400,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 564,
+                "monster_id": 105,
+                "region": "",
+                "value": 400,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 565,
+                "monster_id": 105,
+                "region": "",
+                "value": 400,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 566,
+                "monster_id": 105,
+                "region": "",
+                "value": 500,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 567,
+                "monster_id": 105,
+                "region": "",
+                "value": 200,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 568,
+                "monster_id": 105,
+                "region": "",
+                "value": 240,
+                "value_cut": null,
+                "extract_color": "white"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 105,
+                    "weaponspecialattack_id": 6,
+                    "initial": 400,
+                    "increase": 50,
+                    "max": 600,
+                    "duration": 40,
+                    "damage": 240,
+                    "reduction_time": 5,
+                    "reduction_amount": 10
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 105,
+                    "weaponspecialattack_id": 8,
+                    "initial": 400,
+                    "increase": 100,
+                    "max": 900,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 105,
+                    "weaponspecialattack_id": 7,
+                    "initial": 400,
+                    "increase": 100,
+                    "max": 1000,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 105,
+                    "weaponspecialattack_id": 10,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 105,
+                    "weaponspecialattack_id": 11,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 105,
+                    "weaponspecialattack_id": 9,
+                    "initial": 180,
+                    "increase": 100,
+                    "max": 2180,
+                    "duration": 0,
+                    "damage": 200,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 105,
+                    "weaponspecialattack_id": 12,
+                    "initial": 80,
+                    "increase": 120,
+                    "max": 680,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 105,
+                    "weaponspecialattack_id": 13,
+                    "initial": 60,
+                    "increase": 50,
+                    "max": 460,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 78,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 66,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 79,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 74,
+            "monster_id": 105,
+            "normal": 0,
+            "enraged": 0,
+            "fatigued": 0
+        },
+        "monsterguildquestitems": [],
+        "items": [
+            {
+                "id": 1034,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4272,
+                "buy": 42720,
+                "local_name": "Fatalis Bloodshell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-bloodshell",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1034,
+                    "quantity": 1,
+                    "percentage": 62,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1033,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5580,
+                "buy": 55800,
+                "local_name": "Fatalis Bloodscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-bloodscale",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1033,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1032,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 7860,
+                "buy": 78600,
+                "local_name": "Fatalis Bloodhorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-bloodhorn",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1032,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1032,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 7860,
+                "buy": 78600,
+                "local_name": "Fatalis Bloodhorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-bloodhorn",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1032,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1035,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 25000,
+                "buy": 250000,
+                "local_name": "Fatalis Devileye",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-devileye",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1035,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 591,
+                    "monsteritemmethod": {
+                        "id": 591,
+                        "local_name": "Break Eye"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1036,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 9500,
+                "buy": 95000,
+                "local_name": "Fatalis Bloodwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-bloodwing",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1036,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1034,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4272,
+                "buy": 42720,
+                "local_name": "Fatalis Bloodshell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-bloodshell",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1034,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 565,
+                    "monsteritemmethod": {
+                        "id": 565,
+                        "local_name": "Break Breast"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1033,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5580,
+                "buy": 55800,
+                "local_name": "Fatalis Bloodscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-bloodscale",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1033,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 565,
+                    "monsteritemmethod": {
+                        "id": 565,
+                        "local_name": "Break Breast"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1039,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 10680,
+                "buy": 106800,
+                "local_name": "Fatalis Flameshell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-flameshell",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1039,
+                    "quantity": 1,
+                    "percentage": 62,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1038,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 13650,
+                "buy": 136500,
+                "local_name": "Fatalis Flamescale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-flamescale",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1038,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1037,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 19650,
+                "buy": 196500,
+                "local_name": "Fatalis Flamehorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-flamehorn",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1037,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1037,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 19650,
+                "buy": 196500,
+                "local_name": "Fatalis Flamehorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-flamehorn",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1037,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1040,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 32500,
+                "buy": 325000,
+                "local_name": "Fatalis Devileye+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-devileye+",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1040,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 591,
+                    "monsteritemmethod": {
+                        "id": 591,
+                        "local_name": "Break Eye"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1041,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 23750,
+                "buy": 237500,
+                "local_name": "Fatalis Flamewing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-flamewing",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1041,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1039,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 10680,
+                "buy": 106800,
+                "local_name": "Fatalis Flameshell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-flameshell",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1039,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 565,
+                    "monsteritemmethod": {
+                        "id": 565,
+                        "local_name": "Break Breast"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1038,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 13650,
+                "buy": 136500,
+                "local_name": "Fatalis Flamescale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fatalis-flamescale",
+                "pivot": {
+                    "monster_id": 105,
+                    "item_id": 1038,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 565,
+                    "monsteritemmethod": {
+                        "id": 565,
+                        "local_name": "Break Breast"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 187,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 10,
+                "questtype_id": 2,
+                "reward": 29400,
+                "questpriority_id": 3,
+                "questgoal_id": 187,
+                "questsubgoal_id": 1,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 3000,
+                "time": 35,
+                "hrp": 2020,
+                "map_id": 12,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Red Dragon's Dawn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/10\/advanced-red-dragons-dawn",
+                "pivot": {
+                    "monster_id": 105,
+                    "quest_id": 187
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 187,
+                    "local_name": "Slay a Fatalis or repel it"
+                },
+                "questsubgoal": {
+                    "id": 1,
+                    "local_name": "None"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            }
+        ],
+        "maps": [],
+        "weapons": [
+            {
+                "id": 173,
+                "weapontype_id": 1,
+                "weapon_parent_id": 0,
+                "final": 1,
+                "attack": 1200,
+                "defense": null,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": 166666,
+                "price_upgrade": null,
+                "local_name": "Flame Fatalis Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/flame-fatalis-blade",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 173
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 360,
+                "weapontype_id": 2,
+                "weapon_parent_id": 0,
+                "final": 1,
+                "attack": 759,
+                "defense": null,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": 166666,
+                "price_upgrade": null,
+                "local_name": "Fatalis Fotia",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/fatalis-fotia",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 360
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 553,
+                "weapontype_id": 3,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 238,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 3,
+                "price_create": 105000,
+                "price_upgrade": null,
+                "local_name": "Ruiner Sword",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/ruiner-sword",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 553
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 554,
+                "weapontype_id": 3,
+                "weapon_parent_id": 553,
+                "final": 1,
+                "attack": 392,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 166666,
+                "local_name": "True Ruiner Sword",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/true-ruiner-sword",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 554
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 946,
+                "weapontype_id": 5,
+                "weapon_parent_id": 0,
+                "final": 1,
+                "attack": 1612,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": 166666,
+                "price_upgrade": null,
+                "local_name": "Fatalis Iregard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/fatalis-iregard",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 946
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 1106,
+                "weapontype_id": 6,
+                "weapon_parent_id": 0,
+                "final": 1,
+                "attack": 1456,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": 166666,
+                "price_upgrade": null,
+                "local_name": "Fatalis Menace Soul",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/fatalis-menace-soul",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 1106
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1272,
+                "weapontype_id": 7,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 322,
+                "defense": null,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 3,
+                "price_create": 105000,
+                "price_upgrade": null,
+                "local_name": "Ruiner Lance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/ruiner-lance",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 1272
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1273,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1272,
+                "final": 1,
+                "attack": 552,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 166666,
+                "local_name": "True Ruiner Lance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/true-ruiner-lance",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 1273
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1459,
+                "weapontype_id": 8,
+                "weapon_parent_id": 0,
+                "final": 1,
+                "attack": 598,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": 166666,
+                "price_upgrade": null,
+                "local_name": "Hellruin Gunlance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/hellruin-gunlance",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 1459
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1613,
+                "weapontype_id": 9,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 810,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 2,
+                "price_create": 105000,
+                "price_upgrade": null,
+                "local_name": "Ruiner's Bane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/ruiners-bane",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 1613
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1614,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1613,
+                "final": 1,
+                "attack": 1404,
+                "defense": null,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 166666,
+                "local_name": "True Ruiner's Bane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/true-ruiners-bane",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 1614
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1719,
+                "weapontype_id": 10,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 576,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 3,
+                "price_create": 105000,
+                "price_upgrade": null,
+                "local_name": "Ruiner Reaver",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/ruiner-reaver",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 1719
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1720,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1719,
+                "final": 1,
+                "attack": 972,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 166666,
+                "local_name": "True Ruiner Reaver",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/true-ruiner-reaver",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 1720
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1860,
+                "weapontype_id": 11,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 775,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": 99999,
+                "price_upgrade": null,
+                "local_name": "Hellruin Glaive",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/hellruin-glaive",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 1860
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1861,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1860,
+                "final": 0,
+                "attack": 806,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 133333,
+                "local_name": "Hellruin Glaive \"Gift\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/hellruin-glaive-gift",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 1861
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1862,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1861,
+                "final": 1,
+                "attack": 837,
+                "defense": null,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 166666,
+                "local_name": "Hellruin Glaive \"Omen\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/hellruin-glaive-omen",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 1862
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 2017,
+                "weapontype_id": 12,
+                "weapon_parent_id": 0,
+                "final": 1,
+                "attack": 403,
+                "defense": null,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": 166666,
+                "price_upgrade": null,
+                "local_name": "Dith Valor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/dith-valor",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 2017
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 2159,
+                "weapontype_id": 13,
+                "weapon_parent_id": 0,
+                "final": 1,
+                "attack": 480,
+                "defense": null,
+                "affinity": -15,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": 166666,
+                "price_upgrade": null,
+                "local_name": "Destiny's Arm",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/destinys-arm",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 2159
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2314,
+                "weapontype_id": 14,
+                "weapon_parent_id": 0,
+                "final": 1,
+                "attack": 324,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": 166666,
+                "price_upgrade": null,
+                "local_name": "Red Heaven Ruiner",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/red-heaven-ruiner",
+                "pivot": {
+                    "monster_id": 105,
+                    "weapon_id": 2314
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            }
+        ]
+    }
+}

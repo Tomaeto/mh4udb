@@ -1,0 +1,2600 @@
+{
+    "monster": {
+        "id": 44,
+        "base_hp": 3600,
+        "size": "L",
+        "hp_mult_low": "0.00",
+        "hp_mult_high": "0.00",
+        "hp_mult_g": "0.00",
+        "crown_miniature": "474.6",
+        "crown_large": "606.4",
+        "crown_king": "648.6",
+        "rage_duration": 30,
+        "rage_mod_attack": "1.3",
+        "rage_mod_defense": "1.1",
+        "rage_mod_speed": "1.1",
+        "limp_low": 30,
+        "cap_low": 40,
+        "limp_high": 25,
+        "cap_high": 30,
+        "limp_high_apex": 0,
+        "cap_high_apex": 0,
+        "limp_g": 20,
+        "cap_g": 25,
+        "limp_g_apex": 0,
+        "cap_g_apex": 0,
+        "local_name": "Lagombi",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/lagombi",
+        "monstersounds": [
+            {
+                "id": 46,
+                "monster_id": 44,
+                "filename": "em047_vo_threat1"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 44,
+                    "monsterbodypart_id": 1,
+                    "type": "A",
+                    "res_cut": 45,
+                    "res_impact": 63,
+                    "res_shot": 50,
+                    "res_fire": 30,
+                    "res_water": 0,
+                    "res_ice": 0,
+                    "res_thunder": 20,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 15,
+                "local_name": "Upper Body",
+                "pivot": {
+                    "monster_id": 44,
+                    "monsterbodypart_id": 15,
+                    "type": "A",
+                    "res_cut": 44,
+                    "res_impact": 44,
+                    "res_shot": 40,
+                    "res_fire": 30,
+                    "res_water": 0,
+                    "res_ice": 0,
+                    "res_thunder": 15,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 44,
+                    "monsterbodypart_id": 12,
+                    "type": "A",
+                    "res_cut": 30,
+                    "res_impact": 30,
+                    "res_shot": 20,
+                    "res_fire": 10,
+                    "res_water": 0,
+                    "res_ice": 0,
+                    "res_thunder": 5,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 16,
+                "local_name": "Ass",
+                "pivot": {
+                    "monster_id": 44,
+                    "monsterbodypart_id": 16,
+                    "type": "A",
+                    "res_cut": 63,
+                    "res_impact": 50,
+                    "res_shot": 35,
+                    "res_fire": 20,
+                    "res_water": 0,
+                    "res_ice": 0,
+                    "res_thunder": 10,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 17,
+                "local_name": "Belly \/ Rear Legs",
+                "pivot": {
+                    "monster_id": 44,
+                    "monsterbodypart_id": 17,
+                    "type": "A",
+                    "res_cut": 35,
+                    "res_impact": 35,
+                    "res_shot": 20,
+                    "res_fire": 10,
+                    "res_water": 0,
+                    "res_ice": 0,
+                    "res_thunder": 5,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 369,
+                "monster_id": 44,
+                "region": "Head",
+                "value": 170,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 370,
+                "monster_id": 44,
+                "region": "Upper Body",
+                "value": 150,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 371,
+                "monster_id": 44,
+                "region": "Front Legs",
+                "value": 120,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 372,
+                "monster_id": 44,
+                "region": "Butt",
+                "value": 200,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 373,
+                "monster_id": 44,
+                "region": "Abdominal \/ Rear Legs",
+                "value": 150,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 374,
+                "monster_id": 44,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 375,
+                "monster_id": 44,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 376,
+                "monster_id": 44,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 44,
+                    "weaponspecialattack_id": 6,
+                    "initial": 150,
+                    "increase": 60,
+                    "max": 300,
+                    "duration": 60,
+                    "damage": 150,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 44,
+                    "weaponspecialattack_id": 8,
+                    "initial": 200,
+                    "increase": 150,
+                    "max": 600,
+                    "duration": 60,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 44,
+                    "weaponspecialattack_id": 7,
+                    "initial": 100,
+                    "increase": 200,
+                    "max": 500,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 44,
+                    "weaponspecialattack_id": 10,
+                    "initial": 100,
+                    "increase": 150,
+                    "max": 700,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 44,
+                    "weaponspecialattack_id": 11,
+                    "initial": 180,
+                    "increase": 75,
+                    "max": 480,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 44,
+                    "weaponspecialattack_id": 9,
+                    "initial": 70,
+                    "increase": 30,
+                    "max": 670,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 44,
+                    "weaponspecialattack_id": 12,
+                    "initial": 50,
+                    "increase": 120,
+                    "max": 530,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 44,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 50,
+                    "max": 200,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 78,
+                    "normal": 20,
+                    "enraged": 20,
+                    "fatigued": 25
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 66,
+                    "normal": 20,
+                    "enraged": 20,
+                    "fatigued": 30
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 79,
+                    "normal": 15,
+                    "enraged": 15,
+                    "fatigued": 20
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 67,
+                    "normal": 3,
+                    "enraged": 0,
+                    "fatigued": 3
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 10,
+            "monster_id": 44,
+            "normal": 5,
+            "enraged": 5,
+            "fatigued": 5
+        },
+        "monsterguildquestitems": [],
+        "items": [
+            {
+                "id": 419,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 280,
+                "buy": 2800,
+                "local_name": "Lagombi Pelt",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-pelt",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 419,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 425,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 320,
+                "buy": 3200,
+                "local_name": "Lagombi Plastron",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-plastron",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 425,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 427,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 210,
+                "buy": 2100,
+                "local_name": "Lagombi Iceclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-iceclaw",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 427,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 318,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 150,
+                "buy": 1500,
+                "local_name": "Jumbo Bone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/jumbo-bone",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 318,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1317,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 150,
+                "local_name": "Beast Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beast-tear",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 1317,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 419,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 280,
+                "buy": 2800,
+                "local_name": "Lagombi Pelt",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-pelt",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 419,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 425,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 320,
+                "buy": 3200,
+                "local_name": "Lagombi Plastron",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-plastron",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 425,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 425,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 320,
+                "buy": 3200,
+                "local_name": "Lagombi Plastron",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-plastron",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 425,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 427,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 210,
+                "buy": 2100,
+                "local_name": "Lagombi Iceclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-iceclaw",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 427,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 318,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 150,
+                "buy": 1500,
+                "local_name": "Jumbo Bone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/jumbo-bone",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 318,
+                    "quantity": 2,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 419,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 280,
+                "buy": 2800,
+                "local_name": "Lagombi Pelt",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-pelt",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 419,
+                    "quantity": 2,
+                    "percentage": 15,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 422,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 420,
+                "buy": 4200,
+                "local_name": "Lagombi Ear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-ear",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 422,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 419,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 280,
+                "buy": 2800,
+                "local_name": "Lagombi Pelt",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-pelt",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 419,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 420,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Lagombi Pelt+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-pelt+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 420,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 426,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 960,
+                "buy": 9600,
+                "local_name": "Lagombi Plastron+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-plastron+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 426,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 428,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 630,
+                "buy": 6300,
+                "local_name": "Lagombi Frozenclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-frozenclaw",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 428,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 419,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 280,
+                "buy": 2800,
+                "local_name": "Lagombi Pelt",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-pelt",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 419,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 319,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 600,
+                "buy": 6000,
+                "local_name": "Stoutbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/stoutbone",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 319,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1317,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 150,
+                "local_name": "Beast Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beast-tear",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 1317,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1318,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 280,
+                "local_name": "Large Beast Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-beast-tear",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 1318,
+                    "quantity": 1,
+                    "percentage": 37,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 420,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Lagombi Pelt+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-pelt+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 420,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 426,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 960,
+                "buy": 9600,
+                "local_name": "Lagombi Plastron+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-plastron+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 426,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 426,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 960,
+                "buy": 9600,
+                "local_name": "Lagombi Plastron+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-plastron+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 426,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 428,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 630,
+                "buy": 6300,
+                "local_name": "Lagombi Frozenclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-frozenclaw",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 428,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 319,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 600,
+                "buy": 6000,
+                "local_name": "Stoutbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/stoutbone",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 319,
+                    "quantity": 2,
+                    "percentage": 17,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 420,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Lagombi Pelt+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-pelt+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 420,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 425,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 320,
+                "buy": 3200,
+                "local_name": "Lagombi Plastron",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-plastron",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 425,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 427,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 210,
+                "buy": 2100,
+                "local_name": "Lagombi Iceclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-iceclaw",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 427,
+                    "quantity": 2,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 423,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1260,
+                "buy": 12600,
+                "local_name": "Lagombi Ear+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-ear+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 423,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 420,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Lagombi Pelt+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-pelt+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 420,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 422,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 420,
+                "buy": 4200,
+                "local_name": "Lagombi Ear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-ear",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 422,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 421,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "Lagombi Fur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-fur",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 421,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 320,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1200,
+                "buy": 12000,
+                "local_name": "Massive Bone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/massive-bone",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 320,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 426,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 960,
+                "buy": 9600,
+                "local_name": "Lagombi Plastron+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-plastron+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 426,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 428,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 630,
+                "buy": 6300,
+                "local_name": "Lagombi Frozenclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-frozenclaw",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 428,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 420,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Lagombi Pelt+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-pelt+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 420,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1318,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 280,
+                "local_name": "Large Beast Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-beast-tear",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 1318,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 421,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "Lagombi Fur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-fur",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 421,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 426,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 960,
+                "buy": 9600,
+                "local_name": "Lagombi Plastron+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-plastron+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 426,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 426,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 960,
+                "buy": 9600,
+                "local_name": "Lagombi Plastron+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-plastron+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 426,
+                    "quantity": 1,
+                    "percentage": 36,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 428,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 630,
+                "buy": 6300,
+                "local_name": "Lagombi Frozenclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-frozenclaw",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 428,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 320,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1200,
+                "buy": 12000,
+                "local_name": "Massive Bone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/massive-bone",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 320,
+                    "quantity": 2,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 421,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "Lagombi Fur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-fur",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 421,
+                    "quantity": 2,
+                    "percentage": 16,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 80,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 1085,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 424,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3780,
+                "buy": 37800,
+                "local_name": "Lagombi Auricle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-auricle",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 424,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 421,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "Lagombi Fur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-fur",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 421,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 423,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1260,
+                "buy": 12600,
+                "local_name": "Lagombi Ear+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lagombi-ear+",
+                "pivot": {
+                    "monster_id": 44,
+                    "item_id": 423,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 54,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 1800,
+                "questpriority_id": 1,
+                "questgoal_id": 54,
+                "questsubgoal_id": 54,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 200,
+                "time": 50,
+                "hrp": 100,
+                "map_id": 4,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Snow with Occasional Lagombi",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/4\/snow-with-occasional-lagombi",
+                "pivot": {
+                    "monster_id": 44,
+                    "quest_id": 54
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 54,
+                    "local_name": "Hunt a Lagombi"
+                },
+                "questsubgoal": {
+                    "id": 54,
+                    "local_name": "Wound the Lagombi's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 83,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 6300,
+                "questpriority_id": 1,
+                "questgoal_id": 83,
+                "questsubgoal_id": 83,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 340,
+                "map_id": 4,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: En Trade Route",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/5\/advanced-en-trade-route",
+                "pivot": {
+                    "monster_id": 44,
+                    "quest_id": 83
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 83,
+                    "local_name": "Hunt a Zamtrios and a Lagombi"
+                },
+                "questsubgoal": {
+                    "id": 83,
+                    "local_name": "Deliver 1 Toad Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 139,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 7500,
+                "questpriority_id": 1,
+                "questgoal_id": 139,
+                "questsubgoal_id": 54,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 800,
+                "time": 50,
+                "hrp": 460,
+                "map_id": 4,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Snowbound Showdown",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/8\/snowbound-showdown",
+                "pivot": {
+                    "monster_id": 44,
+                    "quest_id": 139
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 139,
+                    "local_name": "Hunt a Lagombi and a Red Khezu"
+                },
+                "questsubgoal": {
+                    "id": 54,
+                    "local_name": "Wound the Lagombi's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 220,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 2,
+                "questtype_id": 3,
+                "reward": 3000,
+                "questpriority_id": 1,
+                "questgoal_id": 54,
+                "questsubgoal_id": 54,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 400,
+                "time": 50,
+                "hrp": 140,
+                "map_id": 4,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Snow with Occasional Lagombi",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/2\/snow-with-occasional-lagombi",
+                "pivot": {
+                    "monster_id": 44,
+                    "quest_id": 220
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 54,
+                    "local_name": "Hunt a Lagombi"
+                },
+                "questsubgoal": {
+                    "id": 54,
+                    "local_name": "Wound the Lagombi's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 227,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 2,
+                "questtype_id": 3,
+                "reward": 5700,
+                "questpriority_id": 1,
+                "questgoal_id": 83,
+                "questsubgoal_id": 83,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 600,
+                "time": 50,
+                "hrp": 420,
+                "map_id": 4,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Snowed In",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/2\/snowed-in",
+                "pivot": {
+                    "monster_id": 44,
+                    "quest_id": 227
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 83,
+                    "local_name": "Hunt a Zamtrios and a Lagombi"
+                },
+                "questsubgoal": {
+                    "id": 83,
+                    "local_name": "Deliver 1 Toad Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 285,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 6000,
+                "questpriority_id": 1,
+                "questgoal_id": 285,
+                "questsubgoal_id": 127,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 320,
+                "map_id": 4,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Lagombi Lair",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/5\/lagombi-lair",
+                "pivot": {
+                    "monster_id": 44,
+                    "quest_id": 285
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 285,
+                    "local_name": "Hunt 2 Lagombi"
+                },
+                "questsubgoal": {
+                    "id": 127,
+                    "local_name": "Deliver 1 Large Beast Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 285,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 6000,
+                "questpriority_id": 1,
+                "questgoal_id": 285,
+                "questsubgoal_id": 127,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 320,
+                "map_id": 4,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Lagombi Lair",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/5\/lagombi-lair",
+                "pivot": {
+                    "monster_id": 44,
+                    "quest_id": 285
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 285,
+                    "local_name": "Hunt 2 Lagombi"
+                },
+                "questsubgoal": {
+                    "id": 127,
+                    "local_name": "Deliver 1 Large Beast Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 287,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 7800,
+                "questpriority_id": 1,
+                "questgoal_id": 83,
+                "questsubgoal_id": 54,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 800,
+                "time": 50,
+                "hrp": 480,
+                "map_id": 4,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Cold-blooded Combo",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/5\/cold-blooded-combo",
+                "pivot": {
+                    "monster_id": 44,
+                    "quest_id": 287
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 83,
+                    "local_name": "Hunt a Zamtrios and a Lagombi"
+                },
+                "questsubgoal": {
+                    "id": 54,
+                    "local_name": "Wound the Lagombi's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 368,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 8400,
+                "questpriority_id": 1,
+                "questgoal_id": 285,
+                "questsubgoal_id": 127,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 900,
+                "time": 50,
+                "hrp": 520,
+                "map_id": 4,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Lagombi Lair",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/8\/lagombi-lair",
+                "pivot": {
+                    "monster_id": 44,
+                    "quest_id": 368
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 285,
+                    "local_name": "Hunt 2 Lagombi"
+                },
+                "questsubgoal": {
+                    "id": 127,
+                    "local_name": "Deliver 1 Large Beast Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 368,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 8400,
+                "questpriority_id": 1,
+                "questgoal_id": 285,
+                "questsubgoal_id": 127,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 900,
+                "time": 50,
+                "hrp": 520,
+                "map_id": 4,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Lagombi Lair",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/8\/lagombi-lair",
+                "pivot": {
+                    "monster_id": 44,
+                    "quest_id": 368
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 285,
+                    "local_name": "Hunt 2 Lagombi"
+                },
+                "questsubgoal": {
+                    "id": 127,
+                    "local_name": "Deliver 1 Large Beast Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            }
+        ],
+        "maps": [
+            {
+                "id": 4,
+                "local_name": "Frozen Seaway",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/frozen-seaway",
+                "pivot": {
+                    "monster_id": 44,
+                    "map_id": 4,
+                    "start": 2,
+                    "areas": "1, 3, 6, 7, 9",
+                    "rest": 5
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "id": 668,
+                "weapontype_id": 4,
+                "weapon_parent_id": 660,
+                "final": 0,
+                "attack": 154,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 1,
+                "price_create": 3900,
+                "price_upgrade": 2600,
+                "local_name": "Snow Slicers",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/snow-slicers",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 668
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 669,
+                "weapontype_id": 4,
+                "weapon_parent_id": 668,
+                "final": 0,
+                "attack": 168,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 7150,
+                "local_name": "Snow Sisters",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/snow-sisters",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 669
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 670,
+                "weapontype_id": 4,
+                "weapon_parent_id": 669,
+                "final": 0,
+                "attack": 196,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 30000,
+                "local_name": "Maulagombs",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/maulagombs",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 670
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 671,
+                "weapontype_id": 4,
+                "weapon_parent_id": 670,
+                "final": 0,
+                "attack": 210,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Brawlagombs",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/brawlagombs",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 671
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 672,
+                "weapontype_id": 4,
+                "weapon_parent_id": 671,
+                "final": 0,
+                "attack": 280,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Brawlagombs+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/brawlagombs+",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 672
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 673,
+                "weapontype_id": 4,
+                "weapon_parent_id": 672,
+                "final": 1,
+                "attack": 350,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Appallagombs",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/appallagombs",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 673
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 1394,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1388,
+                "final": 0,
+                "attack": 253,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 3100,
+                "local_name": "Lagomberator",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/lagomberator",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 1394
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1395,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1394,
+                "final": 0,
+                "attack": 276,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 7150,
+                "local_name": "Lagomberatrix",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/lagomberatrix",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 1395
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1396,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1395,
+                "final": 0,
+                "attack": 299,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Lagomberastrophe",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/lagomberastrophe",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 1396
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1397,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1396,
+                "final": 0,
+                "attack": 345,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Lagombergeddon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/lagombergeddon",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 1397
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1398,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1397,
+                "final": 0,
+                "attack": 483,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 3,
+                "price_create": 90000,
+                "price_upgrade": 60000,
+                "local_name": "Lagombalanche",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/lagombalanche",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 1398
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1399,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1398,
+                "final": 1,
+                "attack": 529,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Lagombavalanga",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/lagombavalanga",
+                "pivot": {
+                    "monster_id": 44,
+                    "weapon_id": 1399
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,4131 @@
+{
+    "monster": {
+        "id": 96,
+        "base_hp": 16000,
+        "size": "L",
+        "hp_mult_low": "0.00",
+        "hp_mult_high": "0.00",
+        "hp_mult_g": "0.00",
+        "crown_miniature": "0.0",
+        "crown_large": "0.0",
+        "crown_king": "0.0",
+        "rage_duration": 60,
+        "rage_mod_attack": "1.2",
+        "rage_mod_defense": "1.0",
+        "rage_mod_speed": "1.2",
+        "limp_low": 0,
+        "cap_low": 0,
+        "limp_high": 0,
+        "cap_high": 0,
+        "limp_high_apex": 0,
+        "cap_high_apex": 0,
+        "limp_g": 0,
+        "cap_g": 0,
+        "limp_g_apex": 0,
+        "cap_g_apex": 0,
+        "local_name": "Dah'ren Mohran",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/dahren-mohran",
+        "monstersounds": [
+            {
+                "id": 45,
+                "monster_id": 96,
+                "filename": "em046_vo_bind"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 50,
+                "local_name": "Horn \/ Back Fin",
+                "pivot": {
+                    "monster_id": 96,
+                    "monsterbodypart_id": 50,
+                    "type": "A",
+                    "res_cut": 18,
+                    "res_impact": 18,
+                    "res_shot": 18,
+                    "res_fire": 0,
+                    "res_water": 3,
+                    "res_ice": 0,
+                    "res_thunder": 15,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Torso",
+                "pivot": {
+                    "monster_id": 96,
+                    "monsterbodypart_id": 11,
+                    "type": "A",
+                    "res_cut": 21,
+                    "res_impact": 21,
+                    "res_shot": 20,
+                    "res_fire": 0,
+                    "res_water": 3,
+                    "res_ice": 0,
+                    "res_thunder": 8,
+                    "res_dragon": 8,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 51,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 96,
+                    "monsterbodypart_id": 51,
+                    "type": "A",
+                    "res_cut": 38,
+                    "res_impact": 38,
+                    "res_shot": 30,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 0,
+                    "res_thunder": 15,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 14,
+                "local_name": "Abdominal",
+                "pivot": {
+                    "monster_id": 96,
+                    "monsterbodypart_id": 14,
+                    "type": "A",
+                    "res_cut": 60,
+                    "res_impact": 55,
+                    "res_shot": 38,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 0,
+                    "res_thunder": 22,
+                    "res_dragon": 22,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 52,
+                "local_name": "Front Fin",
+                "pivot": {
+                    "monster_id": 96,
+                    "monsterbodypart_id": 52,
+                    "type": "A",
+                    "res_cut": 40,
+                    "res_impact": 40,
+                    "res_shot": 40,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 0,
+                    "res_thunder": 22,
+                    "res_dragon": 22,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 53,
+                "local_name": "Mouth",
+                "pivot": {
+                    "monster_id": 96,
+                    "monsterbodypart_id": 53,
+                    "type": "A",
+                    "res_cut": 90,
+                    "res_impact": 80,
+                    "res_shot": 60,
+                    "res_fire": 0,
+                    "res_water": 10,
+                    "res_ice": 0,
+                    "res_thunder": 25,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 54,
+                "local_name": "Blowhole",
+                "pivot": {
+                    "monster_id": 96,
+                    "monsterbodypart_id": 54,
+                    "type": "A",
+                    "res_cut": 50,
+                    "res_impact": 45,
+                    "res_shot": 40,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 0,
+                    "res_thunder": 20,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 51,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 96,
+                    "monsterbodypart_id": 51,
+                    "type": "B",
+                    "res_cut": 30,
+                    "res_impact": 30,
+                    "res_shot": 24,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 0,
+                    "res_thunder": 15,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 361,
+                "monster_id": 96,
+                "region": "Horn",
+                "value": 1800,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 362,
+                "monster_id": 96,
+                "region": "Blowhole (Small)",
+                "value": 1000,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 363,
+                "monster_id": 96,
+                "region": "Blowhole (Large)",
+                "value": 1200,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 364,
+                "monster_id": 96,
+                "region": "Torso",
+                "value": 2000,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 365,
+                "monster_id": 96,
+                "region": "Left Front Leg",
+                "value": 1500,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 366,
+                "monster_id": 96,
+                "region": "Right Front Leg",
+                "value": 1500,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 367,
+                "monster_id": 96,
+                "region": "Front Fin",
+                "value": 1200,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 368,
+                "monster_id": 96,
+                "region": "Rear Fin",
+                "value": 1400,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 96,
+                    "weaponspecialattack_id": 6,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 96,
+                    "weaponspecialattack_id": 8,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 96,
+                    "weaponspecialattack_id": 7,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 96,
+                    "weaponspecialattack_id": 10,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 96,
+                    "weaponspecialattack_id": 11,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 96,
+                    "weaponspecialattack_id": 9,
+                    "initial": 140,
+                    "increase": 75,
+                    "max": 2015,
+                    "duration": 0,
+                    "damage": 500,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 96,
+                    "weaponspecialattack_id": 12,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 96,
+                    "weaponspecialattack_id": 13,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 78,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 66,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 79,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 39,
+            "monster_id": 96,
+            "normal": 0,
+            "enraged": 0,
+            "fatigued": 0
+        },
+        "monsterguildquestitems": [],
+        "items": [
+            {
+                "id": 982,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 850,
+                "buy": 8500,
+                "local_name": "D.Mohran Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-shell",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 982,
+                    "quantity": 1,
+                    "percentage": 52,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 985,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "D.Mohran Bloodscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 985,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 991,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Brutal Horn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/brutal-horn",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 991,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 995,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 8000,
+                "buy": 80000,
+                "local_name": "Earth Dragongem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/earth-dragongem",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 995,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 206,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Dragonite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragonite-ore",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 206,
+                    "quantity": 1,
+                    "percentage": 54,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 994,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1200,
+                "buy": 12000,
+                "local_name": "Dah'renstone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dahrenstone",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 994,
+                    "quantity": 1,
+                    "percentage": 21,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 985,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "D.Mohran Bloodscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 985,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 982,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 850,
+                "buy": 8500,
+                "local_name": "D.Mohran Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-shell",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 982,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 985,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "D.Mohran Bloodscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 985,
+                    "quantity": 1,
+                    "percentage": 49,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1295,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 90,
+                "buy": 10,
+                "local_name": "Monster Guts",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-guts",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 1295,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 372,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 170,
+                "buy": 1700,
+                "local_name": "Sharp Fang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sharp-fang",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 372,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 995,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 8000,
+                "buy": 80000,
+                "local_name": "Earth Dragongem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/earth-dragongem",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 995,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 991,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Brutal Horn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/brutal-horn",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 991,
+                    "quantity": 1,
+                    "percentage": 83,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 991,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Brutal Horn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/brutal-horn",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 991,
+                    "quantity": 2,
+                    "percentage": 15,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 995,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 8000,
+                "buy": 80000,
+                "local_name": "Earth Dragongem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/earth-dragongem",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 995,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 982,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 850,
+                "buy": 8500,
+                "local_name": "D.Mohran Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-shell",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 982,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 985,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "D.Mohran Bloodscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 985,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 206,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Dragonite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragonite-ore",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 206,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 982,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 850,
+                "buy": 8500,
+                "local_name": "D.Mohran Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-shell",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 982,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 985,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "D.Mohran Bloodscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 985,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 206,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Dragonite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragonite-ore",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 206,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 988,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "D.Mohran Brace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-brace",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 988,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 985,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "D.Mohran Bloodscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 985,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 988,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "D.Mohran Brace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-brace",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 988,
+                    "quantity": 2,
+                    "percentage": 15,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 983,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2550,
+                "buy": 25500,
+                "local_name": "D.Mohran Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-carapace",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 983,
+                    "quantity": 1,
+                    "percentage": 46,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 986,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2040,
+                "buy": 20400,
+                "local_name": "D.Mohran Bloodscale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 986,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 992,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5200,
+                "buy": 52000,
+                "local_name": "Brutal Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/brutal-horn+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 992,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 985,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "D.Mohran Bloodscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 985,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 995,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 8000,
+                "buy": 80000,
+                "local_name": "Earth Dragongem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/earth-dragongem",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 995,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 206,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Dragonite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragonite-ore",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 206,
+                    "quantity": 1,
+                    "percentage": 54,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 986,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2040,
+                "buy": 20400,
+                "local_name": "D.Mohran Bloodscale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 986,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 994,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1200,
+                "buy": 12000,
+                "local_name": "Dah'renstone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dahrenstone",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 994,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 983,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2550,
+                "buy": 25500,
+                "local_name": "D.Mohran Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-carapace",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 983,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 215,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1020,
+                "buy": 10200,
+                "local_name": "Fucium Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fucium-ore",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 215,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 986,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2040,
+                "buy": 20400,
+                "local_name": "D.Mohran Bloodscale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 986,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1295,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 90,
+                "buy": 10,
+                "local_name": "Monster Guts",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-guts",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 1295,
+                    "quantity": 1,
+                    "percentage": 23,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 985,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "D.Mohran Bloodscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 985,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 372,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 170,
+                "buy": 1700,
+                "local_name": "Sharp Fang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sharp-fang",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 372,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 995,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 8000,
+                "buy": 80000,
+                "local_name": "Earth Dragongem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/earth-dragongem",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 995,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 992,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5200,
+                "buy": 52000,
+                "local_name": "Brutal Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/brutal-horn+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 992,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 991,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Brutal Horn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/brutal-horn",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 991,
+                    "quantity": 2,
+                    "percentage": 14,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 992,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5200,
+                "buy": 52000,
+                "local_name": "Brutal Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/brutal-horn+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 992,
+                    "quantity": 2,
+                    "percentage": 12,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 995,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 8000,
+                "buy": 80000,
+                "local_name": "Earth Dragongem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/earth-dragongem",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 995,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 983,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2550,
+                "buy": 25500,
+                "local_name": "D.Mohran Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-carapace",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 983,
+                    "quantity": 1,
+                    "percentage": 43,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 986,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2040,
+                "buy": 20400,
+                "local_name": "D.Mohran Bloodscale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 986,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 329,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 215,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1020,
+                "buy": 10200,
+                "local_name": "Fucium Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fucium-ore",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 215,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 982,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 850,
+                "buy": 8500,
+                "local_name": "D.Mohran Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-shell",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 982,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 983,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2550,
+                "buy": 25500,
+                "local_name": "D.Mohran Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-carapace",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 983,
+                    "quantity": 1,
+                    "percentage": 43,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 986,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2040,
+                "buy": 20400,
+                "local_name": "D.Mohran Bloodscale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 986,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 329,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 215,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1020,
+                "buy": 10200,
+                "local_name": "Fucium Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fucium-ore",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 215,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 982,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 850,
+                "buy": 8500,
+                "local_name": "D.Mohran Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-shell",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 982,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 989,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "D.Mohran Brace+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-brace+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 989,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 986,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2040,
+                "buy": 20400,
+                "local_name": "D.Mohran Bloodscale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 986,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 329,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 988,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "D.Mohran Brace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-brace",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 988,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 984,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7650,
+                "buy": 76500,
+                "local_name": "D.Mohran Rockskin",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-rockskin",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 984,
+                    "quantity": 1,
+                    "percentage": 46,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 987,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6120,
+                "buy": 61200,
+                "local_name": "D.Mohran Heavyscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-heavyscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 987,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 993,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 15600,
+                "buy": 156000,
+                "local_name": "Brutal Biter",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/brutal-biter",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 993,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 986,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2040,
+                "buy": 20400,
+                "local_name": "D.Mohran Bloodscale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 986,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 996,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Earth Dragonsphire",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/earth-dragonsphire",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 996,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 215,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1020,
+                "buy": 10200,
+                "local_name": "Fucium Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fucium-ore",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 215,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 994,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1200,
+                "buy": 12000,
+                "local_name": "Dah'renstone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dahrenstone",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 994,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 987,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6120,
+                "buy": 61200,
+                "local_name": "D.Mohran Heavyscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-heavyscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 987,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 984,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7650,
+                "buy": 76500,
+                "local_name": "D.Mohran Rockskin",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-rockskin",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 984,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 217,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Meldspar Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/meldspar-ore",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 217,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 987,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6120,
+                "buy": 61200,
+                "local_name": "D.Mohran Heavyscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-heavyscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 987,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1295,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 90,
+                "buy": 10,
+                "local_name": "Monster Guts",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-guts",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 1295,
+                    "quantity": 1,
+                    "percentage": 23,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 986,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2040,
+                "buy": 20400,
+                "local_name": "D.Mohran Bloodscale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-bloodscale+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 986,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 373,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4500,
+                "buy": 45000,
+                "local_name": "Crushing Fang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/crushing-fang",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 373,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 996,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Earth Dragonsphire",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/earth-dragonsphire",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 996,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 534,
+                    "monsteritemmethod": {
+                        "id": 534,
+                        "local_name": "Mouth Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 993,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 15600,
+                "buy": 156000,
+                "local_name": "Brutal Biter",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/brutal-biter",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 993,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 992,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5200,
+                "buy": 52000,
+                "local_name": "Brutal Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/brutal-horn+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 992,
+                    "quantity": 2,
+                    "percentage": 14,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 993,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 15600,
+                "buy": 156000,
+                "local_name": "Brutal Biter",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/brutal-biter",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 993,
+                    "quantity": 2,
+                    "percentage": 12,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 996,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Earth Dragonsphire",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/earth-dragonsphire",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 996,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 984,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7650,
+                "buy": 76500,
+                "local_name": "D.Mohran Rockskin",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-rockskin",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 984,
+                    "quantity": 1,
+                    "percentage": 43,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 987,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6120,
+                "buy": 61200,
+                "local_name": "D.Mohran Heavyscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-heavyscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 987,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 329,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 217,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Meldspar Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/meldspar-ore",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 217,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 983,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2550,
+                "buy": 25500,
+                "local_name": "D.Mohran Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-carapace",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 983,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 984,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7650,
+                "buy": 76500,
+                "local_name": "D.Mohran Rockskin",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-rockskin",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 984,
+                    "quantity": 1,
+                    "percentage": 43,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 987,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6120,
+                "buy": 61200,
+                "local_name": "D.Mohran Heavyscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-heavyscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 987,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 329,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 217,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Meldspar Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/meldspar-ore",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 217,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 983,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2550,
+                "buy": 25500,
+                "local_name": "D.Mohran Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-carapace",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 983,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 537,
+                    "monsteritemmethod": {
+                        "id": 537,
+                        "local_name": "Break Blowhole"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 990,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9000,
+                "buy": 90000,
+                "local_name": "D.Mohran Allbrace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-allbrace",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 990,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 987,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6120,
+                "buy": 61200,
+                "local_name": "D.Mohran Heavyscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-heavyscale",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 987,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 329,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 989,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "D.Mohran Brace+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/d.mohran-brace+",
+                "pivot": {
+                    "monster_id": 96,
+                    "item_id": 989,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 98,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 6,
+                "questtype_id": 2,
+                "reward": 12600,
+                "questpriority_id": 1,
+                "questgoal_id": 98,
+                "questsubgoal_id": 98,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1300,
+                "time": 35,
+                "hrp": 840,
+                "map_id": 11,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Shipping Out",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/6\/advanced-shipping-out",
+                "pivot": {
+                    "monster_id": 96,
+                    "quest_id": 98
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 98,
+                    "local_name": "Slay Dah'ren Mohran or repel it"
+                },
+                "questsubgoal": {
+                    "id": 98,
+                    "local_name": "Break Dah'ren Mohran's horn"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            },
+            {
+                "id": 188,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 10,
+                "questtype_id": 2,
+                "reward": 28500,
+                "questpriority_id": 3,
+                "questgoal_id": 98,
+                "questsubgoal_id": 188,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 2900,
+                "time": 35,
+                "hrp": 1730,
+                "map_id": 11,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Moving Mountains",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/10\/advanced-moving-mountains",
+                "pivot": {
+                    "monster_id": 96,
+                    "quest_id": 188
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 98,
+                    "local_name": "Slay Dah'ren Mohran or repel it"
+                },
+                "questsubgoal": {
+                    "id": 188,
+                    "local_name": "Slay 5 Delex"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            },
+            {
+                "id": 107,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 6,
+                "questtype_id": 2,
+                "reward": 9000,
+                "questpriority_id": 3,
+                "questgoal_id": 98,
+                "questsubgoal_id": 107,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1000,
+                "time": 35,
+                "hrp": 600,
+                "map_id": 11,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Fleet Action",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/6\/advanced-fleet-action",
+                "pivot": {
+                    "monster_id": 96,
+                    "quest_id": 107
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 98,
+                    "local_name": "Slay Dah'ren Mohran or repel it"
+                },
+                "questsubgoal": {
+                    "id": 107,
+                    "local_name": "Wound Dah'ren Mohran's blowhole"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            },
+            {
+                "id": 247,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 3,
+                "questtype_id": 2,
+                "reward": 11100,
+                "questpriority_id": 3,
+                "questgoal_id": 98,
+                "questsubgoal_id": 98,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1200,
+                "time": 35,
+                "hrp": 1200,
+                "map_id": 11,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Sand Sailor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/3\/advanced-sand-sailor",
+                "pivot": {
+                    "monster_id": 96,
+                    "quest_id": 247
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 98,
+                    "local_name": "Slay Dah'ren Mohran or repel it"
+                },
+                "questsubgoal": {
+                    "id": 98,
+                    "local_name": "Break Dah'ren Mohran's horn"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            },
+            {
+                "id": 335,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 7,
+                "questtype_id": 2,
+                "reward": 15600,
+                "questpriority_id": 2,
+                "questgoal_id": 98,
+                "questsubgoal_id": 98,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1600,
+                "time": 35,
+                "hrp": 1440,
+                "map_id": 11,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Fleet Action",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/7\/advanced-fleet-action",
+                "pivot": {
+                    "monster_id": 96,
+                    "quest_id": 335
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 98,
+                    "local_name": "Slay Dah'ren Mohran or repel it"
+                },
+                "questsubgoal": {
+                    "id": 98,
+                    "local_name": "Break Dah'ren Mohran's horn"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            },
+            {
+                "id": 340,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 7,
+                "questtype_id": 2,
+                "reward": 18900,
+                "questpriority_id": 1,
+                "questgoal_id": 98,
+                "questsubgoal_id": 1,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1900,
+                "time": 35,
+                "hrp": 1560,
+                "map_id": 11,
+                "map_time": null,
+                "hrp_required": 40,
+                "local_name": "Advanced: More Mohran",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/7\/advanced-more-mohran",
+                "pivot": {
+                    "monster_id": 96,
+                    "quest_id": 340
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 98,
+                    "local_name": "Slay Dah'ren Mohran or repel it"
+                },
+                "questsubgoal": {
+                    "id": 1,
+                    "local_name": "None"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            }
+        ],
+        "maps": [],
+        "weapons": [
+            {
+                "id": 318,
+                "weapontype_id": 2,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 429,
+                "defense": 10,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 0,
+                "price_create": 30000,
+                "price_upgrade": null,
+                "local_name": "Arbiter",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/arbiter",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 318
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 319,
+                "weapontype_id": 2,
+                "weapon_parent_id": 318,
+                "final": 0,
+                "attack": 462,
+                "defense": 25,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 65000,
+                "local_name": "Susano-o",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/susano-o",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 319
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 320,
+                "weapontype_id": 2,
+                "weapon_parent_id": 319,
+                "final": 0,
+                "attack": 726,
+                "defense": 35,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Nenekirimaru",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/nenekirimaru",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 320
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 321,
+                "weapontype_id": 2,
+                "weapon_parent_id": 320,
+                "final": 1,
+                "attack": 792,
+                "defense": 40,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Onamuchi",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/onamuchi",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 321
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 518,
+                "weapontype_id": 3,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 168,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 0,
+                "price_create": 30000,
+                "price_upgrade": null,
+                "local_name": "Poise",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/poise",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 518
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 519,
+                "weapontype_id": 3,
+                "weapon_parent_id": 518,
+                "final": 0,
+                "attack": 196,
+                "defense": 30,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 65000,
+                "local_name": "Ame-no-habakiri",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/ame-no-habakiri",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 519
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 520,
+                "weapontype_id": 3,
+                "weapon_parent_id": 519,
+                "final": 0,
+                "attack": 266,
+                "defense": 40,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Orochi",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/orochi",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 520
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 521,
+                "weapontype_id": 3,
+                "weapon_parent_id": 520,
+                "final": 1,
+                "attack": 280,
+                "defense": 45,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Yaegaki",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/yaegaki",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 521
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 578,
+                "weapontype_id": 3,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 182,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 2,
+                "price_create": 30000,
+                "price_upgrade": null,
+                "local_name": "EX Poise",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/ex-poise",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 578
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 579,
+                "weapontype_id": 3,
+                "weapon_parent_id": 578,
+                "final": 1,
+                "attack": 224,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 65000,
+                "local_name": "EX Ame-no-habakiri",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/ex-ame-no-habakiri",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 579
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 916,
+                "weapontype_id": 5,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 624,
+                "defense": 10,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 0,
+                "price_create": 30000,
+                "price_upgrade": null,
+                "local_name": "Eminence",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/eminence",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 916
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 917,
+                "weapontype_id": 5,
+                "weapon_parent_id": 916,
+                "final": 0,
+                "attack": 780,
+                "defense": 30,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 65000,
+                "local_name": "Kushinada",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/kushinada",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 917
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 918,
+                "weapontype_id": 5,
+                "weapon_parent_id": 917,
+                "final": 0,
+                "attack": 1300,
+                "defense": 35,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Fugaku",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/fugaku",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 918
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 919,
+                "weapontype_id": 5,
+                "weapon_parent_id": 918,
+                "final": 1,
+                "attack": 1352,
+                "defense": 45,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Nadeshiko",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/nadeshiko",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 919
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 1421,
+                "weapontype_id": 8,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 322,
+                "defense": 5,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 0,
+                "price_create": 30000,
+                "price_upgrade": null,
+                "local_name": "Brilliance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/brilliance",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1421
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1422,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1421,
+                "final": 0,
+                "attack": 391,
+                "defense": 10,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 65000,
+                "local_name": "Amaterasu",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/amaterasu",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1422
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1423,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1422,
+                "final": 0,
+                "attack": 575,
+                "defense": 20,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Iwato",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/iwato",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1423
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1424,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1423,
+                "final": 1,
+                "attack": 598,
+                "defense": 25,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Amatsuhiko",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/amatsuhiko",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1424
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1580,
+                "weapontype_id": 9,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 756,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 0,
+                "price_create": 30000,
+                "price_upgrade": null,
+                "local_name": "Rupture",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/rupture",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1580
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1581,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1580,
+                "final": 0,
+                "attack": 864,
+                "defense": 20,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 65000,
+                "local_name": "Izanagi",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/izanagi",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1581
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1582,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1581,
+                "final": 0,
+                "attack": 1350,
+                "defense": 30,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Futara",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/futara",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1582
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1583,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1582,
+                "final": 1,
+                "attack": 1404,
+                "defense": 40,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Yamatsumi",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/yamatsumi",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1583
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1679,
+                "weapontype_id": 10,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 468,
+                "defense": 10,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": 30000,
+                "price_upgrade": null,
+                "local_name": "Permanence",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/permanence",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1679
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1680,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1679,
+                "final": 0,
+                "attack": 612,
+                "defense": 10,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Izanami",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/izanami",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1680
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1681,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1680,
+                "final": 0,
+                "attack": 828,
+                "defense": 20,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Kyusen",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/kyusen",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1681
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1682,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1681,
+                "final": 1,
+                "attack": 864,
+                "defense": 30,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Watatsumi",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/watatsumi",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 1682
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 2090,
+                "weapontype_id": 13,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 255,
+                "defense": 30,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 0,
+                "price_create": 24000,
+                "price_upgrade": null,
+                "local_name": "Peerless",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/peerless",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 2090
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2091,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2090,
+                "final": 0,
+                "attack": 270,
+                "defense": 30,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 25000,
+                "local_name": "Masterless",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/masterless",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 2091
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2092,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2091,
+                "final": 0,
+                "attack": 300,
+                "defense": 30,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 50000,
+                "local_name": "Arahabaki",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/arahabaki",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 2092
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2093,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2092,
+                "final": 0,
+                "attack": 420,
+                "defense": 40,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Utsurowazaru",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/utsurowazaru",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 2093
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2094,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2093,
+                "final": 1,
+                "attack": 435,
+                "defense": 50,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Eigoh",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/eigoh",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 2094
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2265,
+                "weapontype_id": 14,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 144,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": 30000,
+                "price_upgrade": null,
+                "local_name": "Supplication",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/supplication",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 2265
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2266,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2265,
+                "final": 0,
+                "attack": 192,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 65000,
+                "local_name": "Tsukuyomi",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/tsukuyomi",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 2266
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2267,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2266,
+                "final": 0,
+                "attack": 276,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Amenokago",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/amenokago",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 2267
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2268,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2267,
+                "final": 1,
+                "attack": 300,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Tamanoya",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/tamanoya",
+                "pivot": {
+                    "monster_id": 96,
+                    "weapon_id": 2268
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            }
+        ]
+    }
+}

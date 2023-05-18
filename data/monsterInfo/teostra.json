@@ -1,0 +1,4131 @@
+{
+    "monster": {
+        "id": 99,
+        "base_hp": 5300,
+        "size": "L",
+        "hp_mult_low": "0.00",
+        "hp_mult_high": "0.00",
+        "hp_mult_g": "0.00",
+        "crown_miniature": "1565.8",
+        "crown_large": "2035.6",
+        "crown_king": "2140.0",
+        "rage_duration": 100,
+        "rage_mod_attack": "1.2",
+        "rage_mod_defense": "1.0",
+        "rage_mod_speed": "1.2",
+        "limp_low": 0,
+        "cap_low": 0,
+        "limp_high": 12,
+        "cap_high": 0,
+        "limp_high_apex": 8,
+        "cap_high_apex": 0,
+        "limp_g": 8,
+        "cap_g": 0,
+        "limp_g_apex": 6,
+        "cap_g_apex": 0,
+        "local_name": "Teostra",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/teostra",
+        "monstersounds": [
+            {
+                "id": 31,
+                "monster_id": 99,
+                "filename": "em032_vo_bind"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 1,
+                    "type": "A",
+                    "res_cut": 50,
+                    "res_impact": 50,
+                    "res_shot": 45,
+                    "res_fire": 0,
+                    "res_water": 25,
+                    "res_ice": 15,
+                    "res_thunder": 10,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 27,
+                "local_name": "Neck \/ Belly",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 27,
+                    "type": "A",
+                    "res_cut": 25,
+                    "res_impact": 40,
+                    "res_shot": 20,
+                    "res_fire": 0,
+                    "res_water": 10,
+                    "res_ice": 10,
+                    "res_thunder": 5,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 3,
+                "local_name": "Back",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 3,
+                    "type": "A",
+                    "res_cut": 25,
+                    "res_impact": 25,
+                    "res_shot": 25,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Tail",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 5,
+                    "type": "A",
+                    "res_cut": 45,
+                    "res_impact": 25,
+                    "res_shot": 60,
+                    "res_fire": 0,
+                    "res_water": 10,
+                    "res_ice": 25,
+                    "res_thunder": 5,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 12,
+                    "type": "A",
+                    "res_cut": 25,
+                    "res_impact": 25,
+                    "res_shot": 20,
+                    "res_fire": 0,
+                    "res_water": 15,
+                    "res_ice": 10,
+                    "res_thunder": 5,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Back Leg",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 13,
+                    "type": "A",
+                    "res_cut": 45,
+                    "res_impact": 45,
+                    "res_shot": 30,
+                    "res_fire": 0,
+                    "res_water": 10,
+                    "res_ice": 15,
+                    "res_thunder": 5,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 28,
+                "local_name": "Wing Claw",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 28,
+                    "type": "A",
+                    "res_cut": 20,
+                    "res_impact": 20,
+                    "res_shot": 10,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 1,
+                    "type": "B",
+                    "res_cut": 60,
+                    "res_impact": 55,
+                    "res_shot": 50,
+                    "res_fire": 0,
+                    "res_water": 15,
+                    "res_ice": 10,
+                    "res_thunder": 10,
+                    "res_dragon": 25,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 27,
+                "local_name": "Neck \/ Belly",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 27,
+                    "type": "B",
+                    "res_cut": 30,
+                    "res_impact": 45,
+                    "res_shot": 25,
+                    "res_fire": 0,
+                    "res_water": 10,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 3,
+                "local_name": "Back",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 3,
+                    "type": "B",
+                    "res_cut": 25,
+                    "res_impact": 25,
+                    "res_shot": 25,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Tail",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 5,
+                    "type": "B",
+                    "res_cut": 55,
+                    "res_impact": 35,
+                    "res_shot": 65,
+                    "res_fire": 0,
+                    "res_water": 10,
+                    "res_ice": 20,
+                    "res_thunder": 5,
+                    "res_dragon": 25,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 12,
+                    "type": "B",
+                    "res_cut": 35,
+                    "res_impact": 35,
+                    "res_shot": 30,
+                    "res_fire": 0,
+                    "res_water": 15,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Back Leg",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 13,
+                    "type": "B",
+                    "res_cut": 55,
+                    "res_impact": 55,
+                    "res_shot": 35,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 15,
+                    "res_thunder": 5,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 28,
+                "local_name": "Wing Claw",
+                "pivot": {
+                    "monster_id": 99,
+                    "monsterbodypart_id": 28,
+                    "type": "B",
+                    "res_cut": 20,
+                    "res_impact": 20,
+                    "res_shot": 10,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 249,
+                "monster_id": 99,
+                "region": "Head",
+                "value": 320,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 250,
+                "monster_id": 99,
+                "region": "Torso",
+                "value": 150,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 251,
+                "monster_id": 99,
+                "region": "Tail",
+                "value": 160,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 252,
+                "monster_id": 99,
+                "region": "Left Legs",
+                "value": 260,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 253,
+                "monster_id": 99,
+                "region": "Right Legs",
+                "value": 260,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 254,
+                "monster_id": 99,
+                "region": "Wings",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 255,
+                "monster_id": 99,
+                "region": "",
+                "value": 200,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 256,
+                "monster_id": 99,
+                "region": "",
+                "value": 140,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 99,
+                    "weaponspecialattack_id": 6,
+                    "initial": 180,
+                    "increase": 100,
+                    "max": 580,
+                    "duration": 40,
+                    "damage": 200,
+                    "reduction_time": 5,
+                    "reduction_amount": 10
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 99,
+                    "weaponspecialattack_id": 8,
+                    "initial": 200,
+                    "increase": 100,
+                    "max": 600,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 99,
+                    "weaponspecialattack_id": 7,
+                    "initial": 200,
+                    "increase": 200,
+                    "max": 800,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 99,
+                    "weaponspecialattack_id": 10,
+                    "initial": 150,
+                    "increase": 100,
+                    "max": 650,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 99,
+                    "weaponspecialattack_id": 11,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 99,
+                    "weaponspecialattack_id": 9,
+                    "initial": 180,
+                    "increase": 100,
+                    "max": 2180,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 99,
+                    "weaponspecialattack_id": 12,
+                    "initial": 80,
+                    "increase": 50,
+                    "max": 380,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 99,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 50,
+                    "max": 600,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 78,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 66,
+                    "normal": 20,
+                    "enraged": 10,
+                    "fatigued": 30
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 79,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 45,
+            "monster_id": 99,
+            "normal": 0,
+            "enraged": 0,
+            "fatigued": 0
+        },
+        "monsterguildquestitems": [
+            {
+                "id": 964,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3100,
+                "buy": 31000,
+                "local_name": "Teostra Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-carapace",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 964,
+                    "quantity": 1,
+                    "percentage": 27,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 964,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3100,
+                "buy": 31000,
+                "local_name": "Teostra Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-carapace",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 964,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 966,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4600,
+                "buy": 46000,
+                "local_name": "Teostra Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-mane",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 966,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 976,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3900,
+                "buy": 39000,
+                "local_name": "Teostra Powder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-powder",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 976,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 973,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5300,
+                "buy": 53000,
+                "local_name": "Teostra Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-claw+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 973,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 971,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3700,
+                "buy": 37000,
+                "local_name": "Fire Dragon Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fire-dragon-scale+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 971,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 329,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 964,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3100,
+                "buy": 31000,
+                "local_name": "Teostra Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-carapace",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 964,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 964,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3100,
+                "buy": 31000,
+                "local_name": "Teostra Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-carapace",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 964,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 966,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4600,
+                "buy": 46000,
+                "local_name": "Teostra Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-mane",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 966,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 976,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3900,
+                "buy": 39000,
+                "local_name": "Teostra Powder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-powder",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 976,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 973,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5300,
+                "buy": 53000,
+                "local_name": "Teostra Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-claw+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 973,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 971,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3700,
+                "buy": 37000,
+                "local_name": "Fire Dragon Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fire-dragon-scale+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 971,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 329,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1431,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Teostra Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-ticket",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1431,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1431,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Teostra Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-ticket",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1431,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 964,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3100,
+                "buy": 31000,
+                "local_name": "Teostra Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-carapace",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 964,
+                    "quantity": 1,
+                    "percentage": 21,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 969,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8800,
+                "buy": 88000,
+                "local_name": "Teostra Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-horn+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 969,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 966,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4600,
+                "buy": 46000,
+                "local_name": "Teostra Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-mane",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 966,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 976,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3900,
+                "buy": 39000,
+                "local_name": "Teostra Powder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-powder",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 976,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 973,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5300,
+                "buy": 53000,
+                "local_name": "Teostra Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-claw+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 973,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 971,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3700,
+                "buy": 37000,
+                "local_name": "Fire Dragon Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fire-dragon-scale+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 971,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 329,
+                    "quantity": 1,
+                    "percentage": 9,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1431,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Teostra Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-ticket",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1431,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1431,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Teostra Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-ticket",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1431,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 965,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7750,
+                "buy": 77500,
+                "local_name": "Teostra Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-cortex",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 965,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 966,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4600,
+                "buy": 46000,
+                "local_name": "Teostra Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-mane",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 966,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 976,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3900,
+                "buy": 39000,
+                "local_name": "Teostra Powder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-powder",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 976,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 971,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3700,
+                "buy": 37000,
+                "local_name": "Fire Dragon Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fire-dragon-scale+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 971,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 329,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1431,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Teostra Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-ticket",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1431,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1431,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Teostra Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-ticket",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1431,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 965,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7750,
+                "buy": 77500,
+                "local_name": "Teostra Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-cortex",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 965,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 966,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4600,
+                "buy": 46000,
+                "local_name": "Teostra Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-mane",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 966,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 976,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3900,
+                "buy": 39000,
+                "local_name": "Teostra Powder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-powder",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 976,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 971,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3700,
+                "buy": 37000,
+                "local_name": "Fire Dragon Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fire-dragon-scale+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 971,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 329,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 965,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7750,
+                "buy": 77500,
+                "local_name": "Teostra Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-cortex",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 965,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 965,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7750,
+                "buy": 77500,
+                "local_name": "Teostra Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-cortex",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 965,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 974,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 13250,
+                "buy": 132500,
+                "local_name": "Fire Dragon Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fire-dragon-hardclaw",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 974,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 976,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3900,
+                "buy": 39000,
+                "local_name": "Teostra Powder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-powder",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 976,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 972,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9250,
+                "buy": 92500,
+                "local_name": "Flame Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flame-shard",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 972,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 330,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 18000,
+                "buy": 180000,
+                "local_name": "Lrg Elder Dragon Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-elder-dragon-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 330,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 329,
+                    "quantity": 2,
+                    "percentage": 6,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 965,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7750,
+                "buy": 77500,
+                "local_name": "Teostra Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-cortex",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 965,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 965,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7750,
+                "buy": 77500,
+                "local_name": "Teostra Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-cortex",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 965,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 974,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 13250,
+                "buy": 132500,
+                "local_name": "Fire Dragon Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fire-dragon-hardclaw",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 974,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 976,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3900,
+                "buy": 39000,
+                "local_name": "Teostra Powder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-powder",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 976,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 972,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9250,
+                "buy": 92500,
+                "local_name": "Flame Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flame-shard",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 972,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 330,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 18000,
+                "buy": 180000,
+                "local_name": "Lrg Elder Dragon Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-elder-dragon-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 330,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 329,
+                    "quantity": 2,
+                    "percentage": 6,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 965,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7750,
+                "buy": 77500,
+                "local_name": "Teostra Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-cortex",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 965,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 965,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7750,
+                "buy": 77500,
+                "local_name": "Teostra Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-cortex",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 965,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 974,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 13250,
+                "buy": 132500,
+                "local_name": "Fire Dragon Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fire-dragon-hardclaw",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 974,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 976,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3900,
+                "buy": 39000,
+                "local_name": "Teostra Powder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-powder",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 976,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 972,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9250,
+                "buy": 92500,
+                "local_name": "Flame Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flame-shard",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 972,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 330,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 18000,
+                "buy": 180000,
+                "local_name": "Lrg Elder Dragon Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-elder-dragon-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 330,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 329,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Elder Dragon Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/elder-dragon-blood",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 329,
+                    "quantity": 2,
+                    "percentage": 6,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1235,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1235,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1236,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1236,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1235,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-weapon",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1235,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1236,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-armor",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1236,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            }
+        ],
+        "items": [
+            {
+                "id": 964,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3100,
+                "buy": 31000,
+                "local_name": "Teostra Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-carapace",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 964,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 971,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3700,
+                "buy": 37000,
+                "local_name": "Fire Dragon Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fire-dragon-scale+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 971,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 966,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4600,
+                "buy": 46000,
+                "local_name": "Teostra Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-mane",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 966,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 973,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5300,
+                "buy": 53000,
+                "local_name": "Teostra Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-claw+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 973,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 967,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 7100,
+                "buy": 71000,
+                "local_name": "Teostra Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-tail",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 967,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 964,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3100,
+                "buy": 31000,
+                "local_name": "Teostra Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-carapace",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 964,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 976,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3900,
+                "buy": 39000,
+                "local_name": "Teostra Powder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-powder",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 976,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1321,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 300,
+                "local_name": "Dragon Treasure",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragon-treasure",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1321,
+                    "quantity": 1,
+                    "percentage": 17,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1322,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 500,
+                "local_name": "Old Dragon Treasure",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/old-dragon-treasure",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1322,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 969,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8800,
+                "buy": 88000,
+                "local_name": "Teostra Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-horn+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 969,
+                    "quantity": 1,
+                    "percentage": 63,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 966,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4600,
+                "buy": 46000,
+                "local_name": "Teostra Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-mane",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 966,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 966,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4600,
+                "buy": 46000,
+                "local_name": "Teostra Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-mane",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 966,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 975,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 6600,
+                "buy": 66000,
+                "local_name": "Teostra Webbing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-webbing",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 975,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 130,
+                    "monsteritemmethod": {
+                        "id": 130,
+                        "local_name": "Break Talon"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 973,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5300,
+                "buy": 53000,
+                "local_name": "Teostra Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-claw+",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 973,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 130,
+                    "monsteritemmethod": {
+                        "id": 130,
+                        "local_name": "Break Talon"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 965,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7750,
+                "buy": 77500,
+                "local_name": "Teostra Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-cortex",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 965,
+                    "quantity": 1,
+                    "percentage": 52,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 972,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9250,
+                "buy": 92500,
+                "local_name": "Flame Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flame-shard",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 972,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 966,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4600,
+                "buy": 46000,
+                "local_name": "Teostra Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-mane",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 966,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 974,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 13250,
+                "buy": 132500,
+                "local_name": "Fire Dragon Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fire-dragon-hardclaw",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 974,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 330,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 18000,
+                "buy": 180000,
+                "local_name": "Lrg Elder Dragon Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-elder-dragon-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 330,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 968,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 17750,
+                "buy": 177500,
+                "local_name": "Teostra Lash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-lash",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 968,
+                    "quantity": 1,
+                    "percentage": 62,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 965,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7750,
+                "buy": 77500,
+                "local_name": "Teostra Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-cortex",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 965,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 330,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 18000,
+                "buy": 180000,
+                "local_name": "Lrg Elder Dragon Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-elder-dragon-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 330,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 976,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3900,
+                "buy": 39000,
+                "local_name": "Teostra Powder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-powder",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 976,
+                    "quantity": 1,
+                    "percentage": 61,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1322,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 500,
+                "local_name": "Old Dragon Treasure",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/old-dragon-treasure",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 1322,
+                    "quantity": 1,
+                    "percentage": 33,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 330,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 18000,
+                "buy": 180000,
+                "local_name": "Lrg Elder Dragon Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-elder-dragon-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 330,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 977,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Teostra Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 977,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 970,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 22000,
+                "buy": 220000,
+                "local_name": "Teostra Hardhorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-hardhorn",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 970,
+                    "quantity": 1,
+                    "percentage": 63,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 966,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4600,
+                "buy": 46000,
+                "local_name": "Teostra Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-mane",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 966,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 966,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4600,
+                "buy": 46000,
+                "local_name": "Teostra Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-mane",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 966,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 330,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 18000,
+                "buy": 180000,
+                "local_name": "Lrg Elder Dragon Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-elder-dragon-gem",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 330,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 975,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 6600,
+                "buy": 66000,
+                "local_name": "Teostra Webbing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/teostra-webbing",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 975,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 130,
+                    "monsteritemmethod": {
+                        "id": 130,
+                        "local_name": "Break Talon"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 974,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 13250,
+                "buy": 132500,
+                "local_name": "Fire Dragon Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fire-dragon-hardclaw",
+                "pivot": {
+                    "monster_id": 99,
+                    "item_id": 974,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 130,
+                    "monsteritemmethod": {
+                        "id": 130,
+                        "local_name": "Break Talon"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 108,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 6,
+                "questtype_id": 2,
+                "reward": 16800,
+                "questpriority_id": 3,
+                "questgoal_id": 108,
+                "questsubgoal_id": 108,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1700,
+                "time": 35,
+                "hrp": 1120,
+                "map_id": 5,
+                "map_time": null,
+                "hrp_required": 7,
+                "local_name": "Advanced: Deep Trouble",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/6\/advanced-deep-trouble",
+                "pivot": {
+                    "monster_id": 99,
+                    "quest_id": 108
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 108,
+                    "local_name": "Slay a Teostra or repel it"
+                },
+                "questsubgoal": {
+                    "id": 108,
+                    "local_name": "Wound the Teostra's head"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            },
+            {
+                "id": 332,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 7,
+                "questtype_id": 2,
+                "reward": 18000,
+                "questpriority_id": 2,
+                "questgoal_id": 108,
+                "questsubgoal_id": 108,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1900,
+                "time": 35,
+                "hrp": 1200,
+                "map_id": 5,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Teostra Tangle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/7\/advanced-teostra-tangle",
+                "pivot": {
+                    "monster_id": 99,
+                    "quest_id": 332
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 108,
+                    "local_name": "Slay a Teostra or repel it"
+                },
+                "questsubgoal": {
+                    "id": 108,
+                    "local_name": "Wound the Teostra's head"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            },
+            {
+                "id": 422,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 10,
+                "questtype_id": 2,
+                "reward": 30300,
+                "questpriority_id": 2,
+                "questgoal_id": 108,
+                "questsubgoal_id": 422,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 3100,
+                "time": 35,
+                "hrp": 1920,
+                "map_id": 7,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Emperor of Embers",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/10\/advanced-emperor-of-embers",
+                "pivot": {
+                    "monster_id": 99,
+                    "quest_id": 422
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 108,
+                    "local_name": "Slay a Teostra or repel it"
+                },
+                "questsubgoal": {
+                    "id": 422,
+                    "local_name": "Break the Teostra's wingtalon"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            },
+            {
+                "id": 446,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 10,
+                "questtype_id": 2,
+                "reward": 30300,
+                "questpriority_id": 3,
+                "questgoal_id": 108,
+                "questsubgoal_id": 108,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 3100,
+                "time": 35,
+                "hrp": 1920,
+                "map_id": 17,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Operation Fire Extinguisher",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/10\/operation-fire-extinguisher",
+                "pivot": {
+                    "monster_id": 99,
+                    "quest_id": 446
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 108,
+                    "local_name": "Slay a Teostra or repel it"
+                },
+                "questsubgoal": {
+                    "id": 108,
+                    "local_name": "Wound the Teostra's head"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            }
+        ],
+        "maps": [
+            {
+                "id": 5,
+                "local_name": "Volcanic Hollow",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/volcanic-hollow",
+                "pivot": {
+                    "monster_id": 99,
+                    "map_id": 5,
+                    "start": 2,
+                    "areas": "8",
+                    "rest": 9
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Dunes (day)",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/dunes-day",
+                "pivot": {
+                    "monster_id": 99,
+                    "map_id": 7,
+                    "start": 7,
+                    "areas": "1, 3, 4",
+                    "rest": 5
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "id": 188,
+                "weapontype_id": 1,
+                "weapon_parent_id": 184,
+                "final": 0,
+                "attack": 816,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Teostra Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/teostra-blade",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 188
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 189,
+                "weapontype_id": 1,
+                "weapon_parent_id": 188,
+                "final": 0,
+                "attack": 864,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 80000,
+                "local_name": "King Teostra Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/king-teostra-blade",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 189
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 190,
+                "weapontype_id": 1,
+                "weapon_parent_id": 189,
+                "final": 1,
+                "attack": 1248,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Teostra del Sol",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/teostra-del-sol",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 190
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 370,
+                "weapontype_id": 2,
+                "weapon_parent_id": 363,
+                "final": 0,
+                "attack": 528,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Imperial Saber",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/imperial-saber",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 370
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 371,
+                "weapontype_id": 2,
+                "weapon_parent_id": 370,
+                "final": 1,
+                "attack": 825,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Imperial Shimmer",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/imperial-shimmer",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 371
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 573,
+                "weapontype_id": 3,
+                "weapon_parent_id": 569,
+                "final": 0,
+                "attack": 238,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Teostra's Spada",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/teostras-spada",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 573
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 574,
+                "weapontype_id": 3,
+                "weapon_parent_id": 573,
+                "final": 1,
+                "attack": 350,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Teostra's Emblem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/teostras-emblem",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 574
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 763,
+                "weapontype_id": 4,
+                "weapon_parent_id": 759,
+                "final": 0,
+                "attack": 196,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Twin Nails",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/twin-nails",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 763
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 764,
+                "weapontype_id": 4,
+                "weapon_parent_id": 763,
+                "final": 0,
+                "attack": 210,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 80000,
+                "local_name": "Fire and Ice",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/fire-and-ice",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 764
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 765,
+                "weapontype_id": 4,
+                "weapon_parent_id": 764,
+                "final": 1,
+                "attack": 350,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Blizzard and Blaze",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/blizzard-and-blaze",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 765
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 953,
+                "weapontype_id": 5,
+                "weapon_parent_id": 949,
+                "final": 0,
+                "attack": 780,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Teo Cratermaker",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/teo-cratermaker",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 953
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 954,
+                "weapontype_id": 5,
+                "weapon_parent_id": 953,
+                "final": 0,
+                "attack": 832,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 80000,
+                "local_name": "Teo Cratergouger",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/teo-cratergouger",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 954
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 955,
+                "weapontype_id": 5,
+                "weapon_parent_id": 954,
+                "final": 1,
+                "attack": 1352,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Teostra del Torre",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/teostra-del-torre",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 955
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 1113,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1109,
+                "final": 0,
+                "attack": 936,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Teostra's Tiple",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/teostras-tiple",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 1113
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1114,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1113,
+                "final": 1,
+                "attack": 1404,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Teostra's Orph\u00e9e",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/teostras-orphee",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 1114
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1294,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1290,
+                "final": 0,
+                "attack": 368,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Teostra's Howl",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/teostras-howl",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 1294
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1295,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1294,
+                "final": 0,
+                "attack": 391,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 80000,
+                "local_name": "Teostra's Roar",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/teostras-roar",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 1295
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1296,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1295,
+                "final": 1,
+                "attack": 598,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Teostra's Fire",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/teostras-fire",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 1296
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1625,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1621,
+                "final": 0,
+                "attack": 918,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Teostra's Arx",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/teostras-arx",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 1625
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1626,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1625,
+                "final": 1,
+                "attack": 1458,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Teostra's Castle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/teostras-castle",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 1626
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1708,
+                "weapontype_id": 10,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 612,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": 60000,
+                "price_upgrade": null,
+                "local_name": "Teostra's Striker",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/teostras-striker",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 1708
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1709,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1708,
+                "final": 1,
+                "attack": 936,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Teostra's Nova",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/teostras-nova",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 1709
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 2134,
+                "weapontype_id": 13,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 285,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 0,
+                "price_create": 60000,
+                "price_upgrade": null,
+                "local_name": "Teostra's Artillery",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/teostras-artillery",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 2134
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2135,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2134,
+                "final": 0,
+                "attack": 300,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Teostra's Flames",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/teostras-flames",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 2135
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2136,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2135,
+                "final": 1,
+                "attack": 435,
+                "defense": null,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Teostra's Firestorm",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/teostras-firestorm",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 2136
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2296,
+                "weapontype_id": 14,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 216,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": 105000,
+                "price_upgrade": null,
+                "local_name": "Bow of Hope & Valor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/bow-of-hope-valor",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 2296
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2297,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2296,
+                "final": 1,
+                "attack": 312,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Courageous Wish",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/courageous-wish",
+                "pivot": {
+                    "monster_id": 99,
+                    "weapon_id": 2297
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            }
+        ]
+    }
+}

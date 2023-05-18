@@ -1,0 +1,5405 @@
+{
+    "monster": {
+        "id": 64,
+        "base_hp": 2400,
+        "size": "L",
+        "hp_mult_low": "0.52",
+        "hp_mult_high": "0.70",
+        "hp_mult_g": "1.21",
+        "crown_miniature": "1283.9",
+        "crown_large": "1640.5",
+        "crown_king": "1754.6",
+        "rage_duration": 80,
+        "rage_mod_attack": "1.4",
+        "rage_mod_defense": "0.8",
+        "rage_mod_speed": "1.2",
+        "limp_low": 20,
+        "cap_low": 25,
+        "limp_high": 18,
+        "cap_high": 23,
+        "limp_high_apex": 14,
+        "cap_high_apex": 18,
+        "limp_g": 14,
+        "cap_g": 18,
+        "limp_g_apex": 12,
+        "cap_g_apex": 16,
+        "local_name": "Basarios",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/basarios",
+        "monstersounds": [
+            {
+                "id": 37,
+                "monster_id": 64,
+                "filename": "em038_vo_bind"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 64,
+                    "monsterbodypart_id": 1,
+                    "type": "A",
+                    "res_cut": 20,
+                    "res_impact": 20,
+                    "res_shot": 20,
+                    "res_fire": 10,
+                    "res_water": 15,
+                    "res_ice": 10,
+                    "res_thunder": 10,
+                    "res_dragon": 18,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 18,
+                "local_name": "Neck",
+                "pivot": {
+                    "monster_id": 64,
+                    "monsterbodypart_id": 18,
+                    "type": "A",
+                    "res_cut": 15,
+                    "res_impact": 20,
+                    "res_shot": 20,
+                    "res_fire": 10,
+                    "res_water": 15,
+                    "res_ice": 10,
+                    "res_thunder": 10,
+                    "res_dragon": 18,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 3,
+                "local_name": "Back",
+                "pivot": {
+                    "monster_id": 64,
+                    "monsterbodypart_id": 3,
+                    "type": "A",
+                    "res_cut": 15,
+                    "res_impact": 20,
+                    "res_shot": 20,
+                    "res_fire": 10,
+                    "res_water": 15,
+                    "res_ice": 10,
+                    "res_thunder": 10,
+                    "res_dragon": 18,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 4,
+                "local_name": "Belly",
+                "pivot": {
+                    "monster_id": 64,
+                    "monsterbodypart_id": 4,
+                    "type": "A",
+                    "res_cut": 21,
+                    "res_impact": 25,
+                    "res_shot": 30,
+                    "res_fire": 10,
+                    "res_water": 20,
+                    "res_ice": 10,
+                    "res_thunder": 10,
+                    "res_dragon": 18,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 19,
+                "local_name": "Under Tail",
+                "pivot": {
+                    "monster_id": 64,
+                    "monsterbodypart_id": 19,
+                    "type": "A",
+                    "res_cut": 15,
+                    "res_impact": 15,
+                    "res_shot": 15,
+                    "res_fire": 10,
+                    "res_water": 15,
+                    "res_ice": 10,
+                    "res_thunder": 10,
+                    "res_dragon": 18,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 6,
+                "local_name": "Wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "monsterbodypart_id": 6,
+                    "type": "A",
+                    "res_cut": 15,
+                    "res_impact": 20,
+                    "res_shot": 20,
+                    "res_fire": 10,
+                    "res_water": 15,
+                    "res_ice": 10,
+                    "res_thunder": 10,
+                    "res_dragon": 18,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Legs",
+                "pivot": {
+                    "monster_id": 64,
+                    "monsterbodypart_id": 7,
+                    "type": "A",
+                    "res_cut": 25,
+                    "res_impact": 26,
+                    "res_shot": 30,
+                    "res_fire": 10,
+                    "res_water": 15,
+                    "res_ice": 10,
+                    "res_thunder": 10,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 20,
+                "local_name": "Tail Tip",
+                "pivot": {
+                    "monster_id": 64,
+                    "monsterbodypart_id": 20,
+                    "type": "A",
+                    "res_cut": 28,
+                    "res_impact": 15,
+                    "res_shot": 15,
+                    "res_fire": 10,
+                    "res_water": 10,
+                    "res_ice": 10,
+                    "res_thunder": 10,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 4,
+                "local_name": "Belly",
+                "pivot": {
+                    "monster_id": 64,
+                    "monsterbodypart_id": 4,
+                    "type": "B",
+                    "res_cut": 50,
+                    "res_impact": 50,
+                    "res_shot": 55,
+                    "res_fire": 25,
+                    "res_water": 35,
+                    "res_ice": 10,
+                    "res_thunder": 10,
+                    "res_dragon": 33,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 297,
+                "monster_id": 64,
+                "region": "Torso",
+                "value": 200,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 298,
+                "monster_id": 64,
+                "region": "Left Wing",
+                "value": 130,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 299,
+                "monster_id": 64,
+                "region": "Right Wing",
+                "value": 130,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 300,
+                "monster_id": 64,
+                "region": "Left Leg",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 301,
+                "monster_id": 64,
+                "region": "Right Leg",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 302,
+                "monster_id": 64,
+                "region": "Head",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 303,
+                "monster_id": 64,
+                "region": "Chest",
+                "value": 350,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 304,
+                "monster_id": 64,
+                "region": "Tail",
+                "value": 140,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 64,
+                    "weaponspecialattack_id": 6,
+                    "initial": 200,
+                    "increase": 75,
+                    "max": 500,
+                    "duration": 60,
+                    "damage": 240,
+                    "reduction_time": 5,
+                    "reduction_amount": 10
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 64,
+                    "weaponspecialattack_id": 8,
+                    "initial": 100,
+                    "increase": 50,
+                    "max": 300,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 64,
+                    "weaponspecialattack_id": 7,
+                    "initial": 200,
+                    "increase": 50,
+                    "max": 400,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 64,
+                    "weaponspecialattack_id": 10,
+                    "initial": 200,
+                    "increase": 50,
+                    "max": 400,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 64,
+                    "weaponspecialattack_id": 11,
+                    "initial": 180,
+                    "increase": 75,
+                    "max": 480,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 64,
+                    "weaponspecialattack_id": 9,
+                    "initial": 130,
+                    "increase": 45,
+                    "max": 1030,
+                    "duration": 0,
+                    "damage": 200,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 64,
+                    "weaponspecialattack_id": 12,
+                    "initial": 50,
+                    "increase": 120,
+                    "max": 530,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 64,
+                    "weaponspecialattack_id": 13,
+                    "initial": 30,
+                    "increase": 30,
+                    "max": 120,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 78,
+                    "normal": 10,
+                    "enraged": 10,
+                    "fatigued": 20
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 66,
+                    "normal": 15,
+                    "enraged": 15,
+                    "fatigued": 30
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 79,
+                    "normal": 8,
+                    "enraged": 8,
+                    "fatigued": 15
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 55,
+            "monster_id": 64,
+            "normal": 5,
+            "enraged": 5,
+            "fatigued": 5
+        },
+        "monsterguildquestitems": [
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv1-20"
+                }
+            },
+            {
+                "id": 793,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 440,
+                "buy": 4400,
+                "local_name": "Basarios Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-shell",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 793,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "level": "Lv1-20"
+                }
+            },
+            {
+                "id": 793,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 440,
+                "buy": 4400,
+                "local_name": "Basarios Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-shell",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 793,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv1-20"
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv1-20"
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 332,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv1-20"
+                }
+            },
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 2,
+                    "percentage": 12,
+                    "level": "Lv1-20"
+                }
+            },
+            {
+                "id": 305,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 210,
+                "buy": 2100,
+                "local_name": "Monster Bone M",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-bone-m",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 305,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv1-20"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv1-20"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv1-20"
+                }
+            },
+            {
+                "id": 228,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 80,
+                "buy": 800,
+                "local_name": "Armor Sphere",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/armor-sphere",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 228,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "level": "Lv1-20"
+                }
+            },
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv21-30"
+                }
+            },
+            {
+                "id": 793,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 440,
+                "buy": 4400,
+                "local_name": "Basarios Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-shell",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 793,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "level": "Lv21-30"
+                }
+            },
+            {
+                "id": 793,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 440,
+                "buy": 4400,
+                "local_name": "Basarios Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-shell",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 793,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv21-30"
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv21-30"
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 332,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv21-30"
+                }
+            },
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 2,
+                    "percentage": 12,
+                    "level": "Lv21-30"
+                }
+            },
+            {
+                "id": 305,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 210,
+                "buy": 2100,
+                "local_name": "Monster Bone M",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-bone-m",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 305,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv21-30"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv21-30"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv21-30"
+                }
+            },
+            {
+                "id": 228,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 80,
+                "buy": 800,
+                "local_name": "Armor Sphere",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/armor-sphere",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 228,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv21-30"
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 793,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 440,
+                "buy": 4400,
+                "local_name": "Basarios Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-shell",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 793,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 310,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Monster Keenbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-keenbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 310,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 332,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 340,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Inferno Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/inferno-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 340,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 229,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 300,
+                "buy": 3000,
+                "local_name": "Armor Sphere+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/armor-sphere+",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 229,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 39,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Shining Charm",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shining-charm",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 39,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 310,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Monster Keenbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-keenbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 310,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 332,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 340,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Inferno Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/inferno-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 340,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 310,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Monster Keenbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-keenbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 310,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 332,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 206,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Dragonite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragonite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 206,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 340,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Inferno Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/inferno-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 340,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 26,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 310,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Monster Keenbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-keenbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 310,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 332,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 206,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Dragonite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragonite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 206,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 340,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Inferno Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/inferno-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 340,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 2,
+                    "percentage": 5,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 797,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 11000,
+                "buy": 110000,
+                "local_name": "Basarios Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-fellwing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 797,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 334,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 864,
+                "buy": 8640,
+                "local_name": "Deadly Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deadly-poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 334,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 2,
+                    "percentage": 5,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 797,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 11000,
+                "buy": 110000,
+                "local_name": "Basarios Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-fellwing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 797,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 334,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 864,
+                "buy": 8640,
+                "local_name": "Deadly Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deadly-poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 334,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 797,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 11000,
+                "buy": 110000,
+                "local_name": "Basarios Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-fellwing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 797,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 334,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 864,
+                "buy": 8640,
+                "local_name": "Deadly Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deadly-poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 334,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 797,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 11000,
+                "buy": 110000,
+                "local_name": "Basarios Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-fellwing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 797,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 334,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 864,
+                "buy": 8640,
+                "local_name": "Deadly Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deadly-poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 334,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 2,
+                    "percentage": 12,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 797,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 11000,
+                "buy": 110000,
+                "local_name": "Basarios Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-fellwing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 797,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 334,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 864,
+                "buy": 8640,
+                "local_name": "Deadly Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deadly-poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 334,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 42,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 43,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1235,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-weapon",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1235,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1236,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-armor",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1236,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv136-140"
+                }
+            }
+        ],
+        "items": [
+            {
+                "id": 793,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 440,
+                "buy": 4400,
+                "local_name": "Basarios Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-shell",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 793,
+                    "quantity": 1,
+                    "percentage": 46,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 332,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 305,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 210,
+                "buy": 2100,
+                "local_name": "Monster Bone M",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-bone-m",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 305,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 793,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 440,
+                "buy": 4400,
+                "local_name": "Basarios Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-shell",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 793,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1315,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 250,
+                "local_name": "Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/wyvern-tear",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1315,
+                    "quantity": 1,
+                    "percentage": 80,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 204,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 80,
+                "buy": 800,
+                "local_name": "Earth Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/earth-crystal",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 204,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 793,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 440,
+                "buy": 4400,
+                "local_name": "Basarios Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-shell",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 793,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 2,
+                    "percentage": 59,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 793,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 440,
+                "buy": 4400,
+                "local_name": "Basarios Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-shell",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 793,
+                    "quantity": 1,
+                    "percentage": 36,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 3,
+                    "percentage": 50,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 305,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 210,
+                "buy": 2100,
+                "local_name": "Monster Bone M",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-bone-m",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 305,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 205,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 160,
+                "buy": 1600,
+                "local_name": "Machalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/machalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 205,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 299,
+                    "monsteritemmethod": {
+                        "id": 299,
+                        "local_name": "Break Belly"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 332,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 299,
+                    "monsteritemmethod": {
+                        "id": 299,
+                        "local_name": "Break Belly"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 33,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 332,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 310,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Monster Keenbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-keenbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 310,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 327,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6000,
+                "buy": 60000,
+                "local_name": "Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/wyvern-gem",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 327,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 206,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Dragonite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragonite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 206,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1315,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 250,
+                "local_name": "Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/wyvern-tear",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1315,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 37,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 211,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 80,
+                "buy": 800,
+                "local_name": "Heavenly Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/heavenly-crystal",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 211,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 206,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Dragonite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragonite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 206,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 1,
+                    "percentage": 36,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 794,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Basarios Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-carapace",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 794,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 206,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Dragonite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragonite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 206,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 2,
+                    "percentage": 40,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 796,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1420,
+                "buy": 14200,
+                "local_name": "Basarios Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-wing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 796,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 310,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Monster Keenbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-keenbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 310,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 332,
+                    "quantity": 2,
+                    "percentage": 45,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 299,
+                    "monsteritemmethod": {
+                        "id": 299,
+                        "local_name": "Break Belly"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 206,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Dragonite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dragonite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 206,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 299,
+                    "monsteritemmethod": {
+                        "id": 299,
+                        "local_name": "Break Belly"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 299,
+                    "monsteritemmethod": {
+                        "id": 299,
+                        "local_name": "Break Belly"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 33,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 334,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 864,
+                "buy": 8640,
+                "local_name": "Deadly Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deadly-poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 334,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 797,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 11000,
+                "buy": 110000,
+                "local_name": "Basarios Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-fellwing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 797,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 328,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Lrg Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-wyvern-gem",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 328,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 1,
+                    "percentage": 37,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 212,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Meteor Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/meteor-crystal",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 212,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 295,
+                    "monsteritemmethod": {
+                        "id": 295,
+                        "local_name": "Mining Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 1,
+                    "percentage": 36,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 795,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3960,
+                "buy": 39600,
+                "local_name": "Basarios Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-cortex",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 795,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 2,
+                    "percentage": 14,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 797,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 11000,
+                "buy": 110000,
+                "local_name": "Basarios Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-fellwing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 797,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 80,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 1085,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 2,
+                    "percentage": 38,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 797,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 11000,
+                "buy": 110000,
+                "local_name": "Basarios Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-fellwing",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 797,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 798,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 8888,
+                "buy": 88880,
+                "local_name": "Basarios Tears",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/basarios-tears",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 798,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 334,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 864,
+                "buy": 8640,
+                "local_name": "Deadly Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deadly-poison-sac",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 334,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 299,
+                    "monsteritemmethod": {
+                        "id": 299,
+                        "local_name": "Break Belly"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 213,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Carbalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/carbalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 213,
+                    "quantity": 2,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 299,
+                    "monsteritemmethod": {
+                        "id": 299,
+                        "local_name": "Break Belly"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 216,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Eltalite Ore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/eltalite-ore",
+                "pivot": {
+                    "monster_id": 64,
+                    "item_id": 216,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 299,
+                    "monsteritemmethod": {
+                        "id": 299,
+                        "local_name": "Break Belly"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 36,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 3,
+                "questtype_id": 5,
+                "reward": 3000,
+                "questpriority_id": 3,
+                "questgoal_id": 36,
+                "questsubgoal_id": 32,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 300,
+                "time": 50,
+                "hrp": 200,
+                "map_id": 20,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Research: Basarios",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/3\/research-basarios",
+                "pivot": {
+                    "monster_id": 64,
+                    "quest_id": 36
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 36,
+                    "local_name": "Hunt a Basarios"
+                },
+                "questsubgoal": {
+                    "id": 32,
+                    "local_name": "Topple monster while mounted"
+                },
+                "questtype": {
+                    "id": 5,
+                    "local_name": "Special"
+                }
+            }
+        ],
+        "maps": [],
+        "weapons": [
+            {
+                "id": 891,
+                "weapontype_id": 5,
+                "weapon_parent_id": 880,
+                "final": 0,
+                "attack": 676,
+                "defense": 10,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 3650,
+                "local_name": "Basarios Blow",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/basarios-blow",
+                "pivot": {
+                    "monster_id": 64,
+                    "weapon_id": 891
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 892,
+                "weapontype_id": 5,
+                "weapon_parent_id": 891,
+                "final": 0,
+                "attack": 728,
+                "defense": 10,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 16000,
+                "local_name": "Basarios Bash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/basarios-bash",
+                "pivot": {
+                    "monster_id": 64,
+                    "weapon_id": 892
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 1061,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1055,
+                "final": 0,
+                "attack": 572,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 2600,
+                "local_name": "Basarios Rock",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/basarios-rock",
+                "pivot": {
+                    "monster_id": 64,
+                    "weapon_id": 1061
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1062,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1061,
+                "final": 0,
+                "attack": 624,
+                "defense": 10,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 7150,
+                "local_name": "Basarios Rock Mk.II",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/basarios-rock-mk.ii",
+                "pivot": {
+                    "monster_id": 64,
+                    "weapon_id": 1062
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1063,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1062,
+                "final": 0,
+                "attack": 728,
+                "defense": 10,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 30000,
+                "local_name": "Volcanic Rock",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/volcanic-rock",
+                "pivot": {
+                    "monster_id": 64,
+                    "weapon_id": 1063
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1064,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1063,
+                "final": 0,
+                "attack": 832,
+                "defense": 15,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 50000,
+                "local_name": "Volcanic Gig",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/volcanic-gig",
+                "pivot": {
+                    "monster_id": 64,
+                    "weapon_id": 1064
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1065,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1064,
+                "final": 0,
+                "attack": 1092,
+                "defense": 25,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": 90000,
+                "price_upgrade": 60000,
+                "local_name": "Volcanic Gig+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/volcanic-gig+",
+                "pivot": {
+                    "monster_id": 64,
+                    "weapon_id": 1065
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1066,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1065,
+                "final": 1,
+                "attack": 1300,
+                "defense": 40,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Conflagrig",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/conflagrig",
+                "pivot": {
+                    "monster_id": 64,
+                    "weapon_id": 1066
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1145,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1128,
+                "final": 0,
+                "attack": 299,
+                "defense": 10,
+                "affinity": -15,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": 4650,
+                "price_upgrade": 3100,
+                "local_name": "Venom Lance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/venom-lance",
+                "pivot": {
+                    "monster_id": 64,
+                    "weapon_id": 1145
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1871,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1870,
+                "final": 0,
+                "attack": 156,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 3650,
+                "local_name": "Grenade Launcher",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/grenade-launcher",
+                "pivot": {
+                    "monster_id": 64,
+                    "weapon_id": 1871
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            }
+        ]
+    }
+}

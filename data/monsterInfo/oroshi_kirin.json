@@ -1,0 +1,2877 @@
+{
+    "monster": {
+        "id": 94,
+        "base_hp": 3200,
+        "size": "L",
+        "hp_mult_low": "0.00",
+        "hp_mult_high": "0.00",
+        "hp_mult_g": "0.00",
+        "crown_miniature": "494.8",
+        "crown_large": "643.3",
+        "crown_king": "676.3",
+        "rage_duration": 90,
+        "rage_mod_attack": "1.4",
+        "rage_mod_defense": "1.1",
+        "rage_mod_speed": "1.2",
+        "limp_low": 0,
+        "cap_low": 0,
+        "limp_high": 16,
+        "cap_high": 0,
+        "limp_high_apex": 13,
+        "cap_high_apex": 0,
+        "limp_g": 10,
+        "cap_g": 0,
+        "limp_g_apex": 7,
+        "cap_g_apex": 0,
+        "local_name": "Oroshi Kirin",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/oroshi-kirin",
+        "monstersounds": [
+            {
+                "id": 34,
+                "monster_id": 94,
+                "filename": "em034_vo_shake"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 42,
+                "local_name": "Horn",
+                "pivot": {
+                    "monster_id": 94,
+                    "monsterbodypart_id": 42,
+                    "type": "A",
+                    "res_cut": 40,
+                    "res_impact": 40,
+                    "res_shot": 35,
+                    "res_fire": 5,
+                    "res_water": 5,
+                    "res_ice": 0,
+                    "res_thunder": 5,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Torso",
+                "pivot": {
+                    "monster_id": 94,
+                    "monsterbodypart_id": 11,
+                    "type": "A",
+                    "res_cut": 24,
+                    "res_impact": 24,
+                    "res_shot": 20,
+                    "res_fire": 15,
+                    "res_water": 15,
+                    "res_ice": 0,
+                    "res_thunder": 10,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 29,
+                "local_name": "Lower body",
+                "pivot": {
+                    "monster_id": 94,
+                    "monsterbodypart_id": 29,
+                    "type": "A",
+                    "res_cut": 27,
+                    "res_impact": 27,
+                    "res_shot": 25,
+                    "res_fire": 15,
+                    "res_water": 15,
+                    "res_ice": 0,
+                    "res_thunder": 10,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 94,
+                    "monsterbodypart_id": 12,
+                    "type": "A",
+                    "res_cut": 25,
+                    "res_impact": 25,
+                    "res_shot": 30,
+                    "res_fire": 5,
+                    "res_water": 5,
+                    "res_ice": 0,
+                    "res_thunder": 5,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 94,
+                    "monsterbodypart_id": 1,
+                    "type": "B",
+                    "res_cut": 50,
+                    "res_impact": 50,
+                    "res_shot": 45,
+                    "res_fire": 5,
+                    "res_water": 5,
+                    "res_ice": 0,
+                    "res_thunder": 5,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Torso",
+                "pivot": {
+                    "monster_id": 94,
+                    "monsterbodypart_id": 11,
+                    "type": "B",
+                    "res_cut": 24,
+                    "res_impact": 24,
+                    "res_shot": 24,
+                    "res_fire": 10,
+                    "res_water": 10,
+                    "res_ice": 0,
+                    "res_thunder": 10,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 29,
+                "local_name": "Lower body",
+                "pivot": {
+                    "monster_id": 94,
+                    "monsterbodypart_id": 29,
+                    "type": "B",
+                    "res_cut": 15,
+                    "res_impact": 15,
+                    "res_shot": 15,
+                    "res_fire": 10,
+                    "res_water": 10,
+                    "res_ice": 0,
+                    "res_thunder": 10,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 94,
+                    "monsterbodypart_id": 12,
+                    "type": "B",
+                    "res_cut": 28,
+                    "res_impact": 28,
+                    "res_shot": 32,
+                    "res_fire": 5,
+                    "res_water": 5,
+                    "res_ice": 0,
+                    "res_thunder": 5,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 273,
+                "monster_id": 94,
+                "region": "Head",
+                "value": 250,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 274,
+                "monster_id": 94,
+                "region": "Torso",
+                "value": 220,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 275,
+                "monster_id": 94,
+                "region": "Lower Body",
+                "value": 240,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 276,
+                "monster_id": 94,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 277,
+                "monster_id": 94,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 278,
+                "monster_id": 94,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 279,
+                "monster_id": 94,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 280,
+                "monster_id": 94,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 94,
+                    "weaponspecialattack_id": 6,
+                    "initial": 200,
+                    "increase": 90,
+                    "max": 560,
+                    "duration": 30,
+                    "damage": 60,
+                    "reduction_time": 5,
+                    "reduction_amount": 10
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 94,
+                    "weaponspecialattack_id": 8,
+                    "initial": 200,
+                    "increase": 50,
+                    "max": 450,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 20,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 94,
+                    "weaponspecialattack_id": 7,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 94,
+                    "weaponspecialattack_id": 10,
+                    "initial": 150,
+                    "increase": 100,
+                    "max": 650,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 94,
+                    "weaponspecialattack_id": 11,
+                    "initial": 0,
+                    "increase": 0,
+                    "max": 0,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 1,
+                    "reduction_amount": 1
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 94,
+                    "weaponspecialattack_id": 9,
+                    "initial": 70,
+                    "increase": 70,
+                    "max": 670,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 10,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 94,
+                    "weaponspecialattack_id": 12,
+                    "initial": 50,
+                    "increase": 120,
+                    "max": 530,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 94,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 50,
+                    "max": 200,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 78,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 66,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 79,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 15,
+            "monster_id": 94,
+            "normal": 0,
+            "enraged": 0,
+            "fatigued": 0
+        },
+        "monsterguildquestitems": [
+            {
+                "id": 933,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Kirin Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 933,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 944,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4300,
+                "buy": 43000,
+                "local_name": "Kirin Frost Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-frost-tail",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 944,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 936,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 2500,
+                "buy": 25000,
+                "local_name": "Kirin Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-mane",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 936,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 214,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2440,
+                "buy": 24400,
+                "local_name": "Novacrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/novacrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 214,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 28,
+                "rarity": 3,
+                "carry": 2,
+                "sell": 210,
+                "buy": 2138,
+                "local_name": "Max Potion",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/max-potion",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 28,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 214,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2440,
+                "buy": 24400,
+                "local_name": "Novacrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/novacrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 214,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 933,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Kirin Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 933,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 944,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4300,
+                "buy": 43000,
+                "local_name": "Kirin Frost Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-frost-tail",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 944,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 936,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 2500,
+                "buy": 25000,
+                "local_name": "Kirin Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-mane",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 936,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 214,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2440,
+                "buy": 24400,
+                "local_name": "Novacrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/novacrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 214,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 28,
+                "rarity": 3,
+                "carry": 2,
+                "sell": 210,
+                "buy": 2138,
+                "local_name": "Max Potion",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/max-potion",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 28,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 214,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2440,
+                "buy": 24400,
+                "local_name": "Novacrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/novacrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 214,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 29,
+                "rarity": 5,
+                "carry": 1,
+                "sell": 345,
+                "buy": 3454,
+                "local_name": "Ancient Potion",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/ancient-potion",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 29,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 933,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Kirin Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 933,
+                    "quantity": 2,
+                    "percentage": 12,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 944,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4300,
+                "buy": 43000,
+                "local_name": "Kirin Frost Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-frost-tail",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 944,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 936,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 2500,
+                "buy": 25000,
+                "local_name": "Kirin Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-mane",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 936,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 214,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2440,
+                "buy": 24400,
+                "local_name": "Novacrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/novacrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 214,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 29,
+                "rarity": 5,
+                "carry": 1,
+                "sell": 345,
+                "buy": 3454,
+                "local_name": "Ancient Potion",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/ancient-potion",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 29,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 933,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 680,
+                "buy": 6800,
+                "local_name": "Kirin Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 933,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 944,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4300,
+                "buy": 43000,
+                "local_name": "Kirin Frost Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-frost-tail",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 944,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 936,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 2500,
+                "buy": 25000,
+                "local_name": "Kirin Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-mane",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 936,
+                    "quantity": 2,
+                    "percentage": 8,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 214,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2440,
+                "buy": 24400,
+                "local_name": "Novacrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/novacrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 214,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 36,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 944,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4300,
+                "buy": 43000,
+                "local_name": "Kirin Frost Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-frost-tail",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 944,
+                    "quantity": 1,
+                    "percentage": 17,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 936,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 2500,
+                "buy": 25000,
+                "local_name": "Kirin Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-mane",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 936,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 35,
+                "rarity": 5,
+                "carry": 2,
+                "sell": 100,
+                "buy": 1000,
+                "local_name": "Dust of Life",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dust-of-life",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 35,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 222,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7320,
+                "buy": 73200,
+                "local_name": "Purecrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/purecrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 222,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 36,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 944,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4300,
+                "buy": 43000,
+                "local_name": "Kirin Frost Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-frost-tail",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 944,
+                    "quantity": 1,
+                    "percentage": 17,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 936,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 2500,
+                "buy": 25000,
+                "local_name": "Kirin Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-mane",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 936,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 35,
+                "rarity": 5,
+                "carry": 2,
+                "sell": 100,
+                "buy": 1000,
+                "local_name": "Dust of Life",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dust-of-life",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 35,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 222,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7320,
+                "buy": 73200,
+                "local_name": "Purecrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/purecrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 222,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 2,
+                    "percentage": 5,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 945,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 10750,
+                "buy": 107500,
+                "local_name": "Kirin Frostlash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-frostlash",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 945,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 35,
+                "rarity": 5,
+                "carry": 2,
+                "sell": 100,
+                "buy": 1000,
+                "local_name": "Dust of Life",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dust-of-life",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 35,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 937,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 15620,
+                "buy": 156200,
+                "local_name": "Platinum Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/platinum-mane",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 937,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 222,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7320,
+                "buy": 73200,
+                "local_name": "Purecrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/purecrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 222,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 2,
+                    "percentage": 5,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 945,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 10750,
+                "buy": 107500,
+                "local_name": "Kirin Frostlash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-frostlash",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 945,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 35,
+                "rarity": 5,
+                "carry": 2,
+                "sell": 100,
+                "buy": 1000,
+                "local_name": "Dust of Life",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dust-of-life",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 35,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 937,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 15620,
+                "buy": 156200,
+                "local_name": "Platinum Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/platinum-mane",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 937,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 222,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7320,
+                "buy": 73200,
+                "local_name": "Purecrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/purecrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 222,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 945,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 10750,
+                "buy": 107500,
+                "local_name": "Kirin Frostlash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-frostlash",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 945,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 2,
+                    "percentage": 5,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 35,
+                "rarity": 5,
+                "carry": 2,
+                "sell": 100,
+                "buy": 1000,
+                "local_name": "Dust of Life",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/dust-of-life",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 35,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 937,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 15620,
+                "buy": 156200,
+                "local_name": "Platinum Mane",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/platinum-mane",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 937,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 222,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7320,
+                "buy": 73200,
+                "local_name": "Purecrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/purecrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 222,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1235,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-weapon",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1235,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1236,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-armor",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1236,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv136-140"
+                }
+            }
+        ],
+        "items": [
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 944,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4300,
+                "buy": 43000,
+                "local_name": "Kirin Frost Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-frost-tail",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 944,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 214,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2440,
+                "buy": 24400,
+                "local_name": "Novacrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/novacrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 214,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1322,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 500,
+                "local_name": "Old Dragon Treasure",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/old-dragon-treasure",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1322,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 934,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Kirin Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-hide+",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 934,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 942,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5800,
+                "buy": 58000,
+                "local_name": "Kirin Icehorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-icehorn",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 942,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 945,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 10750,
+                "buy": 107500,
+                "local_name": "Kirin Frostlash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-frostlash",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 945,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 222,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7320,
+                "buy": 73200,
+                "local_name": "Purecrystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/purecrystal",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 222,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1322,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 500,
+                "local_name": "Old Dragon Treasure",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/old-dragon-treasure",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 1322,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 935,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5250,
+                "buy": 52500,
+                "local_name": "Kirin Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-finehide",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 935,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 943,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 14500,
+                "buy": 145000,
+                "local_name": "Kirin Ice Peak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kirin-ice-peak",
+                "pivot": {
+                    "monster_id": 94,
+                    "item_id": 943,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 182,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 10,
+                "questtype_id": 2,
+                "reward": 15000,
+                "questpriority_id": 1,
+                "questgoal_id": 182,
+                "questsubgoal_id": 32,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1600,
+                "time": 50,
+                "hrp": 900,
+                "map_id": 20,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: A Hero's Icy Test",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/10\/advanced-a-heros-icy-test",
+                "pivot": {
+                    "monster_id": 94,
+                    "quest_id": 182
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 182,
+                    "local_name": "Slay an Oroshi Kirin"
+                },
+                "questsubgoal": {
+                    "id": 32,
+                    "local_name": "Topple monster while mounted"
+                },
+                "questtype": {
+                    "id": 2,
+                    "local_name": "Slaying"
+                }
+            }
+        ],
+        "maps": [],
+        "weapons": [
+            {
+                "id": 159,
+                "weapontype_id": 1,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 672,
+                "defense": 40,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 2,
+                "price_create": 75000,
+                "price_upgrade": null,
+                "local_name": "Emperor Frostsword",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/emperor-frostsword",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 159
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 160,
+                "weapontype_id": 1,
+                "weapon_parent_id": 159,
+                "final": 0,
+                "attack": 960,
+                "defense": 42,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Frostsword",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/frostsword",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 160
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 161,
+                "weapontype_id": 1,
+                "weapon_parent_id": 160,
+                "final": 1,
+                "attack": 1104,
+                "defense": 46,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "King Frostsword",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/king-frostsword",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 161
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 547,
+                "weapontype_id": 3,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 196,
+                "defense": 15,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": 75000,
+                "price_upgrade": null,
+                "local_name": "Kirin Ice Ultimus",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/kirin-ice-ultimus",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 547
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 548,
+                "weapontype_id": 3,
+                "weapon_parent_id": 547,
+                "final": 1,
+                "attack": 308,
+                "defense": 30,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Icemaster Kirin",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/icemaster-kirin",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 548
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 1605,
+                "weapontype_id": 9,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 702,
+                "defense": 15,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": 75000,
+                "price_upgrade": null,
+                "local_name": "Kirin Thunderbolt",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/kirin-thunderbolt",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 1605
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1606,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1605,
+                "final": 1,
+                "attack": 1188,
+                "defense": 25,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Bitterbeast Kirin",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/bitterbeast-kirin",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 1606
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1801,
+                "weapontype_id": 11,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 434,
+                "defense": 20,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": 60000,
+                "price_upgrade": null,
+                "local_name": "Violindigo Hail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/violindigo-hail",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 1801
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1802,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1801,
+                "final": 0,
+                "attack": 465,
+                "defense": 22,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 65000,
+                "local_name": "Violazure Sleet",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/violazure-sleet",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 1802
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1803,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1802,
+                "final": 0,
+                "attack": 496,
+                "defense": 25,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Violverdant Glaze",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/violverdant-glaze",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 1803
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1804,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1803,
+                "final": 1,
+                "attack": 744,
+                "defense": 35,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Icephantom",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/icephantom",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 1804
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1990,
+                "weapontype_id": 12,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 208,
+                "defense": 30,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": 60000,
+                "price_upgrade": null,
+                "local_name": "Frigid Bowgun",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/frigid-bowgun",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 1990
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1991,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1990,
+                "final": 0,
+                "attack": 234,
+                "defense": 40,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Frigid Kirin",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/frigid-kirin",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 1991
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1992,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1991,
+                "final": 1,
+                "attack": 338,
+                "defense": 50,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Frigid Kirin King",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/frigid-kirin-king",
+                "pivot": {
+                    "monster_id": 94,
+                    "weapon_id": 1992
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            }
+        ]
+    }
+}

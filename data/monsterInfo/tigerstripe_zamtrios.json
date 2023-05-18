@@ -1,0 +1,1753 @@
+{
+    "monster": {
+        "id": 53,
+        "base_hp": 5000,
+        "size": "L",
+        "hp_mult_low": "0.00",
+        "hp_mult_high": "0.00",
+        "hp_mult_g": "0.00",
+        "crown_miniature": "1474.0",
+        "crown_large": "1777.9",
+        "crown_king": "1869.1",
+        "rage_duration": 100,
+        "rage_mod_attack": "1.3",
+        "rage_mod_defense": "1.0",
+        "rage_mod_speed": "1.2",
+        "limp_low": 0,
+        "cap_low": 0,
+        "limp_high": 0,
+        "cap_high": 0,
+        "limp_high_apex": 0,
+        "cap_high_apex": 0,
+        "limp_g": 12,
+        "cap_g": 15,
+        "limp_g_apex": 0,
+        "cap_g_apex": 0,
+        "local_name": "Tigerstripe Zamtrios",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/tigerstripe-zamtrios",
+        "monstersounds": [
+            {
+                "id": 58,
+                "monster_id": 53,
+                "filename": "em092_vo_bind"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 53,
+                    "monsterbodypart_id": 1,
+                    "type": "A",
+                    "res_cut": 40,
+                    "res_impact": 45,
+                    "res_shot": 42,
+                    "res_fire": 0,
+                    "res_water": 0,
+                    "res_ice": 25,
+                    "res_thunder": 15,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Torso",
+                "pivot": {
+                    "monster_id": 53,
+                    "monsterbodypart_id": 11,
+                    "type": "A",
+                    "res_cut": 36,
+                    "res_impact": 36,
+                    "res_shot": 30,
+                    "res_fire": 0,
+                    "res_water": 0,
+                    "res_ice": 20,
+                    "res_thunder": 10,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 69,
+                "local_name": "Belly (Inflated)",
+                "pivot": {
+                    "monster_id": 53,
+                    "monsterbodypart_id": 69,
+                    "type": "A",
+                    "res_cut": 65,
+                    "res_impact": 58,
+                    "res_shot": 55,
+                    "res_fire": 15,
+                    "res_water": 0,
+                    "res_ice": 30,
+                    "res_thunder": 25,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 43,
+                "local_name": "Back Fin",
+                "pivot": {
+                    "monster_id": 53,
+                    "monsterbodypart_id": 43,
+                    "type": "A",
+                    "res_cut": 45,
+                    "res_impact": 45,
+                    "res_shot": 40,
+                    "res_fire": 0,
+                    "res_water": 0,
+                    "res_ice": 20,
+                    "res_thunder": 15,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 53,
+                    "monsterbodypart_id": 12,
+                    "type": "A",
+                    "res_cut": 38,
+                    "res_impact": 33,
+                    "res_shot": 35,
+                    "res_fire": 10,
+                    "res_water": 0,
+                    "res_ice": 15,
+                    "res_thunder": 10,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Back Leg",
+                "pivot": {
+                    "monster_id": 53,
+                    "monsterbodypart_id": 13,
+                    "type": "A",
+                    "res_cut": 36,
+                    "res_impact": 36,
+                    "res_shot": 35,
+                    "res_fire": 0,
+                    "res_water": 0,
+                    "res_ice": 15,
+                    "res_thunder": 10,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Tail",
+                "pivot": {
+                    "monster_id": 53,
+                    "monsterbodypart_id": 5,
+                    "type": "A",
+                    "res_cut": 42,
+                    "res_impact": 40,
+                    "res_shot": 38,
+                    "res_fire": 0,
+                    "res_water": 0,
+                    "res_ice": 20,
+                    "res_thunder": 15,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 641,
+                "monster_id": 53,
+                "region": "Head",
+                "value": 240,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 642,
+                "monster_id": 53,
+                "region": "Back Fin",
+                "value": 60,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 643,
+                "monster_id": 53,
+                "region": "Left Front Leg",
+                "value": 180,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 644,
+                "monster_id": 53,
+                "region": "Right Front Leg",
+                "value": 180,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 645,
+                "monster_id": 53,
+                "region": "Left Rear Leg",
+                "value": 140,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 646,
+                "monster_id": 53,
+                "region": "Right Rear Leg",
+                "value": 140,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 647,
+                "monster_id": 53,
+                "region": "Tail",
+                "value": 200,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 648,
+                "monster_id": 53,
+                "region": "Torso",
+                "value": 500,
+                "value_cut": null,
+                "extract_color": "red"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 53,
+                    "weaponspecialattack_id": 6,
+                    "initial": 150,
+                    "increase": 100,
+                    "max": 550,
+                    "duration": 60,
+                    "damage": 360,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 53,
+                    "weaponspecialattack_id": 8,
+                    "initial": 150,
+                    "increase": 100,
+                    "max": 550,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 53,
+                    "weaponspecialattack_id": 7,
+                    "initial": 200,
+                    "increase": 150,
+                    "max": 950,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 53,
+                    "weaponspecialattack_id": 10,
+                    "initial": 200,
+                    "increase": 100,
+                    "max": 500,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 53,
+                    "weaponspecialattack_id": 11,
+                    "initial": 180,
+                    "increase": 75,
+                    "max": 480,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 53,
+                    "weaponspecialattack_id": 9,
+                    "initial": 130,
+                    "increase": 45,
+                    "max": 1030,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 53,
+                    "weaponspecialattack_id": 12,
+                    "initial": 50,
+                    "increase": 120,
+                    "max": 410,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 53,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 30,
+                    "max": 350,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 78,
+                    "normal": 15,
+                    "enraged": 12,
+                    "fatigued": 20
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 66,
+                    "normal": 30,
+                    "enraged": 20,
+                    "fatigued": 30
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 79,
+                    "normal": 10,
+                    "enraged": 8,
+                    "fatigued": 12
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 30,
+            "monster_id": 53,
+            "normal": 5,
+            "enraged": 5,
+            "fatigued": 5
+        },
+        "monsterguildquestitems": [],
+        "items": [
+            {
+                "id": 562,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4790,
+                "buy": 47900,
+                "local_name": "T.Zamtrios Piel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-piel",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 562,
+                    "quantity": 1,
+                    "percentage": 33,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 563,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8650,
+                "buy": 86500,
+                "local_name": "T.Zamtrios Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-shard",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 563,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 336,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 360,
+                "buy": 3600,
+                "local_name": "Omniplegia Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/omniplegia-sac",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 336,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 564,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9710,
+                "buy": 97100,
+                "local_name": "T.Zamtrios Grandfin",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-grandfin",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 564,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 566,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5610,
+                "buy": 56100,
+                "local_name": "T.Zamtrios Tailbrand",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-tailbrand",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 566,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 565,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6240,
+                "buy": 62400,
+                "local_name": "T.Zamtrios Sawtooth+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-sawtooth+",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 565,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1314,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 350,
+                "local_name": "Large Toad Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-toad-tear",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 1314,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 563,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8650,
+                "buy": 86500,
+                "local_name": "T.Zamtrios Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-shard",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 563,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 544,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1800,
+                "buy": 18000,
+                "local_name": "Paddock Cream",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/paddock-cream",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 544,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 562,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4790,
+                "buy": 47900,
+                "local_name": "T.Zamtrios Piel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-piel",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 562,
+                    "quantity": 1,
+                    "percentage": 36,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 563,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8650,
+                "buy": 86500,
+                "local_name": "T.Zamtrios Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-shard",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 563,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 336,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 360,
+                "buy": 3600,
+                "local_name": "Omniplegia Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/omniplegia-sac",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 336,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 565,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6240,
+                "buy": 62400,
+                "local_name": "T.Zamtrios Sawtooth+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-sawtooth+",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 565,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 544,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1800,
+                "buy": 18000,
+                "local_name": "Paddock Cream",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/paddock-cream",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 544,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 1085,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 1084,
+                    "quantity": 2,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 565,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6240,
+                "buy": 62400,
+                "local_name": "T.Zamtrios Sawtooth+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-sawtooth+",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 565,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 564,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9710,
+                "buy": 97100,
+                "local_name": "T.Zamtrios Grandfin",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-grandfin",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 564,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 563,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8650,
+                "buy": 86500,
+                "local_name": "T.Zamtrios Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-shard",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 563,
+                    "quantity": 1,
+                    "percentage": 24,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 562,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4790,
+                "buy": 47900,
+                "local_name": "T.Zamtrios Piel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-piel",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 562,
+                    "quantity": 1,
+                    "percentage": 11,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 78,
+                    "monsteritemmethod": {
+                        "id": 78,
+                        "local_name": "Break Fin"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 563,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8650,
+                "buy": 86500,
+                "local_name": "T.Zamtrios Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-shard",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 563,
+                    "quantity": 1,
+                    "percentage": 44,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 564,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9710,
+                "buy": 97100,
+                "local_name": "T.Zamtrios Grandfin",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-grandfin",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 564,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 562,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4790,
+                "buy": 47900,
+                "local_name": "T.Zamtrios Piel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-piel",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 562,
+                    "quantity": 1,
+                    "percentage": 24,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 216,
+                    "monsteritemmethod": {
+                        "id": 216,
+                        "local_name": "Break Front Leg"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 566,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5610,
+                "buy": 56100,
+                "local_name": "T.Zamtrios Tailbrand",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-tailbrand",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 566,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 563,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8650,
+                "buy": 86500,
+                "local_name": "T.Zamtrios Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-shard",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 563,
+                    "quantity": 1,
+                    "percentage": 24,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 562,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4790,
+                "buy": 47900,
+                "local_name": "T.Zamtrios Piel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/t.zamtrios-piel",
+                "pivot": {
+                    "monster_id": 53,
+                    "item_id": 562,
+                    "quantity": 1,
+                    "percentage": 11,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 370,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 11100,
+                "questpriority_id": 2,
+                "questgoal_id": 370,
+                "questsubgoal_id": 370,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1100,
+                "time": 50,
+                "hrp": 710,
+                "map_id": 7,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Grand Finals Confrontation",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/8\/grand-finals-confrontation",
+                "pivot": {
+                    "monster_id": 53,
+                    "quest_id": 370
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 370,
+                    "local_name": "Hunt a Tigerstripe Zamtrios"
+                },
+                "questsubgoal": {
+                    "id": 370,
+                    "local_name": "Wound T.Zamtrios's dorsal fin"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 383,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 13200,
+                "questpriority_id": 1,
+                "questgoal_id": 370,
+                "questsubgoal_id": 383,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1400,
+                "time": 50,
+                "hrp": 860,
+                "map_id": 7,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Tiger-sharq",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/8\/advanced-tiger-sharq",
+                "pivot": {
+                    "monster_id": 53,
+                    "quest_id": 383
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 370,
+                    "local_name": "Hunt a Tigerstripe Zamtrios"
+                },
+                "questsubgoal": {
+                    "id": 383,
+                    "local_name": "Suppress its Frenzy (2x)"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            }
+        ],
+        "maps": [
+            {
+                "id": 7,
+                "local_name": "Dunes (day)",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/dunes-day",
+                "pivot": {
+                    "monster_id": 53,
+                    "map_id": 7,
+                    "start": 4,
+                    "areas": "1, 5, 7, 10",
+                    "rest": 3
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Dunes (night)",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/dunes-night",
+                "pivot": {
+                    "monster_id": 53,
+                    "map_id": 8,
+                    "start": 4,
+                    "areas": "5, 7, 10",
+                    "rest": 3
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "id": 470,
+                "weapontype_id": 3,
+                "weapon_parent_id": 467,
+                "final": 0,
+                "attack": 336,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 1,
+                "price_create": 105000,
+                "price_upgrade": 70000,
+                "local_name": "Agate Saw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/agate-saw",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 470
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 471,
+                "weapontype_id": 3,
+                "weapon_parent_id": 470,
+                "final": 1,
+                "attack": 392,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 110000,
+                "local_name": "Zamtrista Saw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/zamtrista-saw",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 471
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 636,
+                "weapontype_id": 4,
+                "weapon_parent_id": 633,
+                "final": 0,
+                "attack": 322,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 1,
+                "price_create": 105000,
+                "price_upgrade": 70000,
+                "local_name": "Sandgnashers",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/sandgnashers",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 636
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 637,
+                "weapontype_id": 4,
+                "weapon_parent_id": 636,
+                "final": 1,
+                "attack": 392,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 110000,
+                "local_name": "Psammophages",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/psammophages",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 637
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 859,
+                "weapontype_id": 5,
+                "weapon_parent_id": 856,
+                "final": 0,
+                "attack": 1144,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": 105000,
+                "price_upgrade": 70000,
+                "local_name": "Puffer Smash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/puffer-smash",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 859
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 860,
+                "weapontype_id": 5,
+                "weapon_parent_id": 859,
+                "final": 1,
+                "attack": 1352,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 110000,
+                "local_name": "Pufferpounder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/pufferpounder",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 860
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 1351,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1348,
+                "final": 0,
+                "attack": 529,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": 105000,
+                "price_upgrade": 70000,
+                "local_name": "Tetrozonata",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/tetrozonata",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 1351
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1352,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1351,
+                "final": 1,
+                "attack": 598,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 110000,
+                "local_name": "Velenofragola",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/velenofragola",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 1352
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1528,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1525,
+                "final": 0,
+                "attack": 1242,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 0,
+                "price_create": 105000,
+                "price_upgrade": 70000,
+                "local_name": "Allagi Tigermaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/allagi-tigermaw",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 1528
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1529,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1528,
+                "final": 1,
+                "attack": 1458,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 110000,
+                "local_name": "Zamtreacherous Maw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/zamtreacherous-maw",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 1529
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1671,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1668,
+                "final": 0,
+                "attack": 792,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 1,
+                "price_create": 105000,
+                "price_upgrade": 70000,
+                "local_name": "The Haboob",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/the-haboob",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 1671
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1672,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1671,
+                "final": 1,
+                "attack": 900,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 110000,
+                "local_name": "Desert Rose",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/desert-rose",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 1672
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1839,
+                "weapontype_id": 11,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 713,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 0,
+                "price_create": 85000,
+                "price_upgrade": null,
+                "local_name": "Sand Fauchard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/sand-fauchard",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 1839
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1840,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1839,
+                "final": 0,
+                "attack": 806,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 95000,
+                "local_name": "Sand Fauchard+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/sand-fauchard+",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 1840
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1841,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1840,
+                "final": 1,
+                "attack": 868,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "I\u00f6rovellir",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/iorovellir",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 1841
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 2221,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2218,
+                "final": 0,
+                "attack": 312,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 3,
+                "price_create": 105000,
+                "price_upgrade": 70000,
+                "local_name": "Quartzlight",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/quartzlight",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 2221
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2222,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2221,
+                "final": 1,
+                "attack": 348,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 110000,
+                "local_name": "Crystal Lode",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/crystal-lode",
+                "pivot": {
+                    "monster_id": 53,
+                    "weapon_id": 2222
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            }
+        ]
+    }
+}

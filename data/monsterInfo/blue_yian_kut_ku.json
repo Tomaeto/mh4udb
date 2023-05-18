@@ -1,0 +1,3713 @@
+{
+    "monster": {
+        "id": 36,
+        "base_hp": 4000,
+        "size": "L",
+        "hp_mult_low": "0.00",
+        "hp_mult_high": "0.64",
+        "hp_mult_g": "1.21",
+        "crown_miniature": "808.7",
+        "crown_large": "1051.4",
+        "crown_king": "1105.3",
+        "rage_duration": 70,
+        "rage_mod_attack": "1.3",
+        "rage_mod_defense": "1.0",
+        "rage_mod_speed": "1.3",
+        "limp_low": 0,
+        "cap_low": 0,
+        "limp_high": 20,
+        "cap_high": 25,
+        "limp_high_apex": 15,
+        "cap_high_apex": 18,
+        "limp_g": 15,
+        "cap_g": 20,
+        "limp_g_apex": 13,
+        "cap_g_apex": 18,
+        "local_name": "Blue Yian Kut-Ku",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/blue-yian-kut-ku",
+        "monstersounds": [
+            {
+                "id": 8,
+                "monster_id": 36,
+                "filename": "em007_vo_bind"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 36,
+                    "monsterbodypart_id": 1,
+                    "type": "A",
+                    "res_cut": 56,
+                    "res_impact": 66,
+                    "res_shot": 70,
+                    "res_fire": 10,
+                    "res_water": 30,
+                    "res_ice": 20,
+                    "res_thunder": 25,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 2,
+                "local_name": "Neck",
+                "pivot": {
+                    "monster_id": 36,
+                    "monsterbodypart_id": 2,
+                    "type": "A",
+                    "res_cut": 50,
+                    "res_impact": 60,
+                    "res_shot": 50,
+                    "res_fire": 10,
+                    "res_water": 35,
+                    "res_ice": 30,
+                    "res_thunder": 30,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 4,
+                "local_name": "Belly",
+                "pivot": {
+                    "monster_id": 36,
+                    "monsterbodypart_id": 4,
+                    "type": "A",
+                    "res_cut": 70,
+                    "res_impact": 70,
+                    "res_shot": 65,
+                    "res_fire": 5,
+                    "res_water": 20,
+                    "res_ice": 10,
+                    "res_thunder": 15,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 3,
+                "local_name": "Back",
+                "pivot": {
+                    "monster_id": 36,
+                    "monsterbodypart_id": 3,
+                    "type": "A",
+                    "res_cut": 24,
+                    "res_impact": 40,
+                    "res_shot": 20,
+                    "res_fire": 5,
+                    "res_water": 20,
+                    "res_ice": 10,
+                    "res_thunder": 15,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 6,
+                "local_name": "Wing",
+                "pivot": {
+                    "monster_id": 36,
+                    "monsterbodypart_id": 6,
+                    "type": "A",
+                    "res_cut": 66,
+                    "res_impact": 35,
+                    "res_shot": 60,
+                    "res_fire": 5,
+                    "res_water": 15,
+                    "res_ice": 5,
+                    "res_thunder": 20,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Legs",
+                "pivot": {
+                    "monster_id": 36,
+                    "monsterbodypart_id": 7,
+                    "type": "A",
+                    "res_cut": 24,
+                    "res_impact": 25,
+                    "res_shot": 30,
+                    "res_fire": 5,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Tail",
+                "pivot": {
+                    "monster_id": 36,
+                    "monsterbodypart_id": 5,
+                    "type": "A",
+                    "res_cut": 25,
+                    "res_impact": 24,
+                    "res_shot": 25,
+                    "res_fire": 5,
+                    "res_water": 20,
+                    "res_ice": 10,
+                    "res_thunder": 15,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 57,
+                "monster_id": 36,
+                "region": "Torso",
+                "value": 130,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 58,
+                "monster_id": 36,
+                "region": "Left Wing",
+                "value": 110,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 59,
+                "monster_id": 36,
+                "region": "Right Wing",
+                "value": 110,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 60,
+                "monster_id": 36,
+                "region": "Left Leg",
+                "value": 130,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 61,
+                "monster_id": 36,
+                "region": "Right Leg",
+                "value": 130,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 62,
+                "monster_id": 36,
+                "region": "Neck",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 63,
+                "monster_id": 36,
+                "region": "Head",
+                "value": 160,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 64,
+                "monster_id": 36,
+                "region": "Tail",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 36,
+                    "weaponspecialattack_id": 6,
+                    "initial": 150,
+                    "increase": 120,
+                    "max": 510,
+                    "duration": 40,
+                    "damage": 200,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 36,
+                    "weaponspecialattack_id": 8,
+                    "initial": 160,
+                    "increase": 120,
+                    "max": 520,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 36,
+                    "weaponspecialattack_id": 7,
+                    "initial": 150,
+                    "increase": 120,
+                    "max": 510,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 36,
+                    "weaponspecialattack_id": 10,
+                    "initial": 160,
+                    "increase": 120,
+                    "max": 660,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 36,
+                    "weaponspecialattack_id": 11,
+                    "initial": 180,
+                    "increase": 75,
+                    "max": 480,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 36,
+                    "weaponspecialattack_id": 9,
+                    "initial": 130,
+                    "increase": 45,
+                    "max": 1030,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 10,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 36,
+                    "weaponspecialattack_id": 12,
+                    "initial": 50,
+                    "increase": 50,
+                    "max": 200,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 36,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 50,
+                    "max": 200,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 78,
+                    "normal": 12,
+                    "enraged": 10,
+                    "fatigued": 20
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 66,
+                    "normal": 20,
+                    "enraged": 15,
+                    "fatigued": 25
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 79,
+                    "normal": 10,
+                    "enraged": 8,
+                    "fatigued": 12
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 67,
+                    "normal": 6,
+                    "enraged": 0,
+                    "fatigued": 6
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 8,
+            "monster_id": 36,
+            "normal": 5,
+            "enraged": 5,
+            "fatigued": 5
+        },
+        "monsterguildquestitems": [
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 442,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1125,
+                "buy": 11250,
+                "local_name": "Blue Kut-Ku Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-scale+",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 442,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 429,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 250,
+                "buy": 2500,
+                "local_name": "Kut-Ku Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-scale",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 429,
+                    "quantity": 1,
+                    "percentage": 11,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 432,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 345,
+                "buy": 3450,
+                "local_name": "Kut-Ku Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-shell",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 432,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 440,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 650,
+                "buy": 6500,
+                "local_name": "Kut-Ku Webbing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-webbing",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 440,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 339,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 240,
+                "buy": 2400,
+                "local_name": "Flame Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flame-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 339,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 438,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Giant Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/giant-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 438,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 310,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Monster Keenbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-keenbone",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 310,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 3,
+                    "percentage": 10,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 229,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 300,
+                "buy": 3000,
+                "local_name": "Armor Sphere+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/armor-sphere+",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 229,
+                    "quantity": 2,
+                    "percentage": 5,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 39,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Shining Charm",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shining-charm",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 39,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 442,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1125,
+                "buy": 11250,
+                "local_name": "Blue Kut-Ku Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-scale+",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 442,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 429,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 250,
+                "buy": 2500,
+                "local_name": "Kut-Ku Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-scale",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 429,
+                    "quantity": 1,
+                    "percentage": 11,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 432,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 345,
+                "buy": 3450,
+                "local_name": "Kut-Ku Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-shell",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 432,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 440,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 650,
+                "buy": 6500,
+                "local_name": "Kut-Ku Webbing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-webbing",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 440,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 339,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 240,
+                "buy": 2400,
+                "local_name": "Flame Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flame-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 339,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 438,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Giant Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/giant-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 438,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 310,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Monster Keenbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-keenbone",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 310,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 3,
+                    "percentage": 10,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 442,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1125,
+                "buy": 11250,
+                "local_name": "Blue Kut-Ku Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-scale+",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 442,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 440,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 650,
+                "buy": 6500,
+                "local_name": "Kut-Ku Webbing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-webbing",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 440,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 310,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Monster Keenbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-keenbone",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 310,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 3,
+                    "percentage": 10,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 340,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Inferno Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/inferno-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 340,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 439,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Splendid Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/splendid-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 439,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 442,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1125,
+                "buy": 11250,
+                "local_name": "Blue Kut-Ku Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-scale+",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 442,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 440,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 650,
+                "buy": 6500,
+                "local_name": "Kut-Ku Webbing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-webbing",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 440,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 310,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Monster Keenbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-keenbone",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 310,
+                    "quantity": 1,
+                    "percentage": 9,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 1,
+                    "percentage": 9,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 3,
+                    "percentage": 9,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 340,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Inferno Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/inferno-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 340,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 439,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Splendid Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/splendid-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 439,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 443,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3375,
+                "buy": 33750,
+                "local_name": "Blue Kut-Ku Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-shard",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 443,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 442,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1125,
+                "buy": 11250,
+                "local_name": "Blue Kut-Ku Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-scale+",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 442,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 441,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5850,
+                "buy": 58500,
+                "local_name": "Kut-Ku Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-fellwing",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 441,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 311,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Monster Hardbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-hardbone",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 311,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 3,
+                    "percentage": 12,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 439,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Splendid Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/splendid-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 439,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 443,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3375,
+                "buy": 33750,
+                "local_name": "Blue Kut-Ku Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-shard",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 443,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 442,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1125,
+                "buy": 11250,
+                "local_name": "Blue Kut-Ku Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-scale+",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 442,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 441,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5850,
+                "buy": 58500,
+                "local_name": "Kut-Ku Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-fellwing",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 441,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 311,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Monster Hardbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-hardbone",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 311,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 3,
+                    "percentage": 12,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 439,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Splendid Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/splendid-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 439,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 443,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3375,
+                "buy": 33750,
+                "local_name": "Blue Kut-Ku Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-shard",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 443,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 441,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5850,
+                "buy": 58500,
+                "local_name": "Kut-Ku Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-fellwing",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 441,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 311,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Monster Hardbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-hardbone",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 311,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 3,
+                    "percentage": 13,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 439,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Splendid Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/splendid-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 439,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 443,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3375,
+                "buy": 33750,
+                "local_name": "Blue Kut-Ku Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-shard",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 443,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 441,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5850,
+                "buy": 58500,
+                "local_name": "Kut-Ku Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-fellwing",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 441,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 311,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Monster Hardbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-hardbone",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 311,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 3,
+                    "percentage": 13,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 439,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Splendid Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/splendid-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 439,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 443,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3375,
+                "buy": 33750,
+                "local_name": "Blue Kut-Ku Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-shard",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 443,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 441,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5850,
+                "buy": 58500,
+                "local_name": "Kut-Ku Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-fellwing",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 441,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 311,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Monster Hardbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-hardbone",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 311,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 3,
+                    "percentage": 13,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 439,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Splendid Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/splendid-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 439,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 42,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 43,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1235,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-weapon",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1235,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1236,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-armor",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1236,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv136-140"
+                }
+            }
+        ],
+        "items": [
+            {
+                "id": 442,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1125,
+                "buy": 11250,
+                "local_name": "Blue Kut-Ku Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-scale+",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 442,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 440,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 650,
+                "buy": 6500,
+                "local_name": "Kut-Ku Webbing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-webbing",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 440,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 438,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1500,
+                "buy": 15000,
+                "local_name": "Giant Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/giant-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 438,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 439,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Splendid Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/splendid-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 439,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1315,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 250,
+                "local_name": "Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/wyvern-tear",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1315,
+                    "quantity": 1,
+                    "percentage": 37,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 37,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 442,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1125,
+                "buy": 11250,
+                "local_name": "Blue Kut-Ku Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-scale+",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 442,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 436,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2560,
+                "buy": 25600,
+                "local_name": "Kut-Ku Auricle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-auricle",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 436,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 444,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1380,
+                "buy": 13800,
+                "local_name": "Blue Kut-Ku Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-carapace",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 444,
+                    "quantity": 1,
+                    "percentage": 43,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 309,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 560,
+                "buy": 5600,
+                "local_name": "Monster Bone+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-bone+",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 309,
+                    "quantity": 1,
+                    "percentage": 27,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 2,
+                    "percentage": 17,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 340,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Inferno Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/inferno-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 340,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 439,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Splendid Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/splendid-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 439,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 435,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1280,
+                "buy": 12800,
+                "local_name": "Kut-Ku Ear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-ear",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 435,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 436,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2560,
+                "buy": 25600,
+                "local_name": "Kut-Ku Auricle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-auricle",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 436,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 442,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1125,
+                "buy": 11250,
+                "local_name": "Blue Kut-Ku Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-scale+",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 442,
+                    "quantity": 3,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 443,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3375,
+                "buy": 33750,
+                "local_name": "Blue Kut-Ku Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-shard",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 443,
+                    "quantity": 1,
+                    "percentage": 33,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 441,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5850,
+                "buy": 58500,
+                "local_name": "Kut-Ku Fellwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-fellwing",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 441,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 439,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Splendid Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/splendid-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 439,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 443,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3375,
+                "buy": 33750,
+                "local_name": "Blue Kut-Ku Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-shard",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 443,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 437,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5120,
+                "buy": 51200,
+                "local_name": "Kut-Ku Luckear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-luckear",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 437,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 445,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4140,
+                "buy": 41400,
+                "local_name": "Blue Kut-Ku Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-cortex",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 445,
+                    "quantity": 1,
+                    "percentage": 43,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 311,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Monster Hardbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-hardbone",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 311,
+                    "quantity": 1,
+                    "percentage": 27,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 331,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 15,
+                "buy": 150,
+                "local_name": "Screamer Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/screamer-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 331,
+                    "quantity": 2,
+                    "percentage": 17,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 439,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Splendid Beak",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/splendid-beak",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 439,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 80,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 1085,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 436,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2560,
+                "buy": 25600,
+                "local_name": "Kut-Ku Auricle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-auricle",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 436,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 437,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5120,
+                "buy": 51200,
+                "local_name": "Kut-Ku Luckear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kut-ku-luckear",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 437,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 443,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3375,
+                "buy": 33750,
+                "local_name": "Blue Kut-Ku Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/blue-kut-ku-shard",
+                "pivot": {
+                    "monster_id": 36,
+                    "item_id": 443,
+                    "quantity": 3,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 122,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 7,
+                "questtype_id": 3,
+                "reward": 3000,
+                "questpriority_id": 1,
+                "questgoal_id": 122,
+                "questsubgoal_id": 122,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 300,
+                "time": 50,
+                "hrp": 260,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Singin' the Blues",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/7\/singin-the-blues",
+                "pivot": {
+                    "monster_id": 36,
+                    "quest_id": 122
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 122,
+                    "local_name": "Hunt a Blue Yian Kut-Ku"
+                },
+                "questsubgoal": {
+                    "id": 122,
+                    "local_name": "Wound B.Yian Kut-Ku's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            }
+        ],
+        "maps": [
+            {
+                "id": 1,
+                "local_name": "Ancestral Steppe",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/ancestral-steppe",
+                "pivot": {
+                    "monster_id": 36,
+                    "map_id": 1,
+                    "start": 3,
+                    "areas": "2, 4, 6, 7, 8",
+                    "rest": 5
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "id": 693,
+                "weapontype_id": 4,
+                "weapon_parent_id": 692,
+                "final": 0,
+                "attack": 182,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Dual Kut-Ku",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/dual-kut-ku",
+                "pivot": {
+                    "monster_id": 36,
+                    "weapon_id": 693
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 883,
+                "weapontype_id": 5,
+                "weapon_parent_id": 882,
+                "final": 0,
+                "attack": 728,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Dynamic Hammer",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/dynamic-hammer",
+                "pivot": {
+                    "monster_id": 36,
+                    "weapon_id": 883
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 884,
+                "weapontype_id": 5,
+                "weapon_parent_id": 883,
+                "final": 0,
+                "attack": 884,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Violence Hammer",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/violence-hammer",
+                "pivot": {
+                    "monster_id": 36,
+                    "weapon_id": 884
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 885,
+                "weapontype_id": 5,
+                "weapon_parent_id": 884,
+                "final": 1,
+                "attack": 1248,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 80000,
+                "local_name": "Mysterious Jaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/mysterious-jaw",
+                "pivot": {
+                    "monster_id": 36,
+                    "weapon_id": 885
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 1932,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1931,
+                "final": 0,
+                "attack": 221,
+                "defense": 12,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 18000,
+                "local_name": "Kut-Ku Rage",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/kut-ku-rage",
+                "pivot": {
+                    "monster_id": 36,
+                    "weapon_id": 1932
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1933,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1932,
+                "final": 0,
+                "attack": 234,
+                "defense": 12,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 25000,
+                "local_name": "Kut-Ku Barrage",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/kut-ku-barrage",
+                "pivot": {
+                    "monster_id": 36,
+                    "weapon_id": 1933
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1934,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1933,
+                "final": 1,
+                "attack": 325,
+                "defense": 28,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 80000,
+                "local_name": "Kut-Ku Barrage+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/kut-ku-barrage+",
+                "pivot": {
+                    "monster_id": 36,
+                    "weapon_id": 1934
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 2193,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2192,
+                "final": 0,
+                "attack": 156,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Blue Kut-Ku Stave I",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/blue-kut-ku-stave-i",
+                "pivot": {
+                    "monster_id": 36,
+                    "weapon_id": 2193
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2194,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2193,
+                "final": 0,
+                "attack": 168,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Blue Kut-Ku Stave II",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/blue-kut-ku-stave-ii",
+                "pivot": {
+                    "monster_id": 36,
+                    "weapon_id": 2194
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2195,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2194,
+                "final": 0,
+                "attack": 204,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": 90000,
+                "price_upgrade": 60000,
+                "local_name": "Blue Kut-Ku Stave III",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/blue-kut-ku-stave-iii",
+                "pivot": {
+                    "monster_id": 36,
+                    "weapon_id": 2195
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2196,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2195,
+                "final": 1,
+                "attack": 252,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Blue Kut-Ku Stave IV",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/blue-kut-ku-stave-iv",
+                "pivot": {
+                    "monster_id": 36,
+                    "weapon_id": 2196
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            }
+        ]
+    }
+}

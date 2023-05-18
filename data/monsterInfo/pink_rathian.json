@@ -1,0 +1,3314 @@
+{
+    "monster": {
+        "id": 70,
+        "base_hp": 4200,
+        "size": "L",
+        "hp_mult_low": "0.00",
+        "hp_mult_high": "0.70",
+        "hp_mult_g": "1.21",
+        "crown_miniature": "1604.7",
+        "crown_large": "1935.5",
+        "crown_king": "2034.8",
+        "rage_duration": 90,
+        "rage_mod_attack": "1.3",
+        "rage_mod_defense": "1.0",
+        "rage_mod_speed": "1.2",
+        "limp_low": 0,
+        "cap_low": 0,
+        "limp_high": 14,
+        "cap_high": 18,
+        "limp_high_apex": 0,
+        "cap_high_apex": 0,
+        "limp_g": 10,
+        "cap_g": 12,
+        "limp_g_apex": 0,
+        "cap_g_apex": 0,
+        "local_name": "Pink Rathian",
+        "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/monster\/pink-rathian",
+        "monstersounds": [
+            {
+                "id": 3,
+                "monster_id": 70,
+                "filename": "em001_vo_hoeru"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 70,
+                    "monsterbodypart_id": 1,
+                    "type": "A",
+                    "res_cut": 50,
+                    "res_impact": 50,
+                    "res_shot": 45,
+                    "res_fire": 0,
+                    "res_water": 10,
+                    "res_ice": 10,
+                    "res_thunder": 15,
+                    "res_dragon": 25,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 2,
+                "local_name": "Neck",
+                "pivot": {
+                    "monster_id": 70,
+                    "monsterbodypart_id": 2,
+                    "type": "A",
+                    "res_cut": 25,
+                    "res_impact": 25,
+                    "res_shot": 20,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 10,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 3,
+                "local_name": "Back",
+                "pivot": {
+                    "monster_id": 70,
+                    "monsterbodypart_id": 3,
+                    "type": "A",
+                    "res_cut": 30,
+                    "res_impact": 35,
+                    "res_shot": 35,
+                    "res_fire": 5,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 10,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 4,
+                "local_name": "Belly",
+                "pivot": {
+                    "monster_id": 70,
+                    "monsterbodypart_id": 4,
+                    "type": "A",
+                    "res_cut": 70,
+                    "res_impact": 65,
+                    "res_shot": 60,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 20,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Tail",
+                "pivot": {
+                    "monster_id": 70,
+                    "monsterbodypart_id": 5,
+                    "type": "A",
+                    "res_cut": 24,
+                    "res_impact": 24,
+                    "res_shot": 20,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 10,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 6,
+                "local_name": "Wing",
+                "pivot": {
+                    "monster_id": 70,
+                    "monsterbodypart_id": 6,
+                    "type": "A",
+                    "res_cut": 35,
+                    "res_impact": 35,
+                    "res_shot": 30,
+                    "res_fire": 0,
+                    "res_water": 10,
+                    "res_ice": 10,
+                    "res_thunder": 15,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Legs",
+                "pivot": {
+                    "monster_id": 70,
+                    "monsterbodypart_id": 7,
+                    "type": "A",
+                    "res_cut": 63,
+                    "res_impact": 70,
+                    "res_shot": 50,
+                    "res_fire": 0,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 20,
+                "local_name": "Tail Tip",
+                "pivot": {
+                    "monster_id": 70,
+                    "monsterbodypart_id": 20,
+                    "type": "A",
+                    "res_cut": 38,
+                    "res_impact": 30,
+                    "res_shot": 25,
+                    "res_fire": 0,
+                    "res_water": 10,
+                    "res_ice": 10,
+                    "res_thunder": 20,
+                    "res_dragon": 25,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 17,
+                "monster_id": 70,
+                "region": "Torso",
+                "value": 230,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 18,
+                "monster_id": 70,
+                "region": "Left Wing",
+                "value": 150,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 19,
+                "monster_id": 70,
+                "region": "Right Wing",
+                "value": 150,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 20,
+                "monster_id": 70,
+                "region": "Left Leg",
+                "value": 280,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 21,
+                "monster_id": 70,
+                "region": "Right Leg",
+                "value": 280,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 22,
+                "monster_id": 70,
+                "region": "Neck",
+                "value": 120,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 23,
+                "monster_id": 70,
+                "region": "Head",
+                "value": 200,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 24,
+                "monster_id": 70,
+                "region": "Tail",
+                "value": 190,
+                "value_cut": null,
+                "extract_color": "red"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 70,
+                    "weaponspecialattack_id": 6,
+                    "initial": 180,
+                    "increase": 100,
+                    "max": 580,
+                    "duration": 60,
+                    "damage": 150,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 70,
+                    "weaponspecialattack_id": 8,
+                    "initial": 180,
+                    "increase": 100,
+                    "max": 580,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 70,
+                    "weaponspecialattack_id": 7,
+                    "initial": 180,
+                    "increase": 110,
+                    "max": 730,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 70,
+                    "weaponspecialattack_id": 10,
+                    "initial": 130,
+                    "increase": 150,
+                    "max": 730,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 70,
+                    "weaponspecialattack_id": 11,
+                    "initial": 180,
+                    "increase": 75,
+                    "max": 480,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 70,
+                    "weaponspecialattack_id": 9,
+                    "initial": 70,
+                    "increase": 30,
+                    "max": 670,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 70,
+                    "weaponspecialattack_id": 12,
+                    "initial": 80,
+                    "increase": 120,
+                    "max": 560,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 70,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 60,
+                    "max": 410,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 78,
+                    "normal": 12,
+                    "enraged": 12,
+                    "fatigued": 25
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 66,
+                    "normal": 25,
+                    "enraged": 25,
+                    "fatigued": 35
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 79,
+                    "normal": 8,
+                    "enraged": 8,
+                    "fatigued": 15
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 68,
+            "monster_id": 70,
+            "normal": 5,
+            "enraged": 5,
+            "fatigued": 5
+        },
+        "monsterguildquestitems": [],
+        "items": [
+            {
+                "id": 673,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1960,
+                "buy": 19600,
+                "local_name": "P.Rathian Scale+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-scale+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 673,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 675,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2600,
+                "buy": 26000,
+                "local_name": "P.Rathian Carapace",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-carapace",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 675,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 340,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Inferno Sac",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/inferno-sac",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 340,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 666,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 780,
+                "buy": 7800,
+                "local_name": "Rathian Webbing",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-webbing",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 666,
+                    "quantity": 1,
+                    "percentage": 11,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 668,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Rathian Spike+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-spike+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 668,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 673,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1960,
+                "buy": 19600,
+                "local_name": "P.Rathian Scale+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-scale+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 673,
+                    "quantity": 1,
+                    "percentage": 58,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 668,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Rathian Spike+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-spike+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 668,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 713,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6300,
+                "buy": 63000,
+                "local_name": "Rath Medulla",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rath-medulla",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 713,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 670,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 4850,
+                "buy": 48500,
+                "local_name": "Rathian Plate",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-plate",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 670,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 671,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Rathian Ruby",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-ruby",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 671,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1315,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 250,
+                "local_name": "Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/wyvern-tear",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 1315,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 37,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 673,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1960,
+                "buy": 19600,
+                "local_name": "P.Rathian Scale+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-scale+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 673,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 668,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Rathian Spike+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-spike+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 668,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 671,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Rathian Ruby",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-ruby",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 671,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 675,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2600,
+                "buy": 26000,
+                "local_name": "P.Rathian Carapace",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-carapace",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 675,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 673,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1960,
+                "buy": 19600,
+                "local_name": "P.Rathian Scale+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-scale+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 673,
+                    "quantity": 2,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 340,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Inferno Sac",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/inferno-sac",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 340,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 713,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6300,
+                "buy": 63000,
+                "local_name": "Rath Medulla",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rath-medulla",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 713,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 712,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Rath Marrow",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rath-marrow",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 712,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 670,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 4850,
+                "buy": 48500,
+                "local_name": "Rathian Plate",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-plate",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 670,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 671,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Rathian Ruby",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-ruby",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 671,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 675,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2600,
+                "buy": 26000,
+                "local_name": "P.Rathian Carapace",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-carapace",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 675,
+                    "quantity": 1,
+                    "percentage": 76,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 673,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1960,
+                "buy": 19600,
+                "local_name": "P.Rathian Scale+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-scale+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 673,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 671,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Rathian Ruby",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-ruby",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 671,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 710,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 600,
+                "buy": 6000,
+                "local_name": "Rath Wingtalon",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rath-wingtalon",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 710,
+                    "quantity": 2,
+                    "percentage": 60,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 324,
+                "rarity": 3,
+                "carry": 50,
+                "sell": 18,
+                "buy": 180,
+                "local_name": "Wyvern Claw",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/wyvern-claw",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 324,
+                    "quantity": 5,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 673,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1960,
+                "buy": 19600,
+                "local_name": "P.Rathian Scale+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-scale+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 673,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 666,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 780,
+                "buy": 7800,
+                "local_name": "Rathian Webbing",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-webbing",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 666,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 675,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2600,
+                "buy": 26000,
+                "local_name": "P.Rathian Carapace",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-carapace",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 675,
+                    "quantity": 1,
+                    "percentage": 69,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 668,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Rathian Spike+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-spike+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 668,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 671,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Rathian Ruby",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-ruby",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 671,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 674,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5880,
+                "buy": 58800,
+                "local_name": "P.Rathian Shard",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-shard",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 674,
+                    "quantity": 1,
+                    "percentage": 44,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 676,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7800,
+                "buy": 78000,
+                "local_name": "P.Rathian Cortex",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-cortex",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 676,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 669,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9180,
+                "buy": 91800,
+                "local_name": "Rathian Surspike",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-surspike",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 669,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 674,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5880,
+                "buy": 58800,
+                "local_name": "P.Rathian Shard",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-shard",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 674,
+                    "quantity": 1,
+                    "percentage": 58,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 669,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9180,
+                "buy": 91800,
+                "local_name": "Rathian Surspike",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-surspike",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 669,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 713,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6300,
+                "buy": 63000,
+                "local_name": "Rath Medulla",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rath-medulla",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 713,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 671,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Rathian Ruby",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-ruby",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 671,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 672,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Rathian Mantle",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-mantle",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 672,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 674,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5880,
+                "buy": 58800,
+                "local_name": "P.Rathian Shard",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-shard",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 674,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 668,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Rathian Spike+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-spike+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 668,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 669,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9180,
+                "buy": 91800,
+                "local_name": "Rathian Surspike",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-surspike",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 669,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 672,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Rathian Mantle",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-mantle",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 672,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 674,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5880,
+                "buy": 58800,
+                "local_name": "P.Rathian Shard",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-shard",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 674,
+                    "quantity": 2,
+                    "percentage": 32,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 676,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7800,
+                "buy": 78000,
+                "local_name": "P.Rathian Cortex",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-cortex",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 676,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 341,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1920,
+                "buy": 19200,
+                "local_name": "Conflagrant Sac",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/conflagrant-sac",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 341,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 713,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6300,
+                "buy": 63000,
+                "local_name": "Rath Medulla",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rath-medulla",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 713,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 671,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Rathian Ruby",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-ruby",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 671,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 672,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Rathian Mantle",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-mantle",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 672,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 1085,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 1084,
+                    "quantity": 2,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 676,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7800,
+                "buy": 78000,
+                "local_name": "P.Rathian Cortex",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-cortex",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 676,
+                    "quantity": 1,
+                    "percentage": 76,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 674,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5880,
+                "buy": 58800,
+                "local_name": "P.Rathian Shard",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-shard",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 674,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 672,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Rathian Mantle",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-mantle",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 672,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 711,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5400,
+                "buy": 54000,
+                "local_name": "Rath Wingtalon+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rath-wingtalon+",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 711,
+                    "quantity": 2,
+                    "percentage": 60,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 674,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5880,
+                "buy": 58800,
+                "local_name": "P.Rathian Shard",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-shard",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 674,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 317,
+                    "monsteritemmethod": {
+                        "id": 317,
+                        "local_name": "Break Wing"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 676,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7800,
+                "buy": 78000,
+                "local_name": "P.Rathian Cortex",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/p.rathian-cortex",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 676,
+                    "quantity": 1,
+                    "percentage": 69,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 669,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9180,
+                "buy": 91800,
+                "local_name": "Rathian Surspike",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-surspike",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 669,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 672,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Rathian Mantle",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/item\/rathian-mantle",
+                "pivot": {
+                    "monster_id": 70,
+                    "item_id": 672,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 131,
+                    "monsteritemmethod": {
+                        "id": 131,
+                        "local_name": "Break Back"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 141,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 5700,
+                "questpriority_id": 2,
+                "questgoal_id": 141,
+                "questsubgoal_id": 141,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 600,
+                "time": 50,
+                "hrp": 410,
+                "map_id": 8,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "In the Pink",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/quest\/caravan\/8\/in-the-pink",
+                "pivot": {
+                    "monster_id": 70,
+                    "quest_id": 141
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 141,
+                    "local_name": "Hunt a Pink Rathian"
+                },
+                "questsubgoal": {
+                    "id": 141,
+                    "local_name": "Wound the Pink Rathian's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 279,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 8400,
+                "questpriority_id": 3,
+                "questgoal_id": 141,
+                "questsubgoal_id": 279,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 900,
+                "time": 50,
+                "hrp": 620,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Rathian's Wrath",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/quest\/guild\/5\/rathians-wrath",
+                "pivot": {
+                    "monster_id": 70,
+                    "quest_id": 279
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 141,
+                    "local_name": "Hunt a Pink Rathian"
+                },
+                "questsubgoal": {
+                    "id": 279,
+                    "local_name": "Wound the Pink Rathian's wing"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 290,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 12000,
+                "questpriority_id": 1,
+                "questgoal_id": 290,
+                "questsubgoal_id": 290,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1300,
+                "time": 50,
+                "hrp": 980,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Trader in Trouble",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/quest\/guild\/5\/trader-in-trouble",
+                "pivot": {
+                    "monster_id": 70,
+                    "quest_id": 290
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 290,
+                    "local_name": "Hunt a Red Khezu and a Pink Rathian"
+                },
+                "questsubgoal": {
+                    "id": 290,
+                    "local_name": "Sever the Pink Rathian's tail"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 315,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 14400,
+                "questpriority_id": 1,
+                "questgoal_id": 315,
+                "questsubgoal_id": 120,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1500,
+                "time": 50,
+                "hrp": 930,
+                "map_id": 6,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Heaven and Earth",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/quest\/guild\/6\/advanced-heaven-and-earth",
+                "pivot": {
+                    "monster_id": 70,
+                    "quest_id": 315
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 315,
+                    "local_name": "Hunt an Azure Rathalos and a Pink Rathian"
+                },
+                "questsubgoal": {
+                    "id": 120,
+                    "local_name": "Deliver 1 Large Wyvern Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 343,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 7,
+                "questtype_id": 3,
+                "reward": 30000,
+                "questpriority_id": 1,
+                "questgoal_id": 102,
+                "questsubgoal_id": 1,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 3100,
+                "time": 50,
+                "hrp": 1600,
+                "map_id": 15,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Queen Slayer",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/quest\/guild\/7\/advanced-queen-slayer",
+                "pivot": {
+                    "monster_id": 70,
+                    "quest_id": 343
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 102,
+                    "local_name": "Hunt all large monsters"
+                },
+                "questsubgoal": {
+                    "id": 1,
+                    "local_name": "None"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 375,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 16500,
+                "questpriority_id": 1,
+                "questgoal_id": 375,
+                "questsubgoal_id": 146,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1700,
+                "time": 50,
+                "hrp": 1320,
+                "map_id": 7,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Pink Problems",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/quest\/guild\/8\/pink-problems",
+                "pivot": {
+                    "monster_id": 70,
+                    "quest_id": 375
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 375,
+                    "local_name": "Hunt 2 Pink Rathians"
+                },
+                "questsubgoal": {
+                    "id": 146,
+                    "local_name": "Slay 4 Apceros"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 375,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 16500,
+                "questpriority_id": 1,
+                "questgoal_id": 375,
+                "questsubgoal_id": 146,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1700,
+                "time": 50,
+                "hrp": 1320,
+                "map_id": 7,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Pink Problems",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/quest\/guild\/8\/pink-problems",
+                "pivot": {
+                    "monster_id": 70,
+                    "quest_id": 375
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 375,
+                    "local_name": "Hunt 2 Pink Rathians"
+                },
+                "questsubgoal": {
+                    "id": 146,
+                    "local_name": "Slay 4 Apceros"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 411,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 9,
+                "questtype_id": 3,
+                "reward": 23400,
+                "questpriority_id": 1,
+                "questgoal_id": 411,
+                "questsubgoal_id": 71,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 2400,
+                "time": 50,
+                "hrp": 1700,
+                "map_id": 6,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Bolt of Pink",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/quest\/guild\/9\/advanced-bolt-of-pink",
+                "pivot": {
+                    "monster_id": 70,
+                    "quest_id": 411
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 411,
+                    "local_name": "Hunt a Zinogre and a Pink Rathian"
+                },
+                "questsubgoal": {
+                    "id": 71,
+                    "local_name": "Sever the Zinogre's tail"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            }
+        ],
+        "maps": [
+            {
+                "id": 2,
+                "local_name": "Sunken Hollow",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/map\/sunken-hollow",
+                "pivot": {
+                    "monster_id": 70,
+                    "map_id": 2,
+                    "start": 9,
+                    "areas": "1, 2, 4, 5, 8",
+                    "rest": 7
+                }
+            },
+            {
+                "id": 6,
+                "local_name": "Heaven's Mount",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/map\/heavens-mount",
+                "pivot": {
+                    "monster_id": 70,
+                    "map_id": 6,
+                    "start": 6,
+                    "areas": "1, 2, 3, 5",
+                    "rest": 8
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Dunes (day)",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/map\/dunes-day",
+                "pivot": {
+                    "monster_id": 70,
+                    "map_id": 7,
+                    "start": 2,
+                    "areas": "1, 4, 7, 10",
+                    "rest": 5
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Dunes (night)",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/map\/dunes-night",
+                "pivot": {
+                    "monster_id": 70,
+                    "map_id": 8,
+                    "start": 2,
+                    "areas": "1, 3, 4, 7, 10",
+                    "rest": 5
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "id": 78,
+                "weapontype_id": 1,
+                "weapon_parent_id": 77,
+                "final": 0,
+                "attack": 816,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 25000,
+                "local_name": "Titania",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/greatsword\/titania",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 78
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 79,
+                "weapontype_id": 1,
+                "weapon_parent_id": 78,
+                "final": 0,
+                "attack": 864,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 45000,
+                "local_name": "Blushing Dame",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/greatsword\/blushing-dame",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 79
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 80,
+                "weapontype_id": 1,
+                "weapon_parent_id": 79,
+                "final": 0,
+                "attack": 1152,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Blushing Dame+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/greatsword\/blushing-dame+",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 80
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 81,
+                "weapontype_id": 1,
+                "weapon_parent_id": 80,
+                "final": 1,
+                "attack": 1296,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Br\u00fcnnhilde",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/greatsword\/brunnhilde",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 81
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 254,
+                "weapontype_id": 2,
+                "weapon_parent_id": 250,
+                "final": 0,
+                "attack": 594,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Wyvern Blade \"Blaze\"",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/longsword\/wyvern-blade-blaze",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 254
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 255,
+                "weapontype_id": 2,
+                "weapon_parent_id": 254,
+                "final": 0,
+                "attack": 693,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Wyvern Blade \"Rose\"",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/longsword\/wyvern-blade-rose",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 255
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 256,
+                "weapontype_id": 2,
+                "weapon_parent_id": 255,
+                "final": 1,
+                "attack": 792,
+                "defense": null,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Wyvern Blade \"Awe\"",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/longsword\/wyvern-blade-awe",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 256
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 403,
+                "weapontype_id": 3,
+                "weapon_parent_id": 402,
+                "final": 0,
+                "attack": 210,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 30000,
+                "local_name": "Queen's Rose",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/sword\/queens-rose",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 403
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 404,
+                "weapontype_id": 3,
+                "weapon_parent_id": 403,
+                "final": 0,
+                "attack": 252,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 45000,
+                "local_name": "Royal Rose",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/sword\/royal-rose",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 404
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 405,
+                "weapontype_id": 3,
+                "weapon_parent_id": 404,
+                "final": 0,
+                "attack": 336,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Royal Rose+",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/sword\/royal-rose+",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 405
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 406,
+                "weapontype_id": 3,
+                "weapon_parent_id": 405,
+                "final": 0,
+                "attack": 378,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 95000,
+                "local_name": "Rose Highness",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/sword\/rose-highness",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 406
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 1502,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1501,
+                "final": 0,
+                "attack": 972,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 55000,
+                "local_name": "Azure Rose",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/switchaxe\/azure-rose",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 1502
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1503,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1502,
+                "final": 0,
+                "attack": 1350,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Azure Rosebloom",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/switchaxe\/azure-rosebloom",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 1503
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1504,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1503,
+                "final": 1,
+                "attack": 1512,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 130000,
+                "local_name": "Azure Straybloom",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/switchaxe\/azure-straybloom",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 1504
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1650,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1649,
+                "final": 0,
+                "attack": 504,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 30000,
+                "local_name": "Dear Hecatel",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/chargeblade\/dear-hecatel",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 1650
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1651,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1650,
+                "final": 0,
+                "attack": 540,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 45000,
+                "local_name": "Dear Hecatelia",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/chargeblade\/dear-hecatelia",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 1651
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1652,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1651,
+                "final": 0,
+                "attack": 792,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Dear Rose",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/chargeblade\/dear-rose",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 1652
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1653,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1652,
+                "final": 0,
+                "attack": 828,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Dear Rosetta",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/chargeblade\/dear-rosetta",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 1653
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1655,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1652,
+                "final": 0,
+                "attack": 864,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Azure Swallow",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/chargeblade\/azure-swallow",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 1655
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1656,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1655,
+                "final": 1,
+                "attack": 972,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Azure Skylark",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/chargeblade\/azure-skylark",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 1656
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 2040,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2039,
+                "final": 0,
+                "attack": 360,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Empress's Blossom",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/heavybowgun\/empresss-blossom",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 2040
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2041,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2040,
+                "final": 0,
+                "attack": 390,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Empress's Flower",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/heavybowgun\/empresss-flower",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 2041
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2178,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2177,
+                "final": 0,
+                "attack": 192,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 30000,
+                "local_name": "Heartshot Bow I",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/bow\/heartshot-bow-i",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 2178
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2179,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2178,
+                "final": 0,
+                "attack": 204,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Heartshot Bow II",
+                "link": "https:\/\/kiranico.com\/index.php\/en\/mh4u\/weapon\/bow\/heartshot-bow-ii",
+                "pivot": {
+                    "monster_id": 70,
+                    "weapon_id": 2179
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            }
+        ]
+    }
+}

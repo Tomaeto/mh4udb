@@ -1,0 +1,4663 @@
+{
+    "monster": {
+        "id": 77,
+        "base_hp": 4500,
+        "size": "L",
+        "hp_mult_low": "0.00",
+        "hp_mult_high": "0.00",
+        "hp_mult_g": "0.00",
+        "crown_miniature": "1683.3",
+        "crown_large": "2030.4",
+        "crown_king": "2134.5",
+        "rage_duration": 80,
+        "rage_mod_attack": "1.3",
+        "rage_mod_defense": "1.0",
+        "rage_mod_speed": "1.2",
+        "limp_low": 0,
+        "cap_low": 0,
+        "limp_high": 15,
+        "cap_high": 20,
+        "limp_high_apex": 12,
+        "cap_high_apex": 16,
+        "limp_g": 12,
+        "cap_g": 16,
+        "limp_g_apex": 6,
+        "cap_g_apex": 8,
+        "local_name": "Brute Tigrex",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/brute-tigrex",
+        "monstersounds": [
+            {
+                "id": 12,
+                "monster_id": 77,
+                "filename": "em011_vo_bind01"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 77,
+                    "monsterbodypart_id": 1,
+                    "type": "A",
+                    "res_cut": 70,
+                    "res_impact": 65,
+                    "res_shot": 55,
+                    "res_fire": 0,
+                    "res_water": 25,
+                    "res_ice": 10,
+                    "res_thunder": 15,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 2,
+                "local_name": "Neck",
+                "pivot": {
+                    "monster_id": 77,
+                    "monsterbodypart_id": 2,
+                    "type": "A",
+                    "res_cut": 44,
+                    "res_impact": 44,
+                    "res_shot": 25,
+                    "res_fire": 0,
+                    "res_water": 15,
+                    "res_ice": 10,
+                    "res_thunder": 15,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 3,
+                "local_name": "Back",
+                "pivot": {
+                    "monster_id": 77,
+                    "monsterbodypart_id": 3,
+                    "type": "A",
+                    "res_cut": 44,
+                    "res_impact": 40,
+                    "res_shot": 30,
+                    "res_fire": 0,
+                    "res_water": 20,
+                    "res_ice": 12,
+                    "res_thunder": 18,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 14,
+                "local_name": "Abdominal",
+                "pivot": {
+                    "monster_id": 77,
+                    "monsterbodypart_id": 14,
+                    "type": "A",
+                    "res_cut": 25,
+                    "res_impact": 30,
+                    "res_shot": 20,
+                    "res_fire": 5,
+                    "res_water": 15,
+                    "res_ice": 12,
+                    "res_thunder": 15,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 77,
+                    "monsterbodypart_id": 12,
+                    "type": "A",
+                    "res_cut": 25,
+                    "res_impact": 25,
+                    "res_shot": 25,
+                    "res_fire": 0,
+                    "res_water": 15,
+                    "res_ice": 12,
+                    "res_thunder": 10,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Back Leg",
+                "pivot": {
+                    "monster_id": 77,
+                    "monsterbodypart_id": 13,
+                    "type": "A",
+                    "res_cut": 40,
+                    "res_impact": 40,
+                    "res_shot": 40,
+                    "res_fire": 0,
+                    "res_water": 10,
+                    "res_ice": 0,
+                    "res_thunder": 5,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Tail",
+                "pivot": {
+                    "monster_id": 77,
+                    "monsterbodypart_id": 5,
+                    "type": "A",
+                    "res_cut": 35,
+                    "res_impact": 30,
+                    "res_shot": 20,
+                    "res_fire": 0,
+                    "res_water": 10,
+                    "res_ice": 0,
+                    "res_thunder": 10,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 77,
+                    "monsterbodypart_id": 1,
+                    "type": "B",
+                    "res_cut": 75,
+                    "res_impact": 70,
+                    "res_shot": 60,
+                    "res_fire": 0,
+                    "res_water": 25,
+                    "res_ice": 10,
+                    "res_thunder": 15,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 14,
+                "local_name": "Abdominal",
+                "pivot": {
+                    "monster_id": 77,
+                    "monsterbodypart_id": 14,
+                    "type": "B",
+                    "res_cut": 30,
+                    "res_impact": 35,
+                    "res_shot": 20,
+                    "res_fire": 5,
+                    "res_water": 15,
+                    "res_ice": 12,
+                    "res_thunder": 15,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 3,
+                "local_name": "Back",
+                "pivot": {
+                    "monster_id": 77,
+                    "monsterbodypart_id": 3,
+                    "type": "B",
+                    "res_cut": 40,
+                    "res_impact": 35,
+                    "res_shot": 35,
+                    "res_fire": 0,
+                    "res_water": 20,
+                    "res_ice": 12,
+                    "res_thunder": 18,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 77,
+                    "monsterbodypart_id": 12,
+                    "type": "B",
+                    "res_cut": 30,
+                    "res_impact": 25,
+                    "res_shot": 25,
+                    "res_fire": 0,
+                    "res_water": 15,
+                    "res_ice": 12,
+                    "res_thunder": 10,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 89,
+                "monster_id": 77,
+                "region": "Head",
+                "value": 220,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 90,
+                "monster_id": 77,
+                "region": "Abdominal",
+                "value": 180,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 91,
+                "monster_id": 77,
+                "region": "Back",
+                "value": 180,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 92,
+                "monster_id": 77,
+                "region": "Tail",
+                "value": 280,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 93,
+                "monster_id": 77,
+                "region": "Left Front Leg",
+                "value": 200,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 94,
+                "monster_id": 77,
+                "region": "Left Rear Leg",
+                "value": 220,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 95,
+                "monster_id": 77,
+                "region": "Right Front Leg",
+                "value": 200,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 96,
+                "monster_id": 77,
+                "region": "Right Rear Leg",
+                "value": 220,
+                "value_cut": null,
+                "extract_color": "white"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 77,
+                    "weaponspecialattack_id": 6,
+                    "initial": 180,
+                    "increase": 110,
+                    "max": 620,
+                    "duration": 60,
+                    "damage": 240,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 77,
+                    "weaponspecialattack_id": 8,
+                    "initial": 180,
+                    "increase": 120,
+                    "max": 660,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 77,
+                    "weaponspecialattack_id": 7,
+                    "initial": 200,
+                    "increase": 140,
+                    "max": 760,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 77,
+                    "weaponspecialattack_id": 10,
+                    "initial": 200,
+                    "increase": 140,
+                    "max": 760,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 77,
+                    "weaponspecialattack_id": 11,
+                    "initial": 180,
+                    "increase": 75,
+                    "max": 480,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 77,
+                    "weaponspecialattack_id": 9,
+                    "initial": 70,
+                    "increase": 30,
+                    "max": 670,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 77,
+                    "weaponspecialattack_id": 12,
+                    "initial": 50,
+                    "increase": 50,
+                    "max": 300,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 77,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 40,
+                    "max": 250,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 78,
+                    "normal": 16,
+                    "enraged": 12,
+                    "fatigued": 20
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 66,
+                    "normal": 20,
+                    "enraged": 20,
+                    "fatigued": 30
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 79,
+                    "normal": 10,
+                    "enraged": 8,
+                    "fatigued": 15
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 43,
+            "monster_id": 77,
+            "normal": 7,
+            "enraged": 7,
+            "fatigued": 7
+        },
+        "monsterguildquestitems": [
+            {
+                "id": 831,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 2300,
+                "buy": 23000,
+                "local_name": "Tigrex Scalp",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-scalp",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 831,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 840,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "B.Tigrex Fang+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-fang+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 840,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 24,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 834,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "B.Tigrex Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-scale+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 834,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 838,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2940,
+                "buy": 29400,
+                "local_name": "B.Tigrex Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-claw+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 838,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 309,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 560,
+                "buy": 5600,
+                "local_name": "Monster Bone+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-bone+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 309,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv31-50"
+                }
+            },
+            {
+                "id": 831,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 2300,
+                "buy": 23000,
+                "local_name": "Tigrex Scalp",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-scalp",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 831,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 840,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "B.Tigrex Fang+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-fang+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 840,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 24,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 834,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "B.Tigrex Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-scale+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 834,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 838,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2940,
+                "buy": 29400,
+                "local_name": "B.Tigrex Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-claw+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 838,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 309,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 560,
+                "buy": 5600,
+                "local_name": "Monster Bone+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-bone+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 309,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv51-65"
+                }
+            },
+            {
+                "id": 311,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Monster Hardbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-hardbone",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 311,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 831,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 2300,
+                "buy": 23000,
+                "local_name": "Tigrex Scalp",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-scalp",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 831,
+                    "quantity": 1,
+                    "percentage": 11,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 840,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "B.Tigrex Fang+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-fang+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 840,
+                    "quantity": 1,
+                    "percentage": 9,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 834,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "B.Tigrex Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-scale+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 834,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 838,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2940,
+                "buy": 29400,
+                "local_name": "B.Tigrex Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-claw+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 838,
+                    "quantity": 1,
+                    "percentage": 9,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 327,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6000,
+                "buy": 60000,
+                "local_name": "Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/wyvern-gem",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 327,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv66-75"
+                }
+            },
+            {
+                "id": 311,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Monster Hardbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-hardbone",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 311,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 831,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 2300,
+                "buy": 23000,
+                "local_name": "Tigrex Scalp",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-scalp",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 831,
+                    "quantity": 1,
+                    "percentage": 11,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 840,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "B.Tigrex Fang+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-fang+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 840,
+                    "quantity": 1,
+                    "percentage": 9,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 834,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "B.Tigrex Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-scale+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 834,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 838,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2940,
+                "buy": 29400,
+                "local_name": "B.Tigrex Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-claw+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 838,
+                    "quantity": 1,
+                    "percentage": 9,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 327,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6000,
+                "buy": 60000,
+                "local_name": "Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/wyvern-gem",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 327,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1227,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1227,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1228,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Battered Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/battered-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1228,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "level": "Lv76-85"
+                }
+            },
+            {
+                "id": 832,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6800,
+                "buy": 68000,
+                "local_name": "Tigrex Maw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-maw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 832,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 833,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 10200,
+                "buy": 102000,
+                "local_name": "Tigrex Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-mantle",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 833,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 839,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8820,
+                "buy": 88200,
+                "local_name": "B.Tigrex Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardclaw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 839,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 835,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "B.Tigrex Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-shard",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 835,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 841,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7560,
+                "buy": 75600,
+                "local_name": "B.Tigrex Hardfang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardfang",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 841,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 837,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "B.Tigrex Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-cortex",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 837,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 834,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "B.Tigrex Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-scale+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 834,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 328,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Lrg Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-wyvern-gem",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 328,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 327,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6000,
+                "buy": 60000,
+                "local_name": "Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/wyvern-gem",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 327,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "level": "Lv86-100"
+                }
+            },
+            {
+                "id": 832,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6800,
+                "buy": 68000,
+                "local_name": "Tigrex Maw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-maw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 832,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 833,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 10200,
+                "buy": 102000,
+                "local_name": "Tigrex Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-mantle",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 833,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 839,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8820,
+                "buy": 88200,
+                "local_name": "B.Tigrex Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardclaw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 839,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 835,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "B.Tigrex Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-shard",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 835,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 841,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7560,
+                "buy": 75600,
+                "local_name": "B.Tigrex Hardfang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardfang",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 841,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 837,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "B.Tigrex Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-cortex",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 837,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 834,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "B.Tigrex Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-scale+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 834,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 328,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Lrg Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-wyvern-gem",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 328,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1422,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Quester's Ticket",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/questers-ticket",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1422,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 327,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6000,
+                "buy": 60000,
+                "local_name": "Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/wyvern-gem",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 327,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv101-115"
+                }
+            },
+            {
+                "id": 832,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6800,
+                "buy": 68000,
+                "local_name": "Tigrex Maw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-maw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 832,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 833,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 10200,
+                "buy": 102000,
+                "local_name": "Tigrex Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-mantle",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 833,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 839,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8820,
+                "buy": 88200,
+                "local_name": "B.Tigrex Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardclaw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 839,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 835,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "B.Tigrex Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-shard",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 835,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 841,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7560,
+                "buy": 75600,
+                "local_name": "B.Tigrex Hardfang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardfang",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 841,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 837,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "B.Tigrex Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-cortex",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 837,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 837,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "B.Tigrex Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-cortex",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 837,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 328,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Lrg Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-wyvern-gem",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 328,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1229,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1229,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1230,
+                "rarity": 6,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Seasoned Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seasoned-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1230,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv116-125"
+                }
+            },
+            {
+                "id": 832,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6800,
+                "buy": 68000,
+                "local_name": "Tigrex Maw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-maw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 832,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 833,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 10200,
+                "buy": 102000,
+                "local_name": "Tigrex Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-mantle",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 833,
+                    "quantity": 1,
+                    "percentage": 1,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 839,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8820,
+                "buy": 88200,
+                "local_name": "B.Tigrex Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardclaw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 839,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 835,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "B.Tigrex Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-shard",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 835,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 841,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7560,
+                "buy": 75600,
+                "local_name": "B.Tigrex Hardfang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardfang",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 841,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 837,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "B.Tigrex Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-cortex",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 837,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 837,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "B.Tigrex Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-cortex",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 837,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 328,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Lrg Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-wyvern-gem",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 328,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1231,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1231,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1232,
+                "rarity": 7,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Venerable Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/venerable-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1232,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "level": "Lv126-135"
+                }
+            },
+            {
+                "id": 832,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6800,
+                "buy": 68000,
+                "local_name": "Tigrex Maw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-maw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 832,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 833,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 10200,
+                "buy": 102000,
+                "local_name": "Tigrex Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-mantle",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 833,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 839,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8820,
+                "buy": 88200,
+                "local_name": "B.Tigrex Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardclaw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 839,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 835,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "B.Tigrex Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-shard",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 835,
+                    "quantity": 1,
+                    "percentage": 26,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 841,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7560,
+                "buy": 75600,
+                "local_name": "B.Tigrex Hardfang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardfang",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 841,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 837,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "B.Tigrex Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-cortex",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 837,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 837,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "B.Tigrex Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-cortex",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 837,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 312,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1320,
+                "buy": 13200,
+                "local_name": "Monster Slogbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-slogbone",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 312,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 328,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 12000,
+                "buy": 120000,
+                "local_name": "Lrg Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/lrg-wyvern-gem",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 328,
+                    "quantity": 1,
+                    "percentage": 6,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1233,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1233,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1234,
+                "rarity": 8,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Champion's Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/champions-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1234,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1235,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Weapon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-weapon",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1235,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv136-140"
+                }
+            },
+            {
+                "id": 1236,
+                "rarity": 9,
+                "carry": 10,
+                "sell": 0,
+                "buy": 0,
+                "local_name": "Beshackled Armor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beshackled-armor",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1236,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "level": "Lv136-140"
+                }
+            }
+        ],
+        "items": [
+            {
+                "id": 834,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "B.Tigrex Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-scale+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 834,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 838,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2940,
+                "buy": 29400,
+                "local_name": "B.Tigrex Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-claw+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 838,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 27,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 832,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6800,
+                "buy": 68000,
+                "local_name": "Tigrex Maw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-maw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 832,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 823,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1250,
+                "buy": 12500,
+                "local_name": "Tigrex Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-tail",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 823,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 834,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "B.Tigrex Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-scale+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 834,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1315,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 250,
+                "local_name": "Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/wyvern-tear",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1315,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 37,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 834,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "B.Tigrex Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-scale+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 834,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 838,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2940,
+                "buy": 29400,
+                "local_name": "B.Tigrex Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-claw+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 838,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 840,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "B.Tigrex Fang+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-fang+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 840,
+                    "quantity": 1,
+                    "percentage": 27,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 834,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2050,
+                "buy": 20500,
+                "local_name": "B.Tigrex Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-scale+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 834,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 823,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1250,
+                "buy": 12500,
+                "local_name": "Tigrex Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-tail",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 823,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 832,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6800,
+                "buy": 68000,
+                "local_name": "Tigrex Maw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-maw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 832,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 840,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "B.Tigrex Fang+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-fang+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 840,
+                    "quantity": 1,
+                    "percentage": 52,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 836,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2730,
+                "buy": 27300,
+                "local_name": "B.Tigrex Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-carapace",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 836,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 831,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 2300,
+                "buy": 23000,
+                "local_name": "Tigrex Scalp",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-scalp",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 831,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 832,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6800,
+                "buy": 68000,
+                "local_name": "Tigrex Maw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-maw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 832,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 838,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2940,
+                "buy": 29400,
+                "local_name": "B.Tigrex Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-claw+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 838,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 835,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "B.Tigrex Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-shard",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 835,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 839,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8820,
+                "buy": 88200,
+                "local_name": "B.Tigrex Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardclaw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 839,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 837,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "B.Tigrex Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-cortex",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 837,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 833,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 10200,
+                "buy": 102000,
+                "local_name": "Tigrex Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-mantle",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 833,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 824,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7500,
+                "buy": 75000,
+                "local_name": "Tigrex Lash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-lash",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 824,
+                    "quantity": 1,
+                    "percentage": 58,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 835,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "B.Tigrex Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-shard",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 835,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 833,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 10200,
+                "buy": 102000,
+                "local_name": "Tigrex Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-mantle",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 833,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 835,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "B.Tigrex Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-shard",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 835,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 838,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2940,
+                "buy": 29400,
+                "local_name": "B.Tigrex Claw+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-claw+",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 838,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 839,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8820,
+                "buy": 88200,
+                "local_name": "B.Tigrex Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardclaw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 839,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 837,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "B.Tigrex Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-cortex",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 837,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 841,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7560,
+                "buy": 75600,
+                "local_name": "B.Tigrex Hardfang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardfang",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 841,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 835,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6150,
+                "buy": 61500,
+                "local_name": "B.Tigrex Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-shard",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 835,
+                    "quantity": 1,
+                    "percentage": 21,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 824,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7500,
+                "buy": 75000,
+                "local_name": "Tigrex Lash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-lash",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 824,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 833,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 10200,
+                "buy": 102000,
+                "local_name": "Tigrex Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-mantle",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 833,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1085,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1084,
+                    "quantity": 2,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 1085,
+                    "quantity": 2,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 841,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 7560,
+                "buy": 75600,
+                "local_name": "B.Tigrex Hardfang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardfang",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 841,
+                    "quantity": 1,
+                    "percentage": 66,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 837,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8190,
+                "buy": 81900,
+                "local_name": "B.Tigrex Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-cortex",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 837,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 832,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 6800,
+                "buy": 68000,
+                "local_name": "Tigrex Maw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-maw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 832,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 833,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 10200,
+                "buy": 102000,
+                "local_name": "Tigrex Mantle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tigrex-mantle",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 833,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 839,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8820,
+                "buy": 88200,
+                "local_name": "B.Tigrex Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/b.tigrex-hardclaw",
+                "pivot": {
+                    "monster_id": 77,
+                    "item_id": 839,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 104,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 12000,
+                "questpriority_id": 1,
+                "questgoal_id": 104,
+                "questsubgoal_id": 1,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1300,
+                "time": 30,
+                "hrp": 730,
+                "map_id": 5,
+                "map_time": null,
+                "hrp_required": 6,
+                "local_name": "Advanced: Tigrex Challenge",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/6\/advanced-tigrex-challenge",
+                "pivot": {
+                    "monster_id": 77,
+                    "quest_id": 104
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 104,
+                    "local_name": "Hunt a Brute Tigrex"
+                },
+                "questsubgoal": {
+                    "id": 1,
+                    "local_name": "None"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 157,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 9,
+                "questtype_id": 3,
+                "reward": 8100,
+                "questpriority_id": 2,
+                "questgoal_id": 104,
+                "questsubgoal_id": 157,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 900,
+                "time": 50,
+                "hrp": 520,
+                "map_id": 6,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "The Echoing Roar",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/9\/the-echoing-roar",
+                "pivot": {
+                    "monster_id": 77,
+                    "quest_id": 157
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 104,
+                    "local_name": "Hunt a Brute Tigrex"
+                },
+                "questsubgoal": {
+                    "id": 157,
+                    "local_name": "Wound the Brute Tigrex's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 166,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 10,
+                "questtype_id": 1,
+                "reward": 7200,
+                "questpriority_id": 2,
+                "questgoal_id": 62,
+                "questsubgoal_id": 1,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 800,
+                "time": 50,
+                "hrp": 300,
+                "map_id": 7,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Egg-straction: The Reckoning",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/10\/egg-straction-the-reckoning",
+                "pivot": {
+                    "monster_id": 77,
+                    "quest_id": 166
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 62,
+                    "local_name": "Deliver 2 Wyvern Eggs"
+                },
+                "questsubgoal": {
+                    "id": 1,
+                    "local_name": "None"
+                },
+                "questtype": {
+                    "id": 1,
+                    "local_name": "Gathering"
+                }
+            },
+            {
+                "id": 184,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 10,
+                "questtype_id": 3,
+                "reward": 29100,
+                "questpriority_id": 1,
+                "questgoal_id": 184,
+                "questsubgoal_id": 120,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 2900,
+                "time": 50,
+                "hrp": 1440,
+                "map_id": 7,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Hell Hunter Hoax",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/10\/advanced-hell-hunter-hoax",
+                "pivot": {
+                    "monster_id": 77,
+                    "quest_id": 184
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 184,
+                    "local_name": "Hunt a Tigrex and a Brute Tigrex"
+                },
+                "questsubgoal": {
+                    "id": 120,
+                    "local_name": "Deliver 1 Large Wyvern Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 310,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 12000,
+                "questpriority_id": 2,
+                "questgoal_id": 104,
+                "questsubgoal_id": 157,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1300,
+                "time": 50,
+                "hrp": 780,
+                "map_id": 5,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Ear Ache",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/6\/ear-ache",
+                "pivot": {
+                    "monster_id": 77,
+                    "quest_id": 310
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 104,
+                    "local_name": "Hunt a Brute Tigrex"
+                },
+                "questsubgoal": {
+                    "id": 157,
+                    "local_name": "Wound the Brute Tigrex's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 312,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 22200,
+                "questpriority_id": 1,
+                "questgoal_id": 102,
+                "questsubgoal_id": 120,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 2300,
+                "time": 50,
+                "hrp": 1390,
+                "map_id": 5,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Dance with Dragons",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/6\/advanced-dance-with-dragons",
+                "pivot": {
+                    "monster_id": 77,
+                    "quest_id": 312
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 102,
+                    "local_name": "Hunt all large monsters"
+                },
+                "questsubgoal": {
+                    "id": 120,
+                    "local_name": "Deliver 1 Large Wyvern Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 314,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 16800,
+                "questpriority_id": 1,
+                "questgoal_id": 314,
+                "questsubgoal_id": 314,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1700,
+                "time": 50,
+                "hrp": 1040,
+                "map_id": 18,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Dragon Attack",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/6\/advanced-dragon-attack",
+                "pivot": {
+                    "monster_id": 77,
+                    "quest_id": 314
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 314,
+                    "local_name": "Hunt a Brute Tigrex and a Stygian Zinogre"
+                },
+                "questsubgoal": {
+                    "id": 314,
+                    "local_name": "Sever the Brute Tigrex's tail"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 316,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 19800,
+                "questpriority_id": 1,
+                "questgoal_id": 184,
+                "questsubgoal_id": 97,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 2000,
+                "time": 50,
+                "hrp": 1200,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Forest Gone Wild",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/6\/advanced-forest-gone-wild",
+                "pivot": {
+                    "monster_id": 77,
+                    "quest_id": 316
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 184,
+                    "local_name": "Hunt a Tigrex and a Brute Tigrex"
+                },
+                "questsubgoal": {
+                    "id": 97,
+                    "local_name": "Sever a Tigrex's tail"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 320,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 6,
+                "questtype_id": 4,
+                "reward": 15900,
+                "questpriority_id": 1,
+                "questgoal_id": 320,
+                "questsubgoal_id": 320,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1600,
+                "time": 50,
+                "hrp": 940,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Wake-up Call",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/6\/advanced-wake-up-call",
+                "pivot": {
+                    "monster_id": 77,
+                    "quest_id": 320
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 320,
+                    "local_name": "Capture a Brute Tigrex"
+                },
+                "questsubgoal": {
+                    "id": 320,
+                    "local_name": "Break the Brute Tigrex's claw"
+                },
+                "questtype": {
+                    "id": 4,
+                    "local_name": "Capture"
+                }
+            },
+            {
+                "id": 397,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 9,
+                "questtype_id": 3,
+                "reward": 16800,
+                "questpriority_id": 2,
+                "questgoal_id": 104,
+                "questsubgoal_id": 157,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1700,
+                "time": 50,
+                "hrp": 1040,
+                "map_id": 7,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Brute Force",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/9\/brute-force",
+                "pivot": {
+                    "monster_id": 77,
+                    "quest_id": 397
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 104,
+                    "local_name": "Hunt a Brute Tigrex"
+                },
+                "questsubgoal": {
+                    "id": 157,
+                    "local_name": "Wound the Brute Tigrex's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 414,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 9,
+                "questtype_id": 3,
+                "reward": 28200,
+                "questpriority_id": 1,
+                "questgoal_id": 414,
+                "questsubgoal_id": 320,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 2900,
+                "time": 50,
+                "hrp": 2000,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: A Black Day",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/9\/advanced-a-black-day",
+                "pivot": {
+                    "monster_id": 77,
+                    "quest_id": 414
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 414,
+                    "local_name": "Hunt a Black Gravios and a Brute Tigrex"
+                },
+                "questsubgoal": {
+                    "id": 320,
+                    "local_name": "Break the Brute Tigrex's claw"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            }
+        ],
+        "maps": [
+            {
+                "id": 3,
+                "local_name": "Primal Forest",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/primal-forest",
+                "pivot": {
+                    "monster_id": 77,
+                    "map_id": 3,
+                    "start": 5,
+                    "areas": "2, 3, 7, 8",
+                    "rest": 9
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Volcanic Hollow",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/volcanic-hollow",
+                "pivot": {
+                    "monster_id": 77,
+                    "map_id": 5,
+                    "start": 4,
+                    "areas": "1, 7, 8",
+                    "rest": 9
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Dunes (day)",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/dunes-day",
+                "pivot": {
+                    "monster_id": 77,
+                    "map_id": 7,
+                    "start": 4,
+                    "areas": "1, 2, 7, 10",
+                    "rest": 3
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Dunes (night)",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/dunes-night",
+                "pivot": {
+                    "monster_id": 77,
+                    "map_id": 8,
+                    "start": 4,
+                    "areas": "1, 2, 7, 10",
+                    "rest": 3
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "id": 62,
+                "weapontype_id": 1,
+                "weapon_parent_id": 61,
+                "final": 0,
+                "attack": 912,
+                "defense": null,
+                "affinity": -5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Accursed Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/accursed-blade",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 62
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 269,
+                "weapontype_id": 2,
+                "weapon_parent_id": 268,
+                "final": 0,
+                "attack": 594,
+                "defense": null,
+                "affinity": -5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Tigrine Hunger",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/tigrine-hunger",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 269
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 271,
+                "weapontype_id": 2,
+                "weapon_parent_id": 270,
+                "final": 0,
+                "attack": 858,
+                "defense": null,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 95000,
+                "local_name": "Tigrine Appetence+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/tigrine-appetence+",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 271
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 474,
+                "weapontype_id": 3,
+                "weapon_parent_id": 473,
+                "final": 0,
+                "attack": 266,
+                "defense": null,
+                "affinity": -5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Accursed Claw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/accursed-claw",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 474
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 600,
+                "weapontype_id": 4,
+                "weapon_parent_id": 599,
+                "final": 0,
+                "attack": 252,
+                "defense": null,
+                "affinity": -5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Accursed Slicers",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/accursed-slicers",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 600
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 843,
+                "weapontype_id": 5,
+                "weapon_parent_id": 842,
+                "final": 0,
+                "attack": 936,
+                "defense": null,
+                "affinity": -5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Accursed Striker",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/accursed-striker",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 843
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 1024,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1023,
+                "final": 0,
+                "attack": 936,
+                "defense": null,
+                "affinity": -10,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Accursed Wail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/accursed-wail",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 1024
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1169,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1168,
+                "final": 0,
+                "attack": 460,
+                "defense": null,
+                "affinity": -5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Accursed Stinger",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/accursed-stinger",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 1169
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1360,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1359,
+                "final": 0,
+                "attack": 391,
+                "defense": null,
+                "affinity": -10,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Accursed Blast",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/accursed-blast",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 1360
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1551,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1550,
+                "final": 0,
+                "attack": 918,
+                "defense": null,
+                "affinity": -5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Accursed Switcher",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/accursed-switcher",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 1551
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 2074,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2073,
+                "final": 0,
+                "attack": 300,
+                "defense": null,
+                "affinity": -15,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Accursed Roar",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/accursed-roar",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 2074
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2075,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2074,
+                "final": 0,
+                "attack": 330,
+                "defense": null,
+                "affinity": -15,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 50000,
+                "local_name": "Accursed Bellow",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/accursed-bellow",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 2075
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2076,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2075,
+                "final": 1,
+                "attack": 465,
+                "defense": null,
+                "affinity": -20,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 110000,
+                "local_name": "Accursed Bellow+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/accursed-bellow+",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 2076
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2211,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2210,
+                "final": 0,
+                "attack": 276,
+                "defense": null,
+                "affinity": -20,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 40000,
+                "local_name": "Accursed Bow",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/accursed-bow",
+                "pivot": {
+                    "monster_id": 77,
+                    "weapon_id": 2211
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            }
+        ]
+    }
+}

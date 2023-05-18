@@ -1,0 +1,2167 @@
+{
+    "monster": {
+        "id": 61,
+        "base_hp": 6000,
+        "size": "L",
+        "hp_mult_low": "0.00",
+        "hp_mult_high": "0.00",
+        "hp_mult_g": "1.42",
+        "crown_miniature": "1842.1",
+        "crown_large": "2456.2",
+        "crown_king": "2619.9",
+        "rage_duration": 60,
+        "rage_mod_attack": "1.4",
+        "rage_mod_defense": "1.1",
+        "rage_mod_speed": "1.1",
+        "limp_low": 0,
+        "cap_low": 0,
+        "limp_high": 4,
+        "cap_high": 6,
+        "limp_high_apex": 0,
+        "cap_high_apex": 0,
+        "limp_g": 4,
+        "cap_g": 6,
+        "limp_g_apex": 4,
+        "cap_g_apex": 6,
+        "local_name": "Savage Deviljho",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/savage-deviljho",
+        "monstersounds": [
+            {
+                "id": 42,
+                "monster_id": 61,
+                "filename": "em042_vo_bind"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 1,
+                    "type": "A",
+                    "res_cut": 28,
+                    "res_impact": 31,
+                    "res_shot": 25,
+                    "res_fire": 20,
+                    "res_water": 20,
+                    "res_ice": 20,
+                    "res_thunder": 30,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 49,
+                "local_name": "Chest",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 49,
+                    "type": "A",
+                    "res_cut": 69,
+                    "res_impact": 69,
+                    "res_shot": 55,
+                    "res_fire": 15,
+                    "res_water": 15,
+                    "res_ice": 15,
+                    "res_thunder": 25,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Torso",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 11,
+                    "type": "A",
+                    "res_cut": 21,
+                    "res_impact": 21,
+                    "res_shot": 21,
+                    "res_fire": 20,
+                    "res_water": 20,
+                    "res_ice": 20,
+                    "res_thunder": 30,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 12,
+                    "type": "A",
+                    "res_cut": 25,
+                    "res_impact": 25,
+                    "res_shot": 30,
+                    "res_fire": 15,
+                    "res_water": 15,
+                    "res_ice": 15,
+                    "res_thunder": 25,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Back Leg",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 13,
+                    "type": "A",
+                    "res_cut": 28,
+                    "res_impact": 28,
+                    "res_shot": 20,
+                    "res_fire": 20,
+                    "res_water": 20,
+                    "res_ice": 20,
+                    "res_thunder": 30,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Tail",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 5,
+                    "type": "A",
+                    "res_cut": 26,
+                    "res_impact": 22,
+                    "res_shot": 25,
+                    "res_fire": 20,
+                    "res_water": 20,
+                    "res_ice": 20,
+                    "res_thunder": 35,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 1,
+                    "type": "B",
+                    "res_cut": 69,
+                    "res_impact": 76,
+                    "res_shot": 55,
+                    "res_fire": 0,
+                    "res_water": 0,
+                    "res_ice": 0,
+                    "res_thunder": 0,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 49,
+                "local_name": "Chest",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 49,
+                    "type": "B",
+                    "res_cut": 48,
+                    "res_impact": 45,
+                    "res_shot": 45,
+                    "res_fire": 15,
+                    "res_water": 15,
+                    "res_ice": 15,
+                    "res_thunder": 25,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Torso",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 11,
+                    "type": "B",
+                    "res_cut": 20,
+                    "res_impact": 20,
+                    "res_shot": 15,
+                    "res_fire": 20,
+                    "res_water": 20,
+                    "res_ice": 20,
+                    "res_thunder": 30,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 12,
+                    "type": "B",
+                    "res_cut": 25,
+                    "res_impact": 25,
+                    "res_shot": 30,
+                    "res_fire": 15,
+                    "res_water": 15,
+                    "res_ice": 15,
+                    "res_thunder": 25,
+                    "res_dragon": 15,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Back Leg",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 13,
+                    "type": "B",
+                    "res_cut": 27,
+                    "res_impact": 27,
+                    "res_shot": 20,
+                    "res_fire": 20,
+                    "res_water": 20,
+                    "res_ice": 20,
+                    "res_thunder": 30,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Tail",
+                "pivot": {
+                    "monster_id": 61,
+                    "monsterbodypart_id": 5,
+                    "type": "B",
+                    "res_cut": 24,
+                    "res_impact": 21,
+                    "res_shot": 25,
+                    "res_fire": 20,
+                    "res_water": 20,
+                    "res_ice": 20,
+                    "res_thunder": 35,
+                    "res_dragon": 20,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 337,
+                "monster_id": 61,
+                "region": "Head",
+                "value": 450,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 338,
+                "monster_id": 61,
+                "region": "Chest",
+                "value": 360,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 339,
+                "monster_id": 61,
+                "region": "Torso",
+                "value": 200,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 340,
+                "monster_id": 61,
+                "region": "Front Legs",
+                "value": 150,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 341,
+                "monster_id": 61,
+                "region": "Left Rear Leg",
+                "value": 300,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 342,
+                "monster_id": 61,
+                "region": "Right Rear Leg",
+                "value": 300,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 343,
+                "monster_id": 61,
+                "region": "Tail",
+                "value": 180,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 344,
+                "monster_id": 61,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 61,
+                    "weaponspecialattack_id": 6,
+                    "initial": 100,
+                    "increase": 50,
+                    "max": 600,
+                    "duration": 45,
+                    "damage": 360,
+                    "reduction_time": 10,
+                    "reduction_amount": 10
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 61,
+                    "weaponspecialattack_id": 8,
+                    "initial": 180,
+                    "increase": 200,
+                    "max": 980,
+                    "duration": 60,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 10
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 61,
+                    "weaponspecialattack_id": 7,
+                    "initial": 180,
+                    "increase": 200,
+                    "max": 980,
+                    "duration": 15,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 10
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 61,
+                    "weaponspecialattack_id": 10,
+                    "initial": 180,
+                    "increase": 150,
+                    "max": 780,
+                    "duration": 15,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 61,
+                    "weaponspecialattack_id": 11,
+                    "initial": 180,
+                    "increase": 150,
+                    "max": 780,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 61,
+                    "weaponspecialattack_id": 9,
+                    "initial": 130,
+                    "increase": 45,
+                    "max": 1030,
+                    "duration": 0,
+                    "damage": 300,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 61,
+                    "weaponspecialattack_id": 12,
+                    "initial": 50,
+                    "increase": 120,
+                    "max": 410,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 61,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 60,
+                    "max": 410,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 78,
+                    "normal": 10,
+                    "enraged": 10,
+                    "fatigued": 20
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 66,
+                    "normal": 15,
+                    "enraged": 15,
+                    "fatigued": 30
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 79,
+                    "normal": 5,
+                    "enraged": 5,
+                    "fatigued": 15
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 5,
+            "monster_id": 61,
+            "normal": 0,
+            "enraged": 0,
+            "fatigued": 0
+        },
+        "monsterguildquestitems": [],
+        "items": [
+            {
+                "id": 928,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5400,
+                "buy": 54000,
+                "local_name": "Spattered Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/spattered-hide",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 928,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 914,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Deviljho Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-scale",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 914,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 916,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2800,
+                "buy": 28000,
+                "local_name": "Deviljho Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-hide",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 916,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 920,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2600,
+                "buy": 26000,
+                "local_name": "Deviljho Talon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-talon",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 920,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 918,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2980,
+                "buy": 29800,
+                "local_name": "Deviljho Tallfang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-tallfang",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 918,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 930,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Deviljho Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-gem",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 930,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 923,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Deviljho Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-tail",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 923,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 914,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2100,
+                "buy": 21000,
+                "local_name": "Deviljho Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-scale",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 914,
+                    "quantity": 1,
+                    "percentage": 26,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 928,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5400,
+                "buy": 54000,
+                "local_name": "Spattered Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/spattered-hide",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 928,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 930,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Deviljho Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-gem",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 930,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 56,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 920,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2600,
+                "buy": 26000,
+                "local_name": "Deviljho Talon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-talon",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 920,
+                    "quantity": 1,
+                    "percentage": 42,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 930,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Deviljho Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-gem",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 930,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 922,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3800,
+                "buy": 38000,
+                "local_name": "Deviljho Scalp",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-scalp",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 922,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 926,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5100,
+                "buy": 51000,
+                "local_name": "Black Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/black-blood",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 926,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 916,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2800,
+                "buy": 28000,
+                "local_name": "Deviljho Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-hide",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 916,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 920,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2600,
+                "buy": 26000,
+                "local_name": "Deviljho Talon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-talon",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 920,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 930,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Deviljho Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-gem",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 930,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 922,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3800,
+                "buy": 38000,
+                "local_name": "Deviljho Scalp",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-scalp",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 922,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 918,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2980,
+                "buy": 29800,
+                "local_name": "Deviljho Tallfang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-tallfang",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 918,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 918,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2980,
+                "buy": 29800,
+                "local_name": "Deviljho Tallfang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-tallfang",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 918,
+                    "quantity": 2,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 929,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 10410,
+                "buy": 104100,
+                "local_name": "Bloodied Ebonhide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/bloodied-ebonhide",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 929,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 915,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6300,
+                "buy": 63000,
+                "local_name": "Deviljho Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-shard",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 915,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 917,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5400,
+                "buy": 54000,
+                "local_name": "Deviljho Blackpiel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-blackpiel",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 917,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 921,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6300,
+                "buy": 63000,
+                "local_name": "Deviljho Ripper",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-ripper",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 921,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 927,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8940,
+                "buy": 89400,
+                "local_name": "Vile Fang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-fang",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 927,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 931,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Deviljho Crook",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-crook",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 931,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 924,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 9200,
+                "buy": 92000,
+                "local_name": "Deviljho Flail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-flail",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 924,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 915,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6300,
+                "buy": 63000,
+                "local_name": "Deviljho Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-shard",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 915,
+                    "quantity": 1,
+                    "percentage": 26,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 929,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 10410,
+                "buy": 104100,
+                "local_name": "Bloodied Ebonhide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/bloodied-ebonhide",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 929,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 931,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Deviljho Crook",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-crook",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 931,
+                    "quantity": 1,
+                    "percentage": 4,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 124,
+                    "monsteritemmethod": {
+                        "id": 124,
+                        "local_name": "Tail Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 56,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 921,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6300,
+                "buy": 63000,
+                "local_name": "Deviljho Ripper",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-ripper",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 921,
+                    "quantity": 1,
+                    "percentage": 42,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 931,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Deviljho Crook",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-crook",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 931,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 922,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3800,
+                "buy": 38000,
+                "local_name": "Deviljho Scalp",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-scalp",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 922,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 926,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 5100,
+                "buy": 51000,
+                "local_name": "Black Blood",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/black-blood",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 926,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 917,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5400,
+                "buy": 54000,
+                "local_name": "Deviljho Blackpiel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-blackpiel",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 917,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 921,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 6300,
+                "buy": 63000,
+                "local_name": "Deviljho Ripper",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-ripper",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 921,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 931,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 15000,
+                "buy": 150000,
+                "local_name": "Deviljho Crook",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-crook",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 931,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 922,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3800,
+                "buy": 38000,
+                "local_name": "Deviljho Scalp",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deviljho-scalp",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 922,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 927,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8940,
+                "buy": 89400,
+                "local_name": "Vile Fang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-fang",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 927,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 927,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 8940,
+                "buy": 89400,
+                "local_name": "Vile Fang",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-fang",
+                "pivot": {
+                    "monster_id": 61,
+                    "item_id": 927,
+                    "quantity": 2,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 168,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 10,
+                "questtype_id": 3,
+                "reward": 12000,
+                "questpriority_id": 1,
+                "questgoal_id": 161,
+                "questsubgoal_id": 168,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1200,
+                "time": 50,
+                "hrp": 720,
+                "map_id": 6,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Devil at Heaven's Gate",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/10\/devil-at-heavens-gate",
+                "pivot": {
+                    "monster_id": 61,
+                    "quest_id": 168
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 161,
+                    "local_name": "Hunt a Deviljho"
+                },
+                "questsubgoal": {
+                    "id": 168,
+                    "local_name": "Wound the Deviljho's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            }
+        ],
+        "maps": [
+            {
+                "id": 1,
+                "local_name": "Ancestral Steppe",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/ancestral-steppe",
+                "pivot": {
+                    "monster_id": 61,
+                    "map_id": 1,
+                    "start": 3,
+                    "areas": "4, 6, 8",
+                    "rest": 5
+                }
+            },
+            {
+                "id": 2,
+                "local_name": "Sunken Hollow",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/sunken-hollow",
+                "pivot": {
+                    "monster_id": 61,
+                    "map_id": 2,
+                    "start": 2,
+                    "areas": "1, 3, 8",
+                    "rest": 9
+                }
+            },
+            {
+                "id": 3,
+                "local_name": "Primal Forest",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/primal-forest",
+                "pivot": {
+                    "monster_id": 61,
+                    "map_id": 3,
+                    "start": 4,
+                    "areas": "1, 3, 5",
+                    "rest": 9
+                }
+            },
+            {
+                "id": 4,
+                "local_name": "Frozen Seaway",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/frozen-seaway",
+                "pivot": {
+                    "monster_id": 61,
+                    "map_id": 4,
+                    "start": 6,
+                    "areas": "1, 3, 5, 7, 9",
+                    "rest": 4
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Volcanic Hollow",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/volcanic-hollow",
+                "pivot": {
+                    "monster_id": 61,
+                    "map_id": 5,
+                    "start": 8,
+                    "areas": "1, 2, 3",
+                    "rest": 9
+                }
+            },
+            {
+                "id": 6,
+                "local_name": "Heaven's Mount",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/heavens-mount",
+                "pivot": {
+                    "monster_id": 61,
+                    "map_id": 6,
+                    "start": 5,
+                    "areas": "1, 3, 6",
+                    "rest": 7
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "id": 148,
+                "weapontype_id": 1,
+                "weapon_parent_id": 147,
+                "final": 0,
+                "attack": 912,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 85000,
+                "local_name": "Consummate Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/consummate-blade",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 148
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 149,
+                "weapontype_id": 1,
+                "weapon_parent_id": 148,
+                "final": 1,
+                "attack": 1392,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Doomedge \"Hrunting\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/doomedge-hrunting",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 149
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 328,
+                "weapontype_id": 2,
+                "weapon_parent_id": 327,
+                "final": 0,
+                "attack": 660,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 85000,
+                "local_name": "Consummate Katana",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/consummate-katana",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 328
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 329,
+                "weapontype_id": 2,
+                "weapon_parent_id": 328,
+                "final": 1,
+                "attack": 924,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Doomblade \"Slave\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/doomblade-slave",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 329
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 720,
+                "weapontype_id": 4,
+                "weapon_parent_id": 719,
+                "final": 0,
+                "attack": 252,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 85000,
+                "local_name": "Consummate Pair",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/consummate-pair",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 720
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 721,
+                "weapontype_id": 4,
+                "weapon_parent_id": 720,
+                "final": 1,
+                "attack": 434,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Doomfang \"Envoys\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/doomfang-envoys",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 721
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 926,
+                "weapontype_id": 5,
+                "weapon_parent_id": 925,
+                "final": 0,
+                "attack": 988,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 85000,
+                "local_name": "Consummate Hammer",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/consummate-hammer",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 926
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 927,
+                "weapontype_id": 5,
+                "weapon_parent_id": 926,
+                "final": 1,
+                "attack": 1508,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Doomhammer \"Blood\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/doomhammer-blood",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 927
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 1427,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1426,
+                "final": 0,
+                "attack": 437,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 85000,
+                "local_name": "Consummate Gunlance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/consummate-gunlance",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 1427
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1428,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1427,
+                "final": 1,
+                "attack": 690,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Doomlance \"Greed\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/doomlance-greed",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 1428
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1594,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1593,
+                "final": 0,
+                "attack": 1188,
+                "defense": null,
+                "affinity": -20,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 85000,
+                "local_name": "Saligia Vileaxe",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/saligia-vileaxe",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 1594
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1595,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1594,
+                "final": 1,
+                "attack": 1620,
+                "defense": null,
+                "affinity": -10,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Doomaxe \"Downpour\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/doomaxe-downpour",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 1595
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1973,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1972,
+                "final": 0,
+                "attack": 299,
+                "defense": null,
+                "affinity": -15,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 85000,
+                "local_name": "Diregun \"Dementia\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/diregun-dementia",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 1973
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1974,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1973,
+                "final": 1,
+                "attack": 429,
+                "defense": null,
+                "affinity": -15,
+                "affinity_virus": null,
+                "rarity": 10,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Doomgun \"Dementia\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/doomgun-dementia",
+                "pivot": {
+                    "monster_id": 61,
+                    "weapon_id": 1974
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,4120 @@
+{
+    "monster": {
+        "id": 42,
+        "base_hp": 3800,
+        "size": "L",
+        "hp_mult_low": "0.46",
+        "hp_mult_high": "0.64",
+        "hp_mult_g": "1.21",
+        "crown_miniature": "797.5",
+        "crown_large": "965.8",
+        "crown_king": "1010.2",
+        "rage_duration": 90,
+        "rage_mod_attack": "1.2",
+        "rage_mod_defense": "1.1",
+        "rage_mod_speed": "1.1",
+        "limp_low": 25,
+        "cap_low": 30,
+        "limp_high": 20,
+        "cap_high": 25,
+        "limp_high_apex": 0,
+        "cap_high_apex": 0,
+        "limp_g": 25,
+        "cap_g": 30,
+        "limp_g_apex": 0,
+        "cap_g_apex": 0,
+        "local_name": "Kecha Wacha",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/kecha-wacha",
+        "monstersounds": [
+            {
+                "id": 19,
+                "monster_id": 42,
+                "filename": "em020_vo_bind"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 42,
+                    "monsterbodypart_id": 1,
+                    "type": "A",
+                    "res_cut": 70,
+                    "res_impact": 65,
+                    "res_shot": 60,
+                    "res_fire": 30,
+                    "res_water": 0,
+                    "res_ice": 10,
+                    "res_thunder": 20,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Torso",
+                "pivot": {
+                    "monster_id": 42,
+                    "monsterbodypart_id": 11,
+                    "type": "A",
+                    "res_cut": 43,
+                    "res_impact": 43,
+                    "res_shot": 30,
+                    "res_fire": 15,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Front Legs",
+                "pivot": {
+                    "monster_id": 42,
+                    "monsterbodypart_id": 12,
+                    "type": "A",
+                    "res_cut": 45,
+                    "res_impact": 45,
+                    "res_shot": 30,
+                    "res_fire": 10,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 32,
+                "local_name": "Nail",
+                "pivot": {
+                    "monster_id": 42,
+                    "monsterbodypart_id": 32,
+                    "type": "A",
+                    "res_cut": 24,
+                    "res_impact": 30,
+                    "res_shot": 20,
+                    "res_fire": 20,
+                    "res_water": 0,
+                    "res_ice": 10,
+                    "res_thunder": 15,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Back Leg",
+                "pivot": {
+                    "monster_id": 42,
+                    "monsterbodypart_id": 13,
+                    "type": "A",
+                    "res_cut": 45,
+                    "res_impact": 45,
+                    "res_shot": 30,
+                    "res_fire": 10,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Tail",
+                "pivot": {
+                    "monster_id": 42,
+                    "monsterbodypart_id": 5,
+                    "type": "A",
+                    "res_cut": 50,
+                    "res_impact": 45,
+                    "res_shot": 45,
+                    "res_fire": 15,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 5,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 32,
+                "local_name": "Nail",
+                "pivot": {
+                    "monster_id": 42,
+                    "monsterbodypart_id": 32,
+                    "type": "B",
+                    "res_cut": 30,
+                    "res_impact": 30,
+                    "res_shot": 25,
+                    "res_fire": 15,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 10,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 153,
+                "monster_id": 42,
+                "region": "Head",
+                "value": 160,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 154,
+                "monster_id": 42,
+                "region": "Torso",
+                "value": 140,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 155,
+                "monster_id": 42,
+                "region": "Front Legs",
+                "value": 120,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 156,
+                "monster_id": 42,
+                "region": "Tail",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 157,
+                "monster_id": 42,
+                "region": "Rear Legs",
+                "value": 110,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 158,
+                "monster_id": 42,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 159,
+                "monster_id": 42,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 160,
+                "monster_id": 42,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 42,
+                    "weaponspecialattack_id": 6,
+                    "initial": 150,
+                    "increase": 100,
+                    "max": 450,
+                    "duration": 40,
+                    "damage": 200,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 42,
+                    "weaponspecialattack_id": 8,
+                    "initial": 150,
+                    "increase": 100,
+                    "max": 450,
+                    "duration": 30,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 42,
+                    "weaponspecialattack_id": 7,
+                    "initial": 150,
+                    "increase": 100,
+                    "max": 550,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 42,
+                    "weaponspecialattack_id": 10,
+                    "initial": 150,
+                    "increase": 100,
+                    "max": 550,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 42,
+                    "weaponspecialattack_id": 11,
+                    "initial": 150,
+                    "increase": 75,
+                    "max": 450,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 42,
+                    "weaponspecialattack_id": 9,
+                    "initial": 70,
+                    "increase": 30,
+                    "max": 670,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 42,
+                    "weaponspecialattack_id": 12,
+                    "initial": 50,
+                    "increase": 75,
+                    "max": 350,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 42,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 50,
+                    "max": 200,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 78,
+                    "normal": 12,
+                    "enraged": 12,
+                    "fatigued": 25
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 66,
+                    "normal": 20,
+                    "enraged": 20,
+                    "fatigued": 30
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 79,
+                    "normal": 8,
+                    "enraged": 8,
+                    "fatigued": 15
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 67,
+                    "normal": 6,
+                    "enraged": 6,
+                    "fatigued": 6
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 20,
+            "monster_id": 42,
+            "normal": 5,
+            "enraged": 5,
+            "fatigued": 5
+        },
+        "monsterguildquestitems": [],
+        "items": [
+            {
+                "id": 471,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 280,
+                "buy": 2800,
+                "local_name": "Kecha Pelt",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-pelt",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 471,
+                    "quantity": 1,
+                    "percentage": 45,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 474,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 490,
+                "buy": 4900,
+                "local_name": "Kecha Longbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-longbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 474,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 318,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 150,
+                "buy": 1500,
+                "local_name": "Jumbo Bone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/jumbo-bone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 318,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 482,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Kecha Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-tail",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 482,
+                    "quantity": 1,
+                    "percentage": 9,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 479,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1300,
+                "buy": 13000,
+                "local_name": "Kecha Ear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-ear",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 479,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1317,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 150,
+                "local_name": "Beast Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beast-tear",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 1317,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 471,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 280,
+                "buy": 2800,
+                "local_name": "Kecha Pelt",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-pelt",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 471,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 482,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Kecha Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-tail",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 482,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 474,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 490,
+                "buy": 4900,
+                "local_name": "Kecha Longbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-longbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 474,
+                    "quantity": 1,
+                    "percentage": 28,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 348,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 170,
+                "buy": 1700,
+                "local_name": "Aqua Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/aqua-sac",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 348,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 477,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 560,
+                "buy": 5600,
+                "local_name": "Kecha Talon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-talon",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 477,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 482,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Kecha Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-tail",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 482,
+                    "quantity": 1,
+                    "percentage": 12,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 318,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 150,
+                "buy": 1500,
+                "local_name": "Jumbo Bone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/jumbo-bone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 318,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 479,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1300,
+                "buy": 13000,
+                "local_name": "Kecha Ear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-ear",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 479,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 479,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1300,
+                "buy": 13000,
+                "local_name": "Kecha Ear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-ear",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 479,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 348,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 170,
+                "buy": 1700,
+                "local_name": "Aqua Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/aqua-sac",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 348,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 477,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 560,
+                "buy": 5600,
+                "local_name": "Kecha Talon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-talon",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 477,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 474,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 490,
+                "buy": 4900,
+                "local_name": "Kecha Longbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-longbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 474,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 482,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Kecha Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-tail",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 482,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 471,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 280,
+                "buy": 2800,
+                "local_name": "Kecha Pelt",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-pelt",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 471,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 474,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 490,
+                "buy": 4900,
+                "local_name": "Kecha Longbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-longbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 474,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 472,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Kecha Pelt+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-pelt+",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 472,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 475,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1470,
+                "buy": 14700,
+                "local_name": "Kecha Grandbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-grandbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 475,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 482,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Kecha Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-tail",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 482,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 319,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 600,
+                "buy": 6000,
+                "local_name": "Stoutbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/stoutbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 319,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 480,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2600,
+                "buy": 26000,
+                "local_name": "Kecha Ear+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-ear+",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 480,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1317,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 150,
+                "local_name": "Beast Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/beast-tear",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 1317,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1318,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 280,
+                "local_name": "Large Beast Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-beast-tear",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 1318,
+                    "quantity": 1,
+                    "percentage": 37,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 472,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Kecha Pelt+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-pelt+",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 472,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 482,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Kecha Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-tail",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 482,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 475,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1470,
+                "buy": 14700,
+                "local_name": "Kecha Grandbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-grandbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 475,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 349,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 510,
+                "buy": 5100,
+                "local_name": "Torrent Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/torrent-sac",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 349,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 477,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 560,
+                "buy": 5600,
+                "local_name": "Kecha Talon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-talon",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 477,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 482,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Kecha Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-tail",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 482,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 480,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2600,
+                "buy": 26000,
+                "local_name": "Kecha Ear+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-ear+",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 480,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 472,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Kecha Pelt+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-pelt+",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 472,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 480,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2600,
+                "buy": 26000,
+                "local_name": "Kecha Ear+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-ear+",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 480,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 349,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 510,
+                "buy": 5100,
+                "local_name": "Torrent Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/torrent-sac",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 349,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 479,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1300,
+                "buy": 13000,
+                "local_name": "Kecha Ear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-ear",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 479,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 475,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1470,
+                "buy": 14700,
+                "local_name": "Kecha Grandbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-grandbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 475,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 477,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 560,
+                "buy": 5600,
+                "local_name": "Kecha Talon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-talon",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 477,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 482,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 720,
+                "buy": 7200,
+                "local_name": "Kecha Tail",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-tail",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 482,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 472,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 840,
+                "buy": 8400,
+                "local_name": "Kecha Pelt+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-pelt+",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 472,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 475,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1470,
+                "buy": 14700,
+                "local_name": "Kecha Grandbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-grandbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 475,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 473,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "Kecha Fur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-fur",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 473,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 476,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4410,
+                "buy": 44100,
+                "local_name": "Kecha Leadbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-leadbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 476,
+                    "quantity": 1,
+                    "percentage": 32,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 483,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2880,
+                "buy": 28800,
+                "local_name": "Kecha Lash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-lash",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 483,
+                    "quantity": 1,
+                    "percentage": 16,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 320,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1200,
+                "buy": 12000,
+                "local_name": "Massive Bone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/massive-bone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 320,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 481,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5200,
+                "buy": 52000,
+                "local_name": "Kecha Auricle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-auricle",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 481,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1318,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 280,
+                "local_name": "Large Beast Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-beast-tear",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 1318,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 473,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "Kecha Fur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-fur",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 473,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 483,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2880,
+                "buy": 28800,
+                "local_name": "Kecha Lash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-lash",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 483,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 476,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4410,
+                "buy": 44100,
+                "local_name": "Kecha Leadbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-leadbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 476,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 478,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2240,
+                "buy": 22400,
+                "local_name": "Kecha Ripper",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-ripper",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 478,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 350,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1020,
+                "buy": 10200,
+                "local_name": "Flood Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flood-sac",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 350,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 483,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2880,
+                "buy": 28800,
+                "local_name": "Kecha Lash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-lash",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 483,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 481,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5200,
+                "buy": 52000,
+                "local_name": "Kecha Auricle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-auricle",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 481,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 473,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "Kecha Fur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-fur",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 473,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 80,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 1085,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 481,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5200,
+                "buy": 52000,
+                "local_name": "Kecha Auricle",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-auricle",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 481,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 350,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1020,
+                "buy": 10200,
+                "local_name": "Flood Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flood-sac",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 350,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 480,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2600,
+                "buy": 26000,
+                "local_name": "Kecha Ear+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-ear+",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 480,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 105,
+                    "monsteritemmethod": {
+                        "id": 105,
+                        "local_name": "Break Ear"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 476,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4410,
+                "buy": 44100,
+                "local_name": "Kecha Leadbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-leadbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 476,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 478,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2240,
+                "buy": 22400,
+                "local_name": "Kecha Ripper",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-ripper",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 478,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 483,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2880,
+                "buy": 28800,
+                "local_name": "Kecha Lash",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-lash",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 483,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 473,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2520,
+                "buy": 25200,
+                "local_name": "Kecha Fur",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-fur",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 473,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 476,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4410,
+                "buy": 44100,
+                "local_name": "Kecha Leadbone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/kecha-leadbone",
+                "pivot": {
+                    "monster_id": 42,
+                    "item_id": 476,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 51,
+                    "monsteritemmethod": {
+                        "id": 51,
+                        "local_name": "Break Tail"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 32,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 3,
+                "questtype_id": 3,
+                "reward": 2100,
+                "questpriority_id": 3,
+                "questgoal_id": 32,
+                "questsubgoal_id": 32,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 300,
+                "time": 50,
+                "hrp": 170,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Swing into Action",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/3\/swing-into-action",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 32
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 32,
+                    "local_name": "Hunt a Kecha Wacha"
+                },
+                "questsubgoal": {
+                    "id": 32,
+                    "local_name": "Topple monster while mounted"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 35,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 3,
+                "questtype_id": 3,
+                "reward": 2100,
+                "questpriority_id": 1,
+                "questgoal_id": 32,
+                "questsubgoal_id": 35,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 300,
+                "time": 50,
+                "hrp": 170,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Kecha Wacha Wallop",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/3\/kecha-wacha-wallop",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 35
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 32,
+                    "local_name": "Hunt a Kecha Wacha"
+                },
+                "questsubgoal": {
+                    "id": 35,
+                    "local_name": "Slay 5 Konchu"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 96,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 6900,
+                "questpriority_id": 2,
+                "questgoal_id": 96,
+                "questsubgoal_id": 57,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 460,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Order of Magnitude",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/6\/advanced-order-of-magnitude",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 96
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 96,
+                    "local_name": "Hunt a Kecha Wacha and a Rathian"
+                },
+                "questsubgoal": {
+                    "id": 57,
+                    "local_name": "Deliver 1 Wyvern Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 127,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 7,
+                "questtype_id": 3,
+                "reward": 6000,
+                "questpriority_id": 1,
+                "questgoal_id": 127,
+                "questsubgoal_id": 127,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 600,
+                "time": 50,
+                "hrp": 540,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Hunt-a-thon: Kecha Wacha",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/7\/hunt-a-thon-kecha-wacha",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 127
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 127,
+                    "local_name": "Hunt 2 Kecha Wacha before time expires or deliver a Paw P.Tkt"
+                },
+                "questsubgoal": {
+                    "id": 127,
+                    "local_name": "Deliver 1 Large Beast Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 205,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 1,
+                "questtype_id": 3,
+                "reward": 3600,
+                "questpriority_id": 2,
+                "questgoal_id": 32,
+                "questsubgoal_id": 205,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 400,
+                "time": 50,
+                "hrp": 310,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Kecha Konundrum",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/1\/kecha-konundrum",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 205
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 32,
+                    "local_name": "Hunt a Kecha Wacha"
+                },
+                "questsubgoal": {
+                    "id": 205,
+                    "local_name": "Wound the Kecha Wacha's ears"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 208,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 1,
+                "questtype_id": 4,
+                "reward": 4800,
+                "questpriority_id": 1,
+                "questgoal_id": 208,
+                "questsubgoal_id": 208,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 500,
+                "time": 50,
+                "hrp": 370,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Operation Catch-a-Kecha",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/1\/operation-catch-a-kecha",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 208
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 208,
+                    "local_name": "Capture a Kecha Wacha"
+                },
+                "questsubgoal": {
+                    "id": 208,
+                    "local_name": "Break the Kecha Wacha's claw"
+                },
+                "questtype": {
+                    "id": 4,
+                    "local_name": "Capture"
+                }
+            },
+            {
+                "id": 253,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 3,
+                "questtype_id": 3,
+                "reward": 6900,
+                "questpriority_id": 1,
+                "questgoal_id": 253,
+                "questsubgoal_id": 253,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 600,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: One-man Army",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/3\/advanced-one-man-army",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 253
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 253,
+                    "local_name": "Hunt a Nerscylla and a Kecha Wacha"
+                },
+                "questsubgoal": {
+                    "id": 253,
+                    "local_name": "Wound the Kecha Wacha's tail"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 261,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 7200,
+                "questpriority_id": 2,
+                "questgoal_id": 261,
+                "questsubgoal_id": 127,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 800,
+                "time": 50,
+                "hrp": 560,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Face Two Face",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/4\/face-two-face",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 261
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 261,
+                    "local_name": "Hunt 2 Kecha Wacha"
+                },
+                "questsubgoal": {
+                    "id": 127,
+                    "local_name": "Deliver 1 Large Beast Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 261,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 7200,
+                "questpriority_id": 2,
+                "questgoal_id": 261,
+                "questsubgoal_id": 127,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 800,
+                "time": 50,
+                "hrp": 560,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Face Two Face",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/4\/face-two-face",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 261
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 261,
+                    "local_name": "Hunt 2 Kecha Wacha"
+                },
+                "questsubgoal": {
+                    "id": 127,
+                    "local_name": "Deliver 1 Large Beast Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 262,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 4,
+                "questtype_id": 4,
+                "reward": 6900,
+                "questpriority_id": 1,
+                "questgoal_id": 208,
+                "questsubgoal_id": 205,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 400,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Operation Catch-a-Kecha",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/4\/operation-catch-a-kecha",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 262
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 208,
+                    "local_name": "Capture a Kecha Wacha"
+                },
+                "questsubgoal": {
+                    "id": 205,
+                    "local_name": "Wound the Kecha Wacha's ears"
+                },
+                "questtype": {
+                    "id": 4,
+                    "local_name": "Capture"
+                }
+            },
+            {
+                "id": 271,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 8400,
+                "questpriority_id": 1,
+                "questgoal_id": 271,
+                "questsubgoal_id": 127,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 900,
+                "time": 50,
+                "hrp": 600,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Apes of Wrath",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/4\/apes-of-wrath",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 271
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 271,
+                    "local_name": "Hunt a Kecha Wacha and an Emerald Congalala"
+                },
+                "questsubgoal": {
+                    "id": 127,
+                    "local_name": "Deliver 1 Large Beast Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 358,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 7200,
+                "questpriority_id": 1,
+                "questgoal_id": 32,
+                "questsubgoal_id": 358,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 800,
+                "time": 50,
+                "hrp": 530,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Lumber Support",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/8\/lumber-support",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 358
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 32,
+                    "local_name": "Hunt a Kecha Wacha"
+                },
+                "questsubgoal": {
+                    "id": 358,
+                    "local_name": "Slay 7 Genprey"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 379,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 12900,
+                "questpriority_id": 1,
+                "questgoal_id": 379,
+                "questsubgoal_id": 127,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1300,
+                "time": 50,
+                "hrp": 1070,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Terrible Twins",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/8\/advanced-terrible-twins",
+                "pivot": {
+                    "monster_id": 42,
+                    "quest_id": 379
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 379,
+                    "local_name": "Hunt a Kecha Wacha and an Ash Kecha Wacha"
+                },
+                "questsubgoal": {
+                    "id": 127,
+                    "local_name": "Deliver 1 Large Beast Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            }
+        ],
+        "maps": [
+            {
+                "id": 1,
+                "local_name": "Ancestral Steppe",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/ancestral-steppe",
+                "pivot": {
+                    "monster_id": 42,
+                    "map_id": 1,
+                    "start": 4,
+                    "areas": "2, 8",
+                    "rest": 9
+                }
+            },
+            {
+                "id": 2,
+                "local_name": "Sunken Hollow",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/sunken-hollow",
+                "pivot": {
+                    "monster_id": 42,
+                    "map_id": 2,
+                    "start": 4,
+                    "areas": "1, 7",
+                    "rest": 6
+                }
+            },
+            {
+                "id": 3,
+                "local_name": "Primal Forest",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/primal-forest",
+                "pivot": {
+                    "monster_id": 42,
+                    "map_id": 3,
+                    "start": 4,
+                    "areas": "1, 2, 5",
+                    "rest": 7
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "id": 94,
+                "weapontype_id": 1,
+                "weapon_parent_id": 57,
+                "final": 0,
+                "attack": 480,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": 3225,
+                "price_upgrade": 2150,
+                "local_name": "Thrash Sword",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/thrash-sword",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 94
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 95,
+                "weapontype_id": 1,
+                "weapon_parent_id": 94,
+                "final": 0,
+                "attack": 576,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 7150,
+                "local_name": "Thrash Sword+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/thrash-sword+",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 95
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 96,
+                "weapontype_id": 1,
+                "weapon_parent_id": 95,
+                "final": 0,
+                "attack": 624,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Thrash Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/thrash-blade",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 96
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 97,
+                "weapontype_id": 1,
+                "weapon_parent_id": 96,
+                "final": 0,
+                "attack": 720,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Thrashgash Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/thrashgash-blade",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 97
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 98,
+                "weapontype_id": 1,
+                "weapon_parent_id": 97,
+                "final": 0,
+                "attack": 960,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "Jala Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/jala-blade",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 98
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 99,
+                "weapontype_id": 1,
+                "weapon_parent_id": 98,
+                "final": 1,
+                "attack": 1056,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 85000,
+                "local_name": "Jajala Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/jajala-blade",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 99
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 290,
+                "weapontype_id": 2,
+                "weapon_parent_id": 264,
+                "final": 0,
+                "attack": 297,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": 2100,
+                "price_upgrade": 1400,
+                "local_name": "Curviscera",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/curviscera",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 290
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 291,
+                "weapontype_id": 2,
+                "weapon_parent_id": 290,
+                "final": 0,
+                "attack": 330,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 4900,
+                "local_name": "Incurviscera",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/incurviscera",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 291
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 292,
+                "weapontype_id": 2,
+                "weapon_parent_id": 291,
+                "final": 0,
+                "attack": 363,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 7150,
+                "local_name": "Incurviscera+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/incurviscera+",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 292
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 293,
+                "weapontype_id": 2,
+                "weapon_parent_id": 292,
+                "final": 0,
+                "attack": 396,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Bicurviscera",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/bicurviscera",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 293
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 294,
+                "weapontype_id": 2,
+                "weapon_parent_id": 293,
+                "final": 0,
+                "attack": 429,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Vilcurviscera",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/vilcurviscera",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 294
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 295,
+                "weapontype_id": 2,
+                "weapon_parent_id": 294,
+                "final": 1,
+                "attack": 726,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 80000,
+                "local_name": "Vilcurviscera+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/vilcurviscera+",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 295
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 997,
+                "weapontype_id": 6,
+                "weapon_parent_id": 977,
+                "final": 0,
+                "attack": 416,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": 1650,
+                "price_upgrade": 1100,
+                "local_name": "Kecha Whappa",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/kecha-whappa",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 997
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 998,
+                "weapontype_id": 6,
+                "weapon_parent_id": 997,
+                "final": 0,
+                "attack": 468,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 2150,
+                "local_name": "Kecha Whappa+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/kecha-whappa+",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 998
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 999,
+                "weapontype_id": 6,
+                "weapon_parent_id": 998,
+                "final": 0,
+                "attack": 520,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 6350,
+                "local_name": "Kechachacha Whappa",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/kechachacha-whappa",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 999
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1000,
+                "weapontype_id": 6,
+                "weapon_parent_id": 999,
+                "final": 0,
+                "attack": 624,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Kecha Thumpa",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/kecha-thumpa",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1000
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1001,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1000,
+                "final": 0,
+                "attack": 728,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Kecha Clanga",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/kecha-clanga",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1001
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1002,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1001,
+                "final": 0,
+                "attack": 988,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "Kecha Clanga+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/kecha-clanga+",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1002
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1003,
+                "weapontype_id": 6,
+                "weapon_parent_id": 1002,
+                "final": 1,
+                "attack": 1248,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 100000,
+                "local_name": "Kecha Clanvira",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/huntinghorn\/kecha-clanvira",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1003
+                },
+                "weapontype": {
+                    "id": 6,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "hh",
+                    "model_prefix": "hue",
+                    "local_name": "Hunting Horn"
+                }
+            },
+            {
+                "id": 1194,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1164,
+                "final": 0,
+                "attack": 230,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": 2100,
+                "price_upgrade": 1400,
+                "local_name": "Expelger",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/expelger",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1194
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1195,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1194,
+                "final": 0,
+                "attack": 253,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 3100,
+                "local_name": "Expelgorer",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/expelgorer",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1195
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1196,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1195,
+                "final": 0,
+                "attack": 276,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 7150,
+                "local_name": "Expelgorer+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/expelgorer+",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1196
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1197,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1196,
+                "final": 0,
+                "attack": 322,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Expelgouger",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/expelgouger",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1197
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1198,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1197,
+                "final": 0,
+                "attack": 345,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Rexpelgouger",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/rexpelgouger",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1198
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1199,
+                "weapontype_id": 7,
+                "weapon_parent_id": 1198,
+                "final": 1,
+                "attack": 529,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 80000,
+                "local_name": "Shuraba Lance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lance\/shuraba-lance",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1199
+                },
+                "weapontype": {
+                    "id": 7,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "l",
+                    "model_prefix": "lan",
+                    "local_name": "Lance"
+                }
+            },
+            {
+                "id": 1505,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1481,
+                "final": 0,
+                "attack": 540,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": 2100,
+                "price_upgrade": 1400,
+                "local_name": "Vavoom Axe",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/vavoom-axe",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1505
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1506,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1505,
+                "final": 0,
+                "attack": 594,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 3100,
+                "local_name": "Vavoom Axe+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/vavoom-axe+",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1506
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1507,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1506,
+                "final": 0,
+                "attack": 648,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 7150,
+                "local_name": "Vavoom Verdict",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/vavoom-verdict",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1507
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1508,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1507,
+                "final": 0,
+                "attack": 756,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Vavoom Vengeance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/vavoom-vengeance",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1508
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1509,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1508,
+                "final": 0,
+                "attack": 810,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Vavoom Vindication",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/vavoom-vindication",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1509
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1510,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1509,
+                "final": 0,
+                "attack": 1080,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "Vavoom Nakha",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/vavoom-nakha",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1510
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1511,
+                "weapontype_id": 9,
+                "weapon_parent_id": 1510,
+                "final": 1,
+                "attack": 1296,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 85000,
+                "local_name": "Weird Wacha Nakha",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/switchaxe\/weird-wacha-nakha",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1511
+                },
+                "weapontype": {
+                    "id": 9,
+                    "modifier": "5.4",
+                    "armortype_id": 2,
+                    "code": "sa",
+                    "model_prefix": "axe",
+                    "local_name": "Switch Axe"
+                }
+            },
+            {
+                "id": 1765,
+                "weapontype_id": 11,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 434,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 2,
+                "price_create": 15000,
+                "price_upgrade": null,
+                "local_name": "Mind Stick",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/mind-stick",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1765
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1766,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1765,
+                "final": 0,
+                "attack": 465,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 30000,
+                "local_name": "Mind Stick \"Stone\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/mind-stick-stone",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1766
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1767,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1766,
+                "final": 0,
+                "attack": 620,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "Mind Stick \"Rock\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/mind-stick-rock",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1767
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1768,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1767,
+                "final": 0,
+                "attack": 682,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Mind Stick \"Mount\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/mind-stick-mount",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1768
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1769,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1768,
+                "final": 1,
+                "attack": 713,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 110000,
+                "local_name": "Mind Stick \"Wizard\"",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/mind-stick-wizard",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1769
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1916,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1910,
+                "final": 0,
+                "attack": 156,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 2150,
+                "local_name": "Sawgun",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/sawgun",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1916
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1917,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1916,
+                "final": 0,
+                "attack": 169,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 4250,
+                "local_name": "Sawgun+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/sawgun+",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1917
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1918,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1917,
+                "final": 0,
+                "attack": 195,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 18000,
+                "local_name": "Buzzawgun",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/buzzawgun",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1918
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1919,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1918,
+                "final": 0,
+                "attack": 234,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 25000,
+                "local_name": "Buzzawcannon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/buzzawcannon",
+                "pivot": {
+                    "monster_id": 42,
+                    "weapon_id": 1919
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,2392 @@
+{
+    "monster": {
+        "id": 34,
+        "base_hp": 3500,
+        "size": "L",
+        "hp_mult_low": "0.64",
+        "hp_mult_high": "0.00",
+        "hp_mult_g": "0.00",
+        "crown_miniature": "820.5",
+        "crown_large": "1048.5",
+        "crown_king": "1121.4",
+        "rage_duration": 60,
+        "rage_mod_attack": "1.4",
+        "rage_mod_defense": "1.0",
+        "rage_mod_speed": "1.1",
+        "limp_low": 30,
+        "cap_low": 35,
+        "limp_high": 20,
+        "cap_high": 25,
+        "limp_high_apex": 0,
+        "cap_high_apex": 0,
+        "limp_g": 20,
+        "cap_g": 25,
+        "limp_g_apex": 0,
+        "cap_g_apex": 0,
+        "local_name": "Iodrome",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/iodrome",
+        "monstersounds": [
+            {
+                "id": 13,
+                "monster_id": 34,
+                "filename": "em014_vo_assemble2"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 10,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 34,
+                    "monsterbodypart_id": 10,
+                    "type": "A",
+                    "res_cut": 38,
+                    "res_impact": 38,
+                    "res_shot": 45,
+                    "res_fire": 20,
+                    "res_water": 30,
+                    "res_ice": 10,
+                    "res_thunder": 30,
+                    "res_dragon": 10,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Body",
+                "pivot": {
+                    "monster_id": 34,
+                    "monsterbodypart_id": 9,
+                    "type": "A",
+                    "res_cut": 56,
+                    "res_impact": 56,
+                    "res_shot": 60,
+                    "res_fire": 15,
+                    "res_water": 25,
+                    "res_ice": 10,
+                    "res_thunder": 25,
+                    "res_dragon": 5,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 105,
+                "monster_id": 34,
+                "region": "Head",
+                "value": 120,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 106,
+                "monster_id": 34,
+                "region": "Body",
+                "value": 150,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 107,
+                "monster_id": 34,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 108,
+                "monster_id": 34,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 109,
+                "monster_id": 34,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 110,
+                "monster_id": 34,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 111,
+                "monster_id": 34,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 112,
+                "monster_id": 34,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 34,
+                    "weaponspecialattack_id": 6,
+                    "initial": 200,
+                    "increase": 100,
+                    "max": 500,
+                    "duration": 20,
+                    "damage": 70,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 34,
+                    "weaponspecialattack_id": 8,
+                    "initial": 120,
+                    "increase": 60,
+                    "max": 300,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 34,
+                    "weaponspecialattack_id": 7,
+                    "initial": 80,
+                    "increase": 60,
+                    "max": 380,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 34,
+                    "weaponspecialattack_id": 10,
+                    "initial": 120,
+                    "increase": 60,
+                    "max": 300,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 34,
+                    "weaponspecialattack_id": 11,
+                    "initial": 150,
+                    "increase": 75,
+                    "max": 300,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 34,
+                    "weaponspecialattack_id": 9,
+                    "initial": 55,
+                    "increase": 45,
+                    "max": 1080,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 34,
+                    "weaponspecialattack_id": 12,
+                    "initial": 30,
+                    "increase": 40,
+                    "max": 210,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 34,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 50,
+                    "max": 200,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 78,
+                    "normal": 18,
+                    "enraged": 15,
+                    "fatigued": 25
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 66,
+                    "normal": 20,
+                    "enraged": 15,
+                    "fatigued": 30
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 79,
+                    "normal": 15,
+                    "enraged": 12,
+                    "fatigued": 18
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 48,
+            "monster_id": 34,
+            "normal": 5,
+            "enraged": 5,
+            "fatigued": 5
+        },
+        "monsterguildquestitems": [],
+        "items": [
+            {
+                "id": 417,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 560,
+                "buy": 5600,
+                "local_name": "Iodrome Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/iodrome-hide",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 417,
+                    "quantity": 1,
+                    "percentage": 48,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 332,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 412,
+                "rarity": 4,
+                "carry": 50,
+                "sell": 40,
+                "buy": 400,
+                "local_name": "Ioprey Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/ioprey-scale",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 412,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 418,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 770,
+                "buy": 7700,
+                "local_name": "Iodrome Head",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/iodrome-head",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 418,
+                    "quantity": 1,
+                    "percentage": 2,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1315,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 250,
+                "local_name": "Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/wyvern-tear",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 1315,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 412,
+                "rarity": 4,
+                "carry": 50,
+                "sell": 40,
+                "buy": 400,
+                "local_name": "Ioprey Scale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/ioprey-scale",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 412,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 417,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 560,
+                "buy": 5600,
+                "local_name": "Iodrome Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/iodrome-hide",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 417,
+                    "quantity": 1,
+                    "percentage": 56,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 332,
+                    "quantity": 2,
+                    "percentage": 39,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 418,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 770,
+                "buy": 7700,
+                "local_name": "Iodrome Head",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/iodrome-head",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 418,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 100,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 332,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 96,
+                "buy": 960,
+                "local_name": "Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/poison-sac",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 332,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 417,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 560,
+                "buy": 5600,
+                "local_name": "Iodrome Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/iodrome-hide",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 417,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 418,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 770,
+                "buy": 7700,
+                "local_name": "Iodrome Head",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/iodrome-head",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 418,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 387,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 750,
+                "buy": 7500,
+                "local_name": "Tough Bird Wyv Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tough-bird-wyv-hide",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 387,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 333,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 288,
+                "buy": 2880,
+                "local_name": "Toxin Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/toxin-sac",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 333,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 413,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 240,
+                "buy": 2400,
+                "local_name": "Ioprey Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/ioprey-scale+",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 413,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 415,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 168,
+                "buy": 1680,
+                "local_name": "Ioprey Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/ioprey-hide+",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 415,
+                    "quantity": 1,
+                    "percentage": 13,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 418,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 770,
+                "buy": 7700,
+                "local_name": "Iodrome Head",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/iodrome-head",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 418,
+                    "quantity": 1,
+                    "percentage": 7,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 325,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4850,
+                "buy": 48500,
+                "local_name": "Bird Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/bird-wyvern-gem",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 325,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1315,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 250,
+                "local_name": "Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/wyvern-tear",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 1315,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 387,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 750,
+                "buy": 7500,
+                "local_name": "Tough Bird Wyv Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tough-bird-wyv-hide",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 387,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 325,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4850,
+                "buy": 48500,
+                "local_name": "Bird Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/bird-wyvern-gem",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 325,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 333,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 288,
+                "buy": 2880,
+                "local_name": "Toxin Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/toxin-sac",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 333,
+                    "quantity": 2,
+                    "percentage": 33,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 415,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 168,
+                "buy": 1680,
+                "local_name": "Ioprey Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/ioprey-hide+",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 415,
+                    "quantity": 2,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 413,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 240,
+                "buy": 2400,
+                "local_name": "Ioprey Scale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/ioprey-scale+",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 413,
+                    "quantity": 2,
+                    "percentage": 26,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 418,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 770,
+                "buy": 7700,
+                "local_name": "Iodrome Head",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/iodrome-head",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 418,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 325,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4850,
+                "buy": 48500,
+                "local_name": "Bird Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/bird-wyvern-gem",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 325,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 333,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 288,
+                "buy": 2880,
+                "local_name": "Toxin Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/toxin-sac",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 333,
+                    "quantity": 1,
+                    "percentage": 43,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 333,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 288,
+                "buy": 2880,
+                "local_name": "Toxin Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/toxin-sac",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 333,
+                    "quantity": 2,
+                    "percentage": 32,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 418,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 770,
+                "buy": 7700,
+                "local_name": "Iodrome Head",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/iodrome-head",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 418,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 325,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4850,
+                "buy": 48500,
+                "local_name": "Bird Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/bird-wyvern-gem",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 325,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 416,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 504,
+                "buy": 5040,
+                "local_name": "Ioprey Piel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/ioprey-piel",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 416,
+                    "quantity": 1,
+                    "percentage": 40,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 387,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 750,
+                "buy": 7500,
+                "local_name": "Tough Bird Wyv Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tough-bird-wyv-hide",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 387,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 334,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 864,
+                "buy": 8640,
+                "local_name": "Deadly Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deadly-poison-sac",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 334,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 326,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Fey Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fey-wyvern-gem",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 326,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1316,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 450,
+                "local_name": "Large Wyvern Tear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/large-wyvern-tear",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 1316,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 387,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 750,
+                "buy": 7500,
+                "local_name": "Tough Bird Wyv Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/tough-bird-wyv-hide",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 387,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 416,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 504,
+                "buy": 5040,
+                "local_name": "Ioprey Piel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/ioprey-piel",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 416,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 326,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Fey Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fey-wyvern-gem",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 326,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 334,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 864,
+                "buy": 8640,
+                "local_name": "Deadly Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deadly-poison-sac",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 334,
+                    "quantity": 2,
+                    "percentage": 52,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 416,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 504,
+                "buy": 5040,
+                "local_name": "Ioprey Piel",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/ioprey-piel",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 416,
+                    "quantity": 2,
+                    "percentage": 45,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 326,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Fey Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fey-wyvern-gem",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 326,
+                    "quantity": 1,
+                    "percentage": 3,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 80,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 1085,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 334,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 864,
+                "buy": 8640,
+                "local_name": "Deadly Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deadly-poison-sac",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 334,
+                    "quantity": 2,
+                    "percentage": 60,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 334,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 864,
+                "buy": 8640,
+                "local_name": "Deadly Poison Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/deadly-poison-sac",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 334,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 326,
+                "rarity": 9,
+                "carry": 99,
+                "sell": 9700,
+                "buy": 97000,
+                "local_name": "Fey Wyvern Gem",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/fey-wyvern-gem",
+                "pivot": {
+                    "monster_id": 34,
+                    "item_id": 326,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 48,
+                    "monsteritemmethod": {
+                        "id": 48,
+                        "local_name": "Break Head"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 67,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 2100,
+                "questpriority_id": 1,
+                "questgoal_id": 67,
+                "questsubgoal_id": 67,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 300,
+                "time": 50,
+                "hrp": 110,
+                "map_id": 5,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Pick Your Poison",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/5\/pick-your-poison",
+                "pivot": {
+                    "monster_id": 34,
+                    "quest_id": 67
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 67,
+                    "local_name": "Hunt an Iodrome"
+                },
+                "questsubgoal": {
+                    "id": 67,
+                    "local_name": "Slay 5 Ioprey"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 102,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 8700,
+                "questpriority_id": 1,
+                "questgoal_id": 102,
+                "questsubgoal_id": 102,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 900,
+                "time": 50,
+                "hrp": 410,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Afraid of the Dark",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/6\/advanced-afraid-of-the-dark",
+                "pivot": {
+                    "monster_id": 34,
+                    "quest_id": 102
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 102,
+                    "local_name": "Hunt all large monsters"
+                },
+                "questsubgoal": {
+                    "id": 102,
+                    "local_name": "Wound the Iodrome's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 137,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 4200,
+                "questpriority_id": 1,
+                "questgoal_id": 137,
+                "questsubgoal_id": 25,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 500,
+                "time": 50,
+                "hrp": 250,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Primal Pests",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/8\/primal-pests",
+                "pivot": {
+                    "monster_id": 34,
+                    "quest_id": 137
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 137,
+                    "local_name": "Hunt an Iodrome and a Seltas"
+                },
+                "questsubgoal": {
+                    "id": 25,
+                    "local_name": "Break the Seltas's horn"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 171,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 10,
+                "questtype_id": 3,
+                "reward": 8100,
+                "questpriority_id": 1,
+                "questgoal_id": 171,
+                "questsubgoal_id": 102,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 900,
+                "time": 50,
+                "hrp": 440,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Bad Hair Day: Iodrome",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/10\/bad-hair-day-iodrome",
+                "pivot": {
+                    "monster_id": 34,
+                    "quest_id": 171
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 171,
+                    "local_name": "Hunt 2 Iodrome"
+                },
+                "questsubgoal": {
+                    "id": 102,
+                    "local_name": "Wound the Iodrome's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 171,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 10,
+                "questtype_id": 3,
+                "reward": 8100,
+                "questpriority_id": 1,
+                "questgoal_id": 171,
+                "questsubgoal_id": 102,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 900,
+                "time": 50,
+                "hrp": 440,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Bad Hair Day: Iodrome",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/10\/bad-hair-day-iodrome",
+                "pivot": {
+                    "monster_id": 34,
+                    "quest_id": 171
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 171,
+                    "local_name": "Hunt 2 Iodrome"
+                },
+                "questsubgoal": {
+                    "id": 102,
+                    "local_name": "Wound the Iodrome's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 233,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 3,
+                "questtype_id": 1,
+                "reward": 12000,
+                "questpriority_id": 1,
+                "questgoal_id": 233,
+                "questsubgoal_id": 131,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1300,
+                "time": 50,
+                "hrp": 250,
+                "map_id": 5,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Heat Exhaustion",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/3\/heat-exhaustion",
+                "pivot": {
+                    "monster_id": 34,
+                    "quest_id": 233
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 233,
+                    "local_name": "Deliver 3 Powderstones"
+                },
+                "questsubgoal": {
+                    "id": 131,
+                    "local_name": "Hunt an Iodrome"
+                },
+                "questtype": {
+                    "id": 1,
+                    "local_name": "Gathering"
+                }
+            },
+            {
+                "id": 238,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 3,
+                "questtype_id": 3,
+                "reward": 3300,
+                "questpriority_id": 1,
+                "questgoal_id": 67,
+                "questsubgoal_id": 57,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 400,
+                "time": 50,
+                "hrp": 160,
+                "map_id": 5,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Pick Your Poison",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/3\/pick-your-poison",
+                "pivot": {
+                    "monster_id": 34,
+                    "quest_id": 238
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 67,
+                    "local_name": "Hunt an Iodrome"
+                },
+                "questsubgoal": {
+                    "id": 57,
+                    "local_name": "Deliver 1 Wyvern Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 284,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 6900,
+                "questpriority_id": 1,
+                "questgoal_id": 171,
+                "questsubgoal_id": 120,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 360,
+                "map_id": 5,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Poisonous Pair",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/5\/poisonous-pair",
+                "pivot": {
+                    "monster_id": 34,
+                    "quest_id": 284
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 171,
+                    "local_name": "Hunt 2 Iodrome"
+                },
+                "questsubgoal": {
+                    "id": 120,
+                    "local_name": "Deliver 1 Large Wyvern Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 284,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 6900,
+                "questpriority_id": 1,
+                "questgoal_id": 171,
+                "questsubgoal_id": 120,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 360,
+                "map_id": 5,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Poisonous Pair",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/5\/poisonous-pair",
+                "pivot": {
+                    "monster_id": 34,
+                    "quest_id": 284
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 171,
+                    "local_name": "Hunt 2 Iodrome"
+                },
+                "questsubgoal": {
+                    "id": 120,
+                    "local_name": "Deliver 1 Large Wyvern Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 384,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 15300,
+                "questpriority_id": 1,
+                "questgoal_id": 102,
+                "questsubgoal_id": 384,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1600,
+                "time": 50,
+                "hrp": 1430,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Frenzied Trading",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/8\/advanced-frenzied-trading",
+                "pivot": {
+                    "monster_id": 34,
+                    "quest_id": 384
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 102,
+                    "local_name": "Hunt all large monsters"
+                },
+                "questsubgoal": {
+                    "id": 384,
+                    "local_name": "Capture an Iodrome"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            }
+        ],
+        "maps": [
+            {
+                "id": 3,
+                "local_name": "Primal Forest",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/primal-forest",
+                "pivot": {
+                    "monster_id": 34,
+                    "map_id": 3,
+                    "start": 5,
+                    "areas": "2, 6",
+                    "rest": 9
+                }
+            },
+            {
+                "id": 5,
+                "local_name": "Volcanic Hollow",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/volcanic-hollow",
+                "pivot": {
+                    "monster_id": 34,
+                    "map_id": 5,
+                    "start": 2,
+                    "areas": "1, 3, 4",
+                    "rest": 9
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "id": 111,
+                "weapontype_id": 1,
+                "weapon_parent_id": 110,
+                "final": 0,
+                "attack": 576,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 6350,
+                "local_name": "Fanged Serpentblade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/fanged-serpentblade",
+                "pivot": {
+                    "monster_id": 34,
+                    "weapon_id": 111
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 414,
+                "weapontype_id": 3,
+                "weapon_parent_id": 411,
+                "final": 0,
+                "attack": 224,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Hydra Bite",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/hydra-bite",
+                "pivot": {
+                    "monster_id": 34,
+                    "weapon_id": 414
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 415,
+                "weapontype_id": 3,
+                "weapon_parent_id": 414,
+                "final": 1,
+                "attack": 322,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 85000,
+                "local_name": "Deadly Poison",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/deadly-poison",
+                "pivot": {
+                    "monster_id": 34,
+                    "weapon_id": 415
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 1901,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1900,
+                "final": 0,
+                "attack": 182,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 6350,
+                "local_name": "Shotgun (Blood)",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/shotgun-blood",
+                "pivot": {
+                    "monster_id": 34,
+                    "weapon_id": 1901
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1902,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1901,
+                "final": 0,
+                "attack": 221,
+                "defense": 10,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 18000,
+                "local_name": "Crimson Blade Shower",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/crimson-blade-shower",
+                "pivot": {
+                    "monster_id": 34,
+                    "weapon_id": 1902
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1903,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1902,
+                "final": 0,
+                "attack": 234,
+                "defense": 20,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 25000,
+                "local_name": "Rouge Shooter",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/rouge-shooter",
+                "pivot": {
+                    "monster_id": 34,
+                    "weapon_id": 1903
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1904,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1903,
+                "final": 0,
+                "attack": 325,
+                "defense": 25,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Rouge Shooter+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/rouge-shooter+",
+                "pivot": {
+                    "monster_id": 34,
+                    "weapon_id": 1904
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 1905,
+                "weapontype_id": 12,
+                "weapon_parent_id": 1904,
+                "final": 1,
+                "attack": 364,
+                "defense": 30,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 3,
+                "price_create": null,
+                "price_upgrade": 110000,
+                "local_name": "Rouge Burst",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/rouge-burst",
+                "pivot": {
+                    "monster_id": 34,
+                    "weapon_id": 1905
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            }
+        ]
+    }
+}

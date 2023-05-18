@@ -1,0 +1,3290 @@
+{
+    "monster": {
+        "id": 24,
+        "base_hp": 2000,
+        "size": "L",
+        "hp_mult_low": "0.49",
+        "hp_mult_high": "1.00",
+        "hp_mult_g": "1.21",
+        "crown_miniature": "554.3",
+        "crown_large": "708.3",
+        "crown_king": "757.6",
+        "rage_duration": 75,
+        "rage_mod_attack": "1.1",
+        "rage_mod_defense": "1.0",
+        "rage_mod_speed": "1.1",
+        "limp_low": 30,
+        "cap_low": 40,
+        "limp_high": 25,
+        "cap_high": 30,
+        "limp_high_apex": 0,
+        "cap_high_apex": 0,
+        "limp_g": 20,
+        "cap_g": 25,
+        "limp_g_apex": 0,
+        "cap_g_apex": 0,
+        "local_name": "Seltas",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/seltas",
+        "monstersounds": [
+            {
+                "id": 24,
+                "monster_id": 24,
+                "filename": "em025_vo_bind"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 24,
+                    "monsterbodypart_id": 1,
+                    "type": "A",
+                    "res_cut": 50,
+                    "res_impact": 55,
+                    "res_shot": 70,
+                    "res_fire": 20,
+                    "res_water": 10,
+                    "res_ice": 10,
+                    "res_thunder": 25,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 42,
+                "local_name": "Horn",
+                "pivot": {
+                    "monster_id": 24,
+                    "monsterbodypart_id": 42,
+                    "type": "A",
+                    "res_cut": 35,
+                    "res_impact": 35,
+                    "res_shot": 35,
+                    "res_fire": 15,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 20,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 32,
+                "local_name": "Nail",
+                "pivot": {
+                    "monster_id": 24,
+                    "monsterbodypart_id": 32,
+                    "type": "A",
+                    "res_cut": 42,
+                    "res_impact": 42,
+                    "res_shot": 45,
+                    "res_fire": 10,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 15,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Legs",
+                "pivot": {
+                    "monster_id": 24,
+                    "monsterbodypart_id": 7,
+                    "type": "A",
+                    "res_cut": 45,
+                    "res_impact": 45,
+                    "res_shot": 50,
+                    "res_fire": 10,
+                    "res_water": 5,
+                    "res_ice": 5,
+                    "res_thunder": 15,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 14,
+                "local_name": "Abdominal",
+                "pivot": {
+                    "monster_id": 24,
+                    "monsterbodypart_id": 14,
+                    "type": "A",
+                    "res_cut": 65,
+                    "res_impact": 55,
+                    "res_shot": 80,
+                    "res_fire": 25,
+                    "res_water": 15,
+                    "res_ice": 15,
+                    "res_thunder": 35,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 193,
+                "monster_id": 24,
+                "region": "Head",
+                "value": 180,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 194,
+                "monster_id": 24,
+                "region": "Legs",
+                "value": 60,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 195,
+                "monster_id": 24,
+                "region": "Abdominal",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 196,
+                "monster_id": 24,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 197,
+                "monster_id": 24,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 198,
+                "monster_id": 24,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 199,
+                "monster_id": 24,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 200,
+                "monster_id": 24,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 24,
+                    "weaponspecialattack_id": 6,
+                    "initial": 100,
+                    "increase": 50,
+                    "max": 300,
+                    "duration": 60,
+                    "damage": 150,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 24,
+                    "weaponspecialattack_id": 8,
+                    "initial": 150,
+                    "increase": 40,
+                    "max": 270,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 24,
+                    "weaponspecialattack_id": 7,
+                    "initial": 150,
+                    "increase": 30,
+                    "max": 300,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 24,
+                    "weaponspecialattack_id": 10,
+                    "initial": 120,
+                    "increase": 20,
+                    "max": 240,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 24,
+                    "weaponspecialattack_id": 11,
+                    "initial": 180,
+                    "increase": 75,
+                    "max": 480,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 24,
+                    "weaponspecialattack_id": 9,
+                    "initial": 50,
+                    "increase": 40,
+                    "max": 1050,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 24,
+                    "weaponspecialattack_id": 12,
+                    "initial": 30,
+                    "increase": 50,
+                    "max": 330,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 24,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 50,
+                    "max": 200,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 78,
+                    "normal": 15,
+                    "enraged": 15,
+                    "fatigued": 25
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 66,
+                    "normal": 20,
+                    "enraged": 20,
+                    "fatigued": 30
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 79,
+                    "normal": 12,
+                    "enraged": 12,
+                    "fatigued": 20
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 2,
+            "monster_id": 24,
+            "normal": 5,
+            "enraged": 5,
+            "fatigued": 5
+        },
+        "monsterguildquestitems": [],
+        "items": [
+            {
+                "id": 603,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 220,
+                "buy": 2200,
+                "local_name": "Seltas Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-shell",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 603,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 606,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 270,
+                "buy": 2700,
+                "local_name": "Seltas Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-wing",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 606,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 348,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 170,
+                "buy": 1700,
+                "local_name": "Aqua Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/aqua-sac",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 348,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1311,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 220,
+                "local_name": "Drone Substance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/drone-substance",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 1311,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 600,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 500,
+                "buy": 5000,
+                "local_name": "Monster Fluid",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-fluid",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 600,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 348,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 170,
+                "buy": 1700,
+                "local_name": "Aqua Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/aqua-sac",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 348,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 606,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 270,
+                "buy": 2700,
+                "local_name": "Seltas Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-wing",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 606,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 600,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 500,
+                "buy": 5000,
+                "local_name": "Monster Fluid",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-fluid",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 600,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 603,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 220,
+                "buy": 2200,
+                "local_name": "Seltas Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-shell",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 603,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 609,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 360,
+                "buy": 3600,
+                "local_name": "Seltas Horn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-horn",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 609,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 600,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 500,
+                "buy": 5000,
+                "local_name": "Monster Fluid",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-fluid",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 600,
+                    "quantity": 2,
+                    "percentage": 5,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 348,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 170,
+                "buy": 1700,
+                "local_name": "Aqua Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/aqua-sac",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 348,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 90,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 609,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 360,
+                "buy": 3600,
+                "local_name": "Seltas Horn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-horn",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 609,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 603,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 220,
+                "buy": 2200,
+                "local_name": "Seltas Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-shell",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 603,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 604,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Seltas Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-carapace",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 604,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 607,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 810,
+                "buy": 8100,
+                "local_name": "Seltas Innerwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-innerwing",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 607,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 603,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 220,
+                "buy": 2200,
+                "local_name": "Seltas Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-shell",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 603,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 349,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 510,
+                "buy": 5100,
+                "local_name": "Torrent Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/torrent-sac",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 349,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1311,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 220,
+                "local_name": "Drone Substance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/drone-substance",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 1311,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1312,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 400,
+                "local_name": "Queen Substance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/queen-substance",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 1312,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 601,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Monster Broth",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-broth",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 601,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 349,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 510,
+                "buy": 5100,
+                "local_name": "Torrent Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/torrent-sac",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 349,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 607,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 810,
+                "buy": 8100,
+                "local_name": "Seltas Innerwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-innerwing",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 607,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 610,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1080,
+                "buy": 10800,
+                "local_name": "Seltas Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-horn+",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 610,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 604,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Seltas Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-carapace",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 604,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 601,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Monster Broth",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-broth",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 601,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 606,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 270,
+                "buy": 2700,
+                "local_name": "Seltas Wing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-wing",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 606,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 601,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Monster Broth",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-broth",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 601,
+                    "quantity": 2,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 349,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 510,
+                "buy": 5100,
+                "local_name": "Torrent Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/torrent-sac",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 349,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 610,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1080,
+                "buy": 10800,
+                "local_name": "Seltas Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-horn+",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 610,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 604,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Seltas Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-carapace",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 604,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 609,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 360,
+                "buy": 3600,
+                "local_name": "Seltas Horn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-horn",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 609,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 605,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1980,
+                "buy": 19800,
+                "local_name": "Seltas Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-cortex",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 605,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 608,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2430,
+                "buy": 24300,
+                "local_name": "Seltas Razorwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-razorwing",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 608,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 604,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 660,
+                "buy": 6600,
+                "local_name": "Seltas Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-carapace",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 604,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 350,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1020,
+                "buy": 10200,
+                "local_name": "Flood Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flood-sac",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 350,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1312,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 400,
+                "local_name": "Queen Substance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/queen-substance",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 1312,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 602,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Monster Essence",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-essence",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 602,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 350,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1020,
+                "buy": 10200,
+                "local_name": "Flood Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flood-sac",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 350,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 608,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2430,
+                "buy": 24300,
+                "local_name": "Seltas Razorwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-razorwing",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 608,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 611,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3240,
+                "buy": 32400,
+                "local_name": "Seltas Hardhorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-hardhorn",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 611,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 605,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1980,
+                "buy": 19800,
+                "local_name": "Seltas Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-cortex",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 605,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 602,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Monster Essence",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-essence",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 602,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 607,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 810,
+                "buy": 8100,
+                "local_name": "Seltas Innerwing",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-innerwing",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 607,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 602,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Monster Essence",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-essence",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 602,
+                    "quantity": 2,
+                    "percentage": 5,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 350,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1020,
+                "buy": 10200,
+                "local_name": "Flood Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flood-sac",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 350,
+                    "quantity": 1,
+                    "percentage": 5,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 80,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 1085,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 611,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3240,
+                "buy": 32400,
+                "local_name": "Seltas Hardhorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-hardhorn",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 611,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 605,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 1980,
+                "buy": 19800,
+                "local_name": "Seltas Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-cortex",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 605,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 610,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1080,
+                "buy": 10800,
+                "local_name": "Seltas Horn+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/seltas-horn+",
+                "pivot": {
+                    "monster_id": 24,
+                    "item_id": 610,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 38,
+                    "monsteritemmethod": {
+                        "id": 38,
+                        "local_name": "Break Horn"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 25,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 2,
+                "questtype_id": 3,
+                "reward": 1200,
+                "questpriority_id": 2,
+                "questgoal_id": 25,
+                "questsubgoal_id": 25,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 200,
+                "time": 50,
+                "hrp": 80,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "The Stinking Seltas",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/2\/the-stinking-seltas",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 25
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 25,
+                    "local_name": "Hunt a Seltas"
+                },
+                "questsubgoal": {
+                    "id": 25,
+                    "local_name": "Break the Seltas's horn"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 29,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 2,
+                "questtype_id": 3,
+                "reward": 1200,
+                "questpriority_id": 1,
+                "questgoal_id": 25,
+                "questsubgoal_id": 29,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 200,
+                "time": 50,
+                "hrp": 80,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Bug App\u00e9tit",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/2\/bug-appetit",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 29
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 25,
+                    "local_name": "Hunt a Seltas"
+                },
+                "questsubgoal": {
+                    "id": 29,
+                    "local_name": "Slay 5 Bnahabra"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 73,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 4800,
+                "questpriority_id": 2,
+                "questgoal_id": 73,
+                "questsubgoal_id": 73,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 500,
+                "time": 50,
+                "hrp": 300,
+                "map_id": 6,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "The Royal Guard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/5\/the-royal-guard",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 73
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 73,
+                    "local_name": "Hunt a Seltas Queen"
+                },
+                "questsubgoal": {
+                    "id": 73,
+                    "local_name": "Hunt a Seltas"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 89,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 6,
+                "questtype_id": 4,
+                "reward": 3900,
+                "questpriority_id": 1,
+                "questgoal_id": 89,
+                "questsubgoal_id": 25,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 400,
+                "time": 50,
+                "hrp": 200,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": 4,
+                "local_name": "Catch and Release",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/6\/catch-and-release",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 89
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 89,
+                    "local_name": "Capture a Seltas"
+                },
+                "questsubgoal": {
+                    "id": 25,
+                    "local_name": "Break the Seltas's horn"
+                },
+                "questtype": {
+                    "id": 4,
+                    "local_name": "Capture"
+                }
+            },
+            {
+                "id": 137,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 4200,
+                "questpriority_id": 1,
+                "questgoal_id": 137,
+                "questsubgoal_id": 25,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 500,
+                "time": 50,
+                "hrp": 250,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Primal Pests",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/8\/primal-pests",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 137
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 137,
+                    "local_name": "Hunt an Iodrome and a Seltas"
+                },
+                "questsubgoal": {
+                    "id": 25,
+                    "local_name": "Break the Seltas's horn"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 145,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 7200,
+                "questpriority_id": 2,
+                "questgoal_id": 73,
+                "questsubgoal_id": 145,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 800,
+                "time": 50,
+                "hrp": 480,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Ladykiller",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/8\/ladykiller",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 145
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 73,
+                    "local_name": "Hunt a Seltas Queen"
+                },
+                "questsubgoal": {
+                    "id": 145,
+                    "local_name": "Wound the Seltas Queen's head"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 162,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 9,
+                "questtype_id": 3,
+                "reward": 18000,
+                "questpriority_id": 1,
+                "questgoal_id": 162,
+                "questsubgoal_id": 162,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1900,
+                "time": 50,
+                "hrp": 1080,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Risky Research",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/9\/advanced-risky-research",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 162
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 162,
+                    "local_name": "Hunt a Rathalos and a Seltas Queen"
+                },
+                "questsubgoal": {
+                    "id": 162,
+                    "local_name": "Suppress the Rathalos's Frenzy"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 203,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 1,
+                "questtype_id": 3,
+                "reward": 2100,
+                "questpriority_id": 2,
+                "questgoal_id": 25,
+                "questsubgoal_id": 25,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 300,
+                "time": 50,
+                "hrp": 170,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Bug Burger",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/1\/bug-burger",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 203
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 25,
+                    "local_name": "Hunt a Seltas"
+                },
+                "questsubgoal": {
+                    "id": 25,
+                    "local_name": "Break the Seltas's horn"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 242,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 3,
+                "questtype_id": 3,
+                "reward": 8100,
+                "questpriority_id": 2,
+                "questgoal_id": 73,
+                "questsubgoal_id": 242,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 900,
+                "time": 50,
+                "hrp": 550,
+                "map_id": 6,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "The Royal Guard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/3\/the-royal-guard",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 242
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 73,
+                    "local_name": "Hunt a Seltas Queen"
+                },
+                "questsubgoal": {
+                    "id": 242,
+                    "local_name": "Wound the Seltas Queen's tail"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 251,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 3,
+                "questtype_id": 3,
+                "reward": 9900,
+                "questpriority_id": 1,
+                "questgoal_id": 73,
+                "questsubgoal_id": 73,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1000,
+                "time": 50,
+                "hrp": 600,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Bug Buffet",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/3\/advanced-bug-buffet",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 251
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 73,
+                    "local_name": "Hunt a Seltas Queen"
+                },
+                "questsubgoal": {
+                    "id": 73,
+                    "local_name": "Hunt a Seltas"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 260,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 4200,
+                "questpriority_id": 1,
+                "questgoal_id": 260,
+                "questsubgoal_id": 260,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 500,
+                "time": 50,
+                "hrp": 260,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Seltas Romance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/4\/seltas-romance",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 260
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 260,
+                    "local_name": "Hunt 2 Seltas"
+                },
+                "questsubgoal": {
+                    "id": 260,
+                    "local_name": "Slay 10 Konchu"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 260,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 4200,
+                "questpriority_id": 1,
+                "questgoal_id": 260,
+                "questsubgoal_id": 260,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 500,
+                "time": 50,
+                "hrp": 260,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Seltas Romance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/4\/seltas-romance",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 260
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 260,
+                    "local_name": "Hunt 2 Seltas"
+                },
+                "questsubgoal": {
+                    "id": 260,
+                    "local_name": "Slay 10 Konchu"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 275,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 10200,
+                "questpriority_id": 1,
+                "questgoal_id": 102,
+                "questsubgoal_id": 49,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1100,
+                "time": 50,
+                "hrp": 610,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Material Effect",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/4\/material-effect",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 275
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 102,
+                    "local_name": "Hunt all large monsters"
+                },
+                "questsubgoal": {
+                    "id": 49,
+                    "local_name": "Wound the Congalala's comb"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 296,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 11400,
+                "questpriority_id": 1,
+                "questgoal_id": 73,
+                "questsubgoal_id": 242,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1200,
+                "time": 50,
+                "hrp": 590,
+                "map_id": 6,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Queen's Academy",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/5\/queens-academy",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 296
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 73,
+                    "local_name": "Hunt a Seltas Queen"
+                },
+                "questsubgoal": {
+                    "id": 242,
+                    "local_name": "Wound the Seltas Queen's tail"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 306,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 5,
+                "questtype_id": 3,
+                "reward": 13800,
+                "questpriority_id": 1,
+                "questgoal_id": 73,
+                "questsubgoal_id": 73,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1400,
+                "time": 50,
+                "hrp": 710,
+                "map_id": 6,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Bug Bite",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/5\/advanced-bug-bite",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 306
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 73,
+                    "local_name": "Hunt a Seltas Queen"
+                },
+                "questsubgoal": {
+                    "id": 73,
+                    "local_name": "Hunt a Seltas"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 313,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 23100,
+                "questpriority_id": 1,
+                "questgoal_id": 102,
+                "questsubgoal_id": 120,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 2400,
+                "time": 50,
+                "hrp": 1590,
+                "map_id": 6,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Mega Hunt-a-thon",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/6\/advanced-mega-hunt-a-thon",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 313
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 102,
+                    "local_name": "Hunt all large monsters"
+                },
+                "questsubgoal": {
+                    "id": 120,
+                    "local_name": "Deliver 1 Large Wyvern Tear"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 378,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 8100,
+                "questpriority_id": 1,
+                "questgoal_id": 378,
+                "questsubgoal_id": 129,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 900,
+                "time": 50,
+                "hrp": 530,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Bug-Be-Gone",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/8\/advanced-bug-be-gone",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 378
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 378,
+                    "local_name": "Hunt a Seltas and a Desert Seltas"
+                },
+                "questsubgoal": {
+                    "id": 129,
+                    "local_name": "Deliver 1 Queen Substance"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 398,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 9,
+                "questtype_id": 4,
+                "reward": 20700,
+                "questpriority_id": 1,
+                "questgoal_id": 398,
+                "questsubgoal_id": 398,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 2100,
+                "time": 50,
+                "hrp": 1140,
+                "map_id": 6,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Strutting the Royal Runway",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/9\/strutting-the-royal-runway",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 398
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 398,
+                    "local_name": "Capture a Seltas Queen"
+                },
+                "questsubgoal": {
+                    "id": 398,
+                    "local_name": "Capture a Seltas"
+                },
+                "questtype": {
+                    "id": 4,
+                    "local_name": "Capture"
+                }
+            },
+            {
+                "id": 410,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 9,
+                "questtype_id": 3,
+                "reward": 21600,
+                "questpriority_id": 1,
+                "questgoal_id": 410,
+                "questsubgoal_id": 73,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 2200,
+                "time": 50,
+                "hrp": 1550,
+                "map_id": 1,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Mean and Green",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/9\/advanced-mean-and-green",
+                "pivot": {
+                    "monster_id": 24,
+                    "quest_id": 410
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 410,
+                    "local_name": "Hunt an Emerald Congalala and a Seltas Queen"
+                },
+                "questsubgoal": {
+                    "id": 73,
+                    "local_name": "Hunt a Seltas"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            }
+        ],
+        "maps": [
+            {
+                "id": 1,
+                "local_name": "Ancestral Steppe",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/ancestral-steppe",
+                "pivot": {
+                    "monster_id": 24,
+                    "map_id": 1,
+                    "start": 4,
+                    "areas": "2, 3, 7, 8",
+                    "rest": 9
+                }
+            },
+            {
+                "id": 2,
+                "local_name": "Sunken Hollow",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/sunken-hollow",
+                "pivot": {
+                    "monster_id": 24,
+                    "map_id": 2,
+                    "start": 2,
+                    "areas": "4, 5, 6, 8",
+                    "rest": 7
+                }
+            },
+            {
+                "id": 3,
+                "local_name": "Primal Forest",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/primal-forest",
+                "pivot": {
+                    "monster_id": 24,
+                    "map_id": 3,
+                    "start": 5,
+                    "areas": "1, 2, 4, 6, 9",
+                    "rest": 3
+                }
+            },
+            {
+                "id": 6,
+                "local_name": "Heaven's Mount",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/heavens-mount",
+                "pivot": {
+                    "monster_id": 24,
+                    "map_id": 6,
+                    "start": 3,
+                    "areas": "1, 2, 5, 6, 7",
+                    "rest": 3
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "id": 478,
+                "weapontype_id": 3,
+                "weapon_parent_id": 462,
+                "final": 0,
+                "attack": 140,
+                "defense": 10,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 1,
+                "slot": 0,
+                "price_create": 3225,
+                "price_upgrade": 2150,
+                "local_name": "Celestial Sword",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/celestial-sword",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 478
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 479,
+                "weapontype_id": 3,
+                "weapon_parent_id": 478,
+                "final": 0,
+                "attack": 154,
+                "defense": 15,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 2600,
+                "local_name": "Celestial Arms",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/celestial-arms",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 479
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 660,
+                "weapontype_id": 4,
+                "weapon_parent_id": 639,
+                "final": 0,
+                "attack": 126,
+                "defense": null,
+                "affinity": -5,
+                "affinity_virus": null,
+                "rarity": 1,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 1400,
+                "local_name": "Whirlitwists",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/whirlitwists",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 660
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 661,
+                "weapontype_id": 4,
+                "weapon_parent_id": 660,
+                "final": 0,
+                "attack": 154,
+                "defense": null,
+                "affinity": -10,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 2600,
+                "local_name": "Whirlitricks",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/dualblades\/whirlitricks",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 661
+                },
+                "weapontype": {
+                    "id": 4,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "db",
+                    "model_prefix": "sou",
+                    "local_name": "Dual Blades"
+                }
+            },
+            {
+                "id": 820,
+                "weapontype_id": 5,
+                "weapon_parent_id": 776,
+                "final": 0,
+                "attack": 520,
+                "defense": null,
+                "affinity": -10,
+                "affinity_virus": null,
+                "rarity": 1,
+                "slot": 0,
+                "price_create": 2625,
+                "price_upgrade": 1750,
+                "local_name": "Accelerated Hammer",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/accelerated-hammer",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 820
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 821,
+                "weapontype_id": 5,
+                "weapon_parent_id": 820,
+                "final": 0,
+                "attack": 572,
+                "defense": null,
+                "affinity": -5,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 2150,
+                "local_name": "Boosted Hammer",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/boosted-hammer",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 821
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 822,
+                "weapontype_id": 5,
+                "weapon_parent_id": 821,
+                "final": 0,
+                "attack": 624,
+                "defense": 5,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 8900,
+                "local_name": "Nitro Boost Hammer",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/nitro-boost-hammer",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 822
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 823,
+                "weapontype_id": 5,
+                "weapon_parent_id": 822,
+                "final": 0,
+                "attack": 780,
+                "defense": 10,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 30000,
+                "local_name": "Full Throttle Mace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/full-throttle-mace",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 823
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 824,
+                "weapontype_id": 5,
+                "weapon_parent_id": 823,
+                "final": 0,
+                "attack": 884,
+                "defense": 15,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 50000,
+                "local_name": "Overclocker",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/overclocker",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 824
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 825,
+                "weapontype_id": 5,
+                "weapon_parent_id": 824,
+                "final": 0,
+                "attack": 1248,
+                "defense": 23,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 90000,
+                "local_name": "Logicbreaker",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/logicbreaker",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 825
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 1450,
+                "weapontype_id": 8,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 529,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": 82500,
+                "price_upgrade": null,
+                "local_name": "Monsieur Gore",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/monsieur-gore",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 1450
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1694,
+                "weapontype_id": 10,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 540,
+                "defense": 20,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 0,
+                "price_create": 25000,
+                "price_upgrade": null,
+                "local_name": "Schildsect",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/schildsect",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 1694
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1695,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1694,
+                "final": 0,
+                "attack": 612,
+                "defense": 20,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Schildsect+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/schildsect+",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 1695
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1696,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1695,
+                "final": 0,
+                "attack": 792,
+                "defense": 25,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 60000,
+                "local_name": "Galvanisect",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/galvanisect",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 1696
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1781,
+                "weapontype_id": 11,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 465,
+                "defense": 20,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 0,
+                "price_create": 15000,
+                "price_upgrade": null,
+                "local_name": "Sect Happa",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/sect-happa",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 1781
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1910,
+                "weapontype_id": 12,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 130,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 1,
+                "slot": 0,
+                "price_create": 2100,
+                "price_upgrade": null,
+                "local_name": "Shell Shooter",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/lightbowgun\/shell-shooter",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 1910
+                },
+                "weapontype": {
+                    "id": 12,
+                    "modifier": "1.3",
+                    "armortype_id": 3,
+                    "code": "lb",
+                    "model_prefix": "lbg",
+                    "local_name": "Light Bowgun"
+                }
+            },
+            {
+                "id": 2183,
+                "weapontype_id": 14,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 144,
+                "defense": 5,
+                "affinity": -15,
+                "affinity_virus": null,
+                "rarity": 1,
+                "slot": 0,
+                "price_create": 2100,
+                "price_upgrade": null,
+                "local_name": "Heat Haze",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/heat-haze",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 2183
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2184,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2183,
+                "final": 0,
+                "attack": 168,
+                "defense": 5,
+                "affinity": -10,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 3100,
+                "local_name": "Hulking Haze",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/hulking-haze",
+                "pivot": {
+                    "monster_id": 24,
+                    "weapon_id": 2184
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            }
+        ]
+    }
+}

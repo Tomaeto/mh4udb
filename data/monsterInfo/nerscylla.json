@@ -1,0 +1,4257 @@
+{
+    "monster": {
+        "id": 28,
+        "base_hp": 3900,
+        "size": "L",
+        "hp_mult_low": "0.55",
+        "hp_mult_high": "0.64",
+        "hp_mult_g": "1.21",
+        "crown_miniature": "852.0",
+        "crown_large": "1060.3",
+        "crown_king": "1117.1",
+        "rage_duration": 90,
+        "rage_mod_attack": "1.4",
+        "rage_mod_defense": "1.1",
+        "rage_mod_speed": "1.1",
+        "limp_low": 20,
+        "cap_low": 25,
+        "limp_high": 18,
+        "cap_high": 23,
+        "limp_high_apex": 0,
+        "cap_high_apex": 0,
+        "limp_g": 14,
+        "cap_g": 18,
+        "limp_g_apex": 0,
+        "cap_g_apex": 0,
+        "local_name": "Nerscylla",
+        "link": "https:\/\/kiranico.com\/en\/mh4u\/monster\/nerscylla",
+        "monstersounds": [
+            {
+                "id": 26,
+                "monster_id": 28,
+                "filename": "em027_vo_scream"
+            }
+        ],
+        "monsterbodyparts": [
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 1,
+                    "type": "A",
+                    "res_cut": 50,
+                    "res_impact": 65,
+                    "res_shot": 50,
+                    "res_fire": 15,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 0,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 36,
+                "local_name": "Poison Stinger",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 36,
+                    "type": "A",
+                    "res_cut": 28,
+                    "res_impact": 35,
+                    "res_shot": 65,
+                    "res_fire": 25,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 0,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Torso",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 11,
+                    "type": "A",
+                    "res_cut": 36,
+                    "res_impact": 36,
+                    "res_shot": 40,
+                    "res_fire": 25,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 20,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 4,
+                "local_name": "Belly",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 4,
+                    "type": "A",
+                    "res_cut": 65,
+                    "res_impact": 45,
+                    "res_shot": 45,
+                    "res_fire": 15,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 20,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 32,
+                "local_name": "Nail",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 32,
+                    "type": "A",
+                    "res_cut": 20,
+                    "res_impact": 30,
+                    "res_shot": 20,
+                    "res_fire": 5,
+                    "res_water": 0,
+                    "res_ice": 0,
+                    "res_thunder": 10,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 37,
+                "local_name": "Leg Segment",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 37,
+                    "type": "A",
+                    "res_cut": 35,
+                    "res_impact": 30,
+                    "res_shot": 25,
+                    "res_fire": 20,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 0,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 38,
+                "local_name": "Leg Tip",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 38,
+                    "type": "A",
+                    "res_cut": 28,
+                    "res_impact": 30,
+                    "res_shot": 20,
+                    "res_fire": 10,
+                    "res_water": 0,
+                    "res_ice": 0,
+                    "res_thunder": 0,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 1,
+                "local_name": "Head",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 1,
+                    "type": "B",
+                    "res_cut": 50,
+                    "res_impact": 65,
+                    "res_shot": 50,
+                    "res_fire": 5,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 10,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 36,
+                "local_name": "Poison Stinger",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 36,
+                    "type": "B",
+                    "res_cut": 28,
+                    "res_impact": 42,
+                    "res_shot": 35,
+                    "res_fire": 5,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 35,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Torso",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 11,
+                    "type": "B",
+                    "res_cut": 36,
+                    "res_impact": 36,
+                    "res_shot": 40,
+                    "res_fire": 5,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 25,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 4,
+                "local_name": "Belly",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 4,
+                    "type": "B",
+                    "res_cut": 65,
+                    "res_impact": 45,
+                    "res_shot": 45,
+                    "res_fire": 5,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 20,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 32,
+                "local_name": "Nail",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 32,
+                    "type": "B",
+                    "res_cut": 20,
+                    "res_impact": 30,
+                    "res_shot": 20,
+                    "res_fire": 5,
+                    "res_water": 0,
+                    "res_ice": 0,
+                    "res_thunder": 10,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 37,
+                "local_name": "Leg Segment",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 37,
+                    "type": "B",
+                    "res_cut": 35,
+                    "res_impact": 30,
+                    "res_shot": 25,
+                    "res_fire": 5,
+                    "res_water": 0,
+                    "res_ice": 5,
+                    "res_thunder": 15,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            },
+            {
+                "id": 38,
+                "local_name": "Leg Tip",
+                "pivot": {
+                    "monster_id": 28,
+                    "monsterbodypart_id": 38,
+                    "type": "B",
+                    "res_cut": 28,
+                    "res_impact": 30,
+                    "res_shot": 20,
+                    "res_fire": 5,
+                    "res_water": 0,
+                    "res_ice": 0,
+                    "res_thunder": 5,
+                    "res_dragon": 0,
+                    "res_dizzy": null
+                }
+            }
+        ],
+        "monsterstaggerlimits": [
+            {
+                "id": 209,
+                "monster_id": 28,
+                "region": "Head",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 210,
+                "monster_id": 28,
+                "region": "Poison Stinger",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            },
+            {
+                "id": 211,
+                "monster_id": 28,
+                "region": "Chest",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 212,
+                "monster_id": 28,
+                "region": "Abdominal",
+                "value": 200,
+                "value_cut": null,
+                "extract_color": "orange"
+            },
+            {
+                "id": 213,
+                "monster_id": 28,
+                "region": "Claws",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "red"
+            },
+            {
+                "id": 214,
+                "monster_id": 28,
+                "region": "Left Legs",
+                "value": 80,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 215,
+                "monster_id": 28,
+                "region": "Right Legs",
+                "value": 80,
+                "value_cut": null,
+                "extract_color": "white"
+            },
+            {
+                "id": 216,
+                "monster_id": 28,
+                "region": "",
+                "value": 100,
+                "value_cut": null,
+                "extract_color": "green"
+            }
+        ],
+        "weaponspecialattacks": [
+            {
+                "id": 6,
+                "local_name": "Poison",
+                "pivot": {
+                    "monster_id": 28,
+                    "weaponspecialattack_id": 6,
+                    "initial": 180,
+                    "increase": 100,
+                    "max": 580,
+                    "duration": 30,
+                    "damage": 50,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 8,
+                "local_name": "Sleep",
+                "pivot": {
+                    "monster_id": 28,
+                    "weaponspecialattack_id": 8,
+                    "initial": 200,
+                    "increase": 150,
+                    "max": 800,
+                    "duration": 40,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 7,
+                "local_name": "Para",
+                "pivot": {
+                    "monster_id": 28,
+                    "weaponspecialattack_id": 7,
+                    "initial": 110,
+                    "increase": 130,
+                    "max": 500,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 10,
+                "local_name": "KO",
+                "pivot": {
+                    "monster_id": 28,
+                    "weaponspecialattack_id": 10,
+                    "initial": 120,
+                    "increase": 100,
+                    "max": 650,
+                    "duration": 14,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 11,
+                "local_name": "Exhaust",
+                "pivot": {
+                    "monster_id": 28,
+                    "weaponspecialattack_id": 11,
+                    "initial": 180,
+                    "increase": 100,
+                    "max": 480,
+                    "duration": 10,
+                    "damage": 0,
+                    "reduction_time": 10,
+                    "reduction_amount": 5
+                }
+            },
+            {
+                "id": 9,
+                "local_name": "Blast",
+                "pivot": {
+                    "monster_id": 28,
+                    "weaponspecialattack_id": 9,
+                    "initial": 40,
+                    "increase": 20,
+                    "max": 440,
+                    "duration": 0,
+                    "damage": 100,
+                    "reduction_time": 10,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 12,
+                "local_name": "Jump",
+                "pivot": {
+                    "monster_id": 28,
+                    "weaponspecialattack_id": 12,
+                    "initial": 50,
+                    "increase": 120,
+                    "max": 530,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            },
+            {
+                "id": 13,
+                "local_name": "Mount",
+                "pivot": {
+                    "monster_id": 28,
+                    "weaponspecialattack_id": 13,
+                    "initial": 50,
+                    "increase": 50,
+                    "max": 200,
+                    "duration": 0,
+                    "damage": 0,
+                    "reduction_time": 0,
+                    "reduction_amount": 0
+                }
+            }
+        ],
+        "itemeffects": [
+            {
+                "id": 78,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 46,
+                "buy": 462,
+                "local_name": "Pitfall Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pitfall-trap",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 78,
+                    "normal": 15,
+                    "enraged": 12,
+                    "fatigued": 20
+                }
+            },
+            {
+                "id": 66,
+                "rarity": 2,
+                "carry": 5,
+                "sell": 57,
+                "buy": 572,
+                "local_name": "Flash Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/flash-bomb",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 66,
+                    "normal": 20,
+                    "enraged": 20,
+                    "fatigued": 30
+                }
+            },
+            {
+                "id": 79,
+                "rarity": 3,
+                "carry": 1,
+                "sell": 160,
+                "buy": 320,
+                "local_name": "Shock Trap",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/shock-trap",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 79,
+                    "normal": 10,
+                    "enraged": 8,
+                    "fatigued": 12
+                }
+            },
+            {
+                "id": 67,
+                "rarity": 2,
+                "carry": 10,
+                "sell": 45,
+                "buy": 450,
+                "local_name": "Sonic Bomb",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sonic-bomb",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 67,
+                    "normal": 0,
+                    "enraged": 0,
+                    "fatigued": 0
+                }
+            }
+        ],
+        "canopytrap": {
+            "id": 53,
+            "monster_id": 28,
+            "normal": 5,
+            "enraged": 5,
+            "fatigued": 5
+        },
+        "monsterguildquestitems": [],
+        "items": [
+            {
+                "id": 584,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 390,
+                "buy": 3900,
+                "local_name": "Nerscylla Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-shell",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 584,
+                    "quantity": 1,
+                    "percentage": 42,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 587,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Nerscylla Chelicera",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-chelicera",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 587,
+                    "quantity": 1,
+                    "percentage": 21,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 590,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 520,
+                "buy": 5200,
+                "local_name": "Nerscylla Claw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-claw",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 590,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 337,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 230,
+                "buy": 2300,
+                "local_name": "Sleep Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sleep-sac",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 337,
+                    "quantity": 1,
+                    "percentage": 14,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 593,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1200,
+                "buy": 12000,
+                "local_name": "Nerscylla Spike",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-spike",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 593,
+                    "quantity": 1,
+                    "percentage": 8,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1311,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 220,
+                "local_name": "Drone Substance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/drone-substance",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 1311,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 600,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 500,
+                "buy": 5000,
+                "local_name": "Monster Fluid",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-fluid",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 600,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 587,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Nerscylla Chelicera",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-chelicera",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 587,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 593,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1200,
+                "buy": 12000,
+                "local_name": "Nerscylla Spike",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-spike",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 593,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 337,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 230,
+                "buy": 2300,
+                "local_name": "Sleep Sac",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/sleep-sac",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 337,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 584,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 390,
+                "buy": 3900,
+                "local_name": "Nerscylla Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-shell",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 584,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 75,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 1083,
+                "rarity": 5,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-crystal",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 1083,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 590,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 520,
+                "buy": 5200,
+                "local_name": "Nerscylla Claw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-claw",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 590,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 584,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 390,
+                "buy": 3900,
+                "local_name": "Nerscylla Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-shell",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 584,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 593,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1200,
+                "buy": 12000,
+                "local_name": "Nerscylla Spike",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-spike",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 593,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 65,
+                    "monsteritemmethod": {
+                        "id": 65,
+                        "local_name": "Break Poison Stinger"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 584,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 390,
+                "buy": 3900,
+                "local_name": "Nerscylla Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-shell",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 584,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 65,
+                    "monsteritemmethod": {
+                        "id": 65,
+                        "local_name": "Break Poison Stinger"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 584,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 390,
+                "buy": 3900,
+                "local_name": "Nerscylla Shell",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-shell",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 584,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 66,
+                    "monsteritemmethod": {
+                        "id": 66,
+                        "local_name": "Break Cover Skin"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 446,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 370,
+                "buy": 3700,
+                "local_name": "Rubbery Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/rubbery-hide",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 446,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 1,
+                    "monsteritemmethod_id": 66,
+                    "monsteritemmethod": {
+                        "id": 66,
+                        "local_name": "Break Cover Skin"
+                    },
+                    "rank": {
+                        "id": 1,
+                        "rarity_lowest": 1,
+                        "rarity_highest": 4,
+                        "local_name": "Low"
+                    }
+                }
+            },
+            {
+                "id": 585,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1170,
+                "buy": 11700,
+                "local_name": "Nerscylla Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-carapace",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 585,
+                    "quantity": 1,
+                    "percentage": 46,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 588,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1440,
+                "buy": 14400,
+                "local_name": "Nerscylla Shear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-shear",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 588,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 591,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1560,
+                "buy": 15600,
+                "local_name": "Nerscylla Sharpclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-sharpclaw",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 591,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 594,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2800,
+                "buy": 28000,
+                "local_name": "Nerscylla Spike+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-spike+",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 594,
+                    "quantity": 1,
+                    "percentage": 11,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1311,
+                "rarity": 3,
+                "carry": 10,
+                "sell": 0,
+                "buy": 220,
+                "local_name": "Drone Substance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/drone-substance",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 1311,
+                    "quantity": 1,
+                    "percentage": 38,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1312,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 400,
+                "local_name": "Queen Substance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/queen-substance",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 1312,
+                    "quantity": 1,
+                    "percentage": 37,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 601,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Monster Broth",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-broth",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 601,
+                    "quantity": 1,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 600,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 500,
+                "buy": 5000,
+                "local_name": "Monster Fluid",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-fluid",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 600,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 588,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1440,
+                "buy": 14400,
+                "local_name": "Nerscylla Shear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-shear",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 588,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 585,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1170,
+                "buy": 11700,
+                "local_name": "Nerscylla Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-carapace",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 585,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 594,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2800,
+                "buy": 28000,
+                "local_name": "Nerscylla Spike+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-spike+",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 594,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 587,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 480,
+                "buy": 4800,
+                "local_name": "Nerscylla Chelicera",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-chelicera",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 587,
+                    "quantity": 2,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1082,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1000,
+                "buy": 10000,
+                "local_name": "Frenzy Shard",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/frenzy-shard",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 1082,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 30,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 591,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1560,
+                "buy": 15600,
+                "local_name": "Nerscylla Sharpclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-sharpclaw",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 591,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 585,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1170,
+                "buy": 11700,
+                "local_name": "Nerscylla Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-carapace",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 585,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 590,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 520,
+                "buy": 5200,
+                "local_name": "Nerscylla Claw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-claw",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 590,
+                    "quantity": 2,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 594,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2800,
+                "buy": 28000,
+                "local_name": "Nerscylla Spike+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-spike+",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 594,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 65,
+                    "monsteritemmethod": {
+                        "id": 65,
+                        "local_name": "Break Poison Stinger"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 585,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1170,
+                "buy": 11700,
+                "local_name": "Nerscylla Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-carapace",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 585,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 65,
+                    "monsteritemmethod": {
+                        "id": 65,
+                        "local_name": "Break Poison Stinger"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 593,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 1200,
+                "buy": 12000,
+                "local_name": "Nerscylla Spike",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-spike",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 593,
+                    "quantity": 2,
+                    "percentage": 15,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 65,
+                    "monsteritemmethod": {
+                        "id": 65,
+                        "local_name": "Break Poison Stinger"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 585,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1170,
+                "buy": 11700,
+                "local_name": "Nerscylla Carapace",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-carapace",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 585,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 66,
+                    "monsteritemmethod": {
+                        "id": 66,
+                        "local_name": "Break Cover Skin"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 447,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1110,
+                "buy": 11100,
+                "local_name": "Rubbery Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/rubbery-hide+",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 447,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 66,
+                    "monsteritemmethod": {
+                        "id": 66,
+                        "local_name": "Break Cover Skin"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 446,
+                "rarity": 4,
+                "carry": 99,
+                "sell": 370,
+                "buy": 3700,
+                "local_name": "Rubbery Hide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/rubbery-hide",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 446,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 2,
+                    "monsteritemmethod_id": 66,
+                    "monsteritemmethod": {
+                        "id": 66,
+                        "local_name": "Break Cover Skin"
+                    },
+                    "rank": {
+                        "id": 2,
+                        "rarity_lowest": 5,
+                        "rarity_highest": 7,
+                        "local_name": "High"
+                    }
+                }
+            },
+            {
+                "id": 586,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3510,
+                "buy": 35100,
+                "local_name": "Nerscylla Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-cortex",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 586,
+                    "quantity": 1,
+                    "percentage": 46,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 589,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4320,
+                "buy": 43200,
+                "local_name": "Nerscylla Scishorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-scishorn",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 589,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 592,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4680,
+                "buy": 46800,
+                "local_name": "Nerscylla Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-hardclaw",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 592,
+                    "quantity": 1,
+                    "percentage": 18,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 595,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5600,
+                "buy": 56000,
+                "local_name": "Nerscylla Surspike",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-surspike",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 595,
+                    "quantity": 1,
+                    "percentage": 11,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 3,
+                    "monsteritemmethod": {
+                        "id": 3,
+                        "local_name": "Body Carve"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1312,
+                "rarity": 5,
+                "carry": 10,
+                "sell": 0,
+                "buy": 400,
+                "local_name": "Queen Substance",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/queen-substance",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 1312,
+                    "quantity": 1,
+                    "percentage": 55,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 602,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 2000,
+                "buy": 20000,
+                "local_name": "Monster Essence",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/monster-essence",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 602,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 586,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3510,
+                "buy": 35100,
+                "local_name": "Nerscylla Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-cortex",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 586,
+                    "quantity": 1,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 1,
+                    "monsteritemmethod": {
+                        "id": 1,
+                        "local_name": "Shiny Drops"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 589,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4320,
+                "buy": 43200,
+                "local_name": "Nerscylla Scishorn",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-scishorn",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 589,
+                    "quantity": 1,
+                    "percentage": 35,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 595,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5600,
+                "buy": 56000,
+                "local_name": "Nerscylla Surspike",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-surspike",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 595,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 586,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3510,
+                "buy": 35100,
+                "local_name": "Nerscylla Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-cortex",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 586,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 588,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1440,
+                "buy": 14400,
+                "local_name": "Nerscylla Shear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-shear",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 588,
+                    "quantity": 2,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 36,
+                    "monsteritemmethod": {
+                        "id": 36,
+                        "local_name": "Capture"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 1084,
+                    "quantity": 1,
+                    "percentage": 50,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1085,
+                "rarity": 7,
+                "carry": 99,
+                "sell": 4000,
+                "buy": 40000,
+                "local_name": "Pure Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/pure-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 1085,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 1084,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 3000,
+                "buy": 30000,
+                "local_name": "Vile Frenzy Crystal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/vile-frenzy-crystal",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 1084,
+                    "quantity": 2,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 37,
+                    "monsteritemmethod": {
+                        "id": 37,
+                        "local_name": "Virus Reward"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 592,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 4680,
+                "buy": 46800,
+                "local_name": "Nerscylla Hardclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-hardclaw",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 592,
+                    "quantity": 1,
+                    "percentage": 65,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 586,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3510,
+                "buy": 35100,
+                "local_name": "Nerscylla Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-cortex",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 586,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 591,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1560,
+                "buy": 15600,
+                "local_name": "Nerscylla Sharpclaw",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-sharpclaw",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 591,
+                    "quantity": 2,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 49,
+                    "monsteritemmethod": {
+                        "id": 49,
+                        "local_name": "Break Claw"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 595,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 5600,
+                "buy": 56000,
+                "local_name": "Nerscylla Surspike",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-surspike",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 595,
+                    "quantity": 1,
+                    "percentage": 60,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 65,
+                    "monsteritemmethod": {
+                        "id": 65,
+                        "local_name": "Break Poison Stinger"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 586,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3510,
+                "buy": 35100,
+                "local_name": "Nerscylla Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-cortex",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 586,
+                    "quantity": 1,
+                    "percentage": 25,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 65,
+                    "monsteritemmethod": {
+                        "id": 65,
+                        "local_name": "Break Poison Stinger"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 594,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 2800,
+                "buy": 28000,
+                "local_name": "Nerscylla Spike+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-spike+",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 594,
+                    "quantity": 2,
+                    "percentage": 15,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 65,
+                    "monsteritemmethod": {
+                        "id": 65,
+                        "local_name": "Break Poison Stinger"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 586,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3510,
+                "buy": 35100,
+                "local_name": "Nerscylla Cortex",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/nerscylla-cortex",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 586,
+                    "quantity": 1,
+                    "percentage": 70,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 66,
+                    "monsteritemmethod": {
+                        "id": 66,
+                        "local_name": "Break Cover Skin"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 448,
+                "rarity": 8,
+                "carry": 99,
+                "sell": 3330,
+                "buy": 33300,
+                "local_name": "Rubbery Finehide",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/rubbery-finehide",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 448,
+                    "quantity": 1,
+                    "percentage": 20,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 66,
+                    "monsteritemmethod": {
+                        "id": 66,
+                        "local_name": "Break Cover Skin"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            },
+            {
+                "id": 447,
+                "rarity": 6,
+                "carry": 99,
+                "sell": 1110,
+                "buy": 11100,
+                "local_name": "Rubbery Hide+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/item\/rubbery-hide+",
+                "pivot": {
+                    "monster_id": 28,
+                    "item_id": 447,
+                    "quantity": 2,
+                    "percentage": 10,
+                    "rank_id": 3,
+                    "monsteritemmethod_id": 66,
+                    "monsteritemmethod": {
+                        "id": 66,
+                        "local_name": "Break Cover Skin"
+                    },
+                    "rank": {
+                        "id": 3,
+                        "rarity_lowest": 8,
+                        "rarity_highest": 10,
+                        "local_name": "G"
+                    }
+                }
+            }
+        ],
+        "quests": [
+            {
+                "id": 46,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 2700,
+                "questpriority_id": 3,
+                "questgoal_id": 46,
+                "questsubgoal_id": 46,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 300,
+                "time": 50,
+                "hrp": 190,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Nerscylla Thrilla",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/4\/nerscylla-thrilla",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 46
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 46,
+                    "local_name": "Hunt a Nerscylla"
+                },
+                "questsubgoal": {
+                    "id": 46,
+                    "local_name": "Break Nerscylla's poison spikes"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 56,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 5100,
+                "questpriority_id": 1,
+                "questgoal_id": 56,
+                "questsubgoal_id": 32,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 600,
+                "time": 50,
+                "hrp": 310,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Hanging by a Thread",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/4\/hanging-by-a-thread",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 56
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 56,
+                    "local_name": "Hunt 2 Nerscylla"
+                },
+                "questsubgoal": {
+                    "id": 32,
+                    "local_name": "Topple monster while mounted"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 56,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 5100,
+                "questpriority_id": 1,
+                "questgoal_id": 56,
+                "questsubgoal_id": 32,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 600,
+                "time": 50,
+                "hrp": 310,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Hanging by a Thread",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/4\/hanging-by-a-thread",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 56
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 56,
+                    "local_name": "Hunt 2 Nerscylla"
+                },
+                "questsubgoal": {
+                    "id": 32,
+                    "local_name": "Topple monster while mounted"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 100,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 6300,
+                "questpriority_id": 1,
+                "questgoal_id": 100,
+                "questsubgoal_id": 32,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 410,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Predator into Prey",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/6\/advanced-predator-into-prey",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 100
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 100,
+                    "local_name": "Hunt a Nerscylla and a Gypceros"
+                },
+                "questsubgoal": {
+                    "id": 32,
+                    "local_name": "Topple monster while mounted"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 88,
+                "rank_id": 1,
+                "questguild_id": 1,
+                "star": 6,
+                "questtype_id": 3,
+                "reward": 6000,
+                "questpriority_id": 1,
+                "questgoal_id": 46,
+                "questsubgoal_id": 88,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 330,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": 4,
+                "local_name": "Arachnophobia",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/6\/arachnophobia",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 88
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 46,
+                    "local_name": "Hunt a Nerscylla"
+                },
+                "questsubgoal": {
+                    "id": 88,
+                    "local_name": "Wound the Nerscylla's claw"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 129,
+                "rank_id": 2,
+                "questguild_id": 1,
+                "star": 7,
+                "questtype_id": 3,
+                "reward": 7500,
+                "questpriority_id": 2,
+                "questgoal_id": 129,
+                "questsubgoal_id": 129,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 800,
+                "time": 50,
+                "hrp": 600,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Hunt-a-thon: Nerscylla",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/caravan\/7\/hunt-a-thon-nerscylla",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 129
+                },
+                "questguild": {
+                    "id": 1,
+                    "local_name": "Caravan"
+                },
+                "questpriority": {
+                    "id": 2,
+                    "local_name": "Key"
+                },
+                "questgoal": {
+                    "id": 129,
+                    "local_name": "Hunt 2 Nerscylla before time expires or deliver a Paw P.Tkt"
+                },
+                "questsubgoal": {
+                    "id": 129,
+                    "local_name": "Deliver 1 Queen Substance"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 212,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 2,
+                "questtype_id": 3,
+                "reward": 4500,
+                "questpriority_id": 3,
+                "questgoal_id": 46,
+                "questsubgoal_id": 46,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 500,
+                "time": 50,
+                "hrp": 350,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Web Sighting",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/2\/web-sighting",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 212
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 3,
+                    "local_name": "Urgent"
+                },
+                "questgoal": {
+                    "id": 46,
+                    "local_name": "Hunt a Nerscylla"
+                },
+                "questsubgoal": {
+                    "id": 46,
+                    "local_name": "Break Nerscylla's poison spikes"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 225,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 2,
+                "questtype_id": 3,
+                "reward": 5700,
+                "questpriority_id": 1,
+                "questgoal_id": 100,
+                "questsubgoal_id": 225,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 600,
+                "time": 50,
+                "hrp": 500,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Subterranean Serenade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/2\/subterranean-serenade",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 225
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 100,
+                    "local_name": "Hunt a Nerscylla and a Gypceros"
+                },
+                "questsubgoal": {
+                    "id": 225,
+                    "local_name": "Wound the Nerscylla's hide"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 253,
+                "rank_id": 1,
+                "questguild_id": 2,
+                "star": 3,
+                "questtype_id": 3,
+                "reward": 6900,
+                "questpriority_id": 1,
+                "questgoal_id": 253,
+                "questsubgoal_id": 253,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 600,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: One-man Army",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/3\/advanced-one-man-army",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 253
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 253,
+                    "local_name": "Hunt a Nerscylla and a Kecha Wacha"
+                },
+                "questsubgoal": {
+                    "id": 253,
+                    "local_name": "Wound the Kecha Wacha's tail"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 267,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 6300,
+                "questpriority_id": 1,
+                "questgoal_id": 46,
+                "questsubgoal_id": 88,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 700,
+                "time": 50,
+                "hrp": 370,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Arachnophilia",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/4\/arachnophilia",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 267
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 46,
+                    "local_name": "Hunt a Nerscylla"
+                },
+                "questsubgoal": {
+                    "id": 88,
+                    "local_name": "Wound the Nerscylla's claw"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 274,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 9000,
+                "questpriority_id": 1,
+                "questgoal_id": 56,
+                "questsubgoal_id": 225,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1000,
+                "time": 50,
+                "hrp": 600,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Distress Signal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/4\/distress-signal",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 274
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 56,
+                    "local_name": "Hunt 2 Nerscylla"
+                },
+                "questsubgoal": {
+                    "id": 225,
+                    "local_name": "Wound the Nerscylla's hide"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 274,
+                "rank_id": 2,
+                "questguild_id": 2,
+                "star": 4,
+                "questtype_id": 3,
+                "reward": 9000,
+                "questpriority_id": 1,
+                "questgoal_id": 56,
+                "questsubgoal_id": 225,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1000,
+                "time": 50,
+                "hrp": 600,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Distress Signal",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/4\/distress-signal",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 274
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 56,
+                    "local_name": "Hunt 2 Nerscylla"
+                },
+                "questsubgoal": {
+                    "id": 225,
+                    "local_name": "Wound the Nerscylla's hide"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            },
+            {
+                "id": 369,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 4,
+                "reward": 11700,
+                "questpriority_id": 1,
+                "questgoal_id": 369,
+                "questsubgoal_id": 369,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1200,
+                "time": 50,
+                "hrp": 720,
+                "map_id": 3,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Death and Taxidermy",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/8\/death-and-taxidermy",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 369
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 369,
+                    "local_name": "Capture a Nerscylla"
+                },
+                "questsubgoal": {
+                    "id": 369,
+                    "local_name": "Slay 5 Slagtoth"
+                },
+                "questtype": {
+                    "id": 4,
+                    "local_name": "Capture"
+                }
+            },
+            {
+                "id": 381,
+                "rank_id": 3,
+                "questguild_id": 2,
+                "star": 8,
+                "questtype_id": 3,
+                "reward": 13500,
+                "questpriority_id": 1,
+                "questgoal_id": 381,
+                "questsubgoal_id": 381,
+                "hrp_sub": null,
+                "reward_sub": null,
+                "fee": 1400,
+                "time": 50,
+                "hrp": 1090,
+                "map_id": 2,
+                "map_time": null,
+                "hrp_required": null,
+                "local_name": "Advanced: Hollow Hysterics",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/quest\/guild\/8\/advanced-hollow-hysterics",
+                "pivot": {
+                    "monster_id": 28,
+                    "quest_id": 381
+                },
+                "questguild": {
+                    "id": 2,
+                    "local_name": "Guild"
+                },
+                "questpriority": {
+                    "id": 1,
+                    "local_name": "Normal"
+                },
+                "questgoal": {
+                    "id": 381,
+                    "local_name": "Hunt a Nerscylla and a Tetsucabra"
+                },
+                "questsubgoal": {
+                    "id": 381,
+                    "local_name": "Wound the Tetsucabra's back"
+                },
+                "questtype": {
+                    "id": 3,
+                    "local_name": "Hunting"
+                }
+            }
+        ],
+        "maps": [
+            {
+                "id": 2,
+                "local_name": "Sunken Hollow",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/sunken-hollow",
+                "pivot": {
+                    "monster_id": 28,
+                    "map_id": 2,
+                    "start": 6,
+                    "areas": "4",
+                    "rest": 5
+                }
+            },
+            {
+                "id": 3,
+                "local_name": "Primal Forest",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/map\/primal-forest",
+                "pivot": {
+                    "monster_id": 28,
+                    "map_id": 3,
+                    "start": 2,
+                    "areas": "5, 6",
+                    "rest": 7
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "id": 102,
+                "weapontype_id": 1,
+                "weapon_parent_id": 94,
+                "final": 0,
+                "attack": 528,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 2150,
+                "local_name": "Immane Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/immane-blade",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 102
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 103,
+                "weapontype_id": 1,
+                "weapon_parent_id": 102,
+                "final": 0,
+                "attack": 576,
+                "defense": null,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 6350,
+                "local_name": "Immolator Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/immolator-blade",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 103
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 104,
+                "weapontype_id": 1,
+                "weapon_parent_id": 103,
+                "final": 0,
+                "attack": 624,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Scylla Blade",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/scylla-blade",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 104
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 105,
+                "weapontype_id": 1,
+                "weapon_parent_id": 104,
+                "final": 0,
+                "attack": 672,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 45000,
+                "local_name": "Scylla Razor",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/scylla-razor",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 105
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 106,
+                "weapontype_id": 1,
+                "weapon_parent_id": 105,
+                "final": 0,
+                "attack": 960,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": 105000,
+                "price_upgrade": 70000,
+                "local_name": "Scylla Shear",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/greatsword\/scylla-shear",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 106
+                },
+                "weapontype": {
+                    "id": 1,
+                    "modifier": "4.8",
+                    "armortype_id": 2,
+                    "code": "gs",
+                    "model_prefix": "two",
+                    "local_name": "Great Sword"
+                }
+            },
+            {
+                "id": 307,
+                "weapontype_id": 2,
+                "weapon_parent_id": 290,
+                "final": 0,
+                "attack": 330,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 1750,
+                "local_name": "Blood Cry",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/blood-cry",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 307
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 308,
+                "weapontype_id": 2,
+                "weapon_parent_id": 307,
+                "final": 0,
+                "attack": 363,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 6350,
+                "local_name": "Blood Cry+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/blood-cry+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 308
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 309,
+                "weapontype_id": 2,
+                "weapon_parent_id": 308,
+                "final": 0,
+                "attack": 396,
+                "defense": null,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Noble Blood Cry",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/noble-blood-cry",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 309
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 310,
+                "weapontype_id": 2,
+                "weapon_parent_id": 309,
+                "final": 0,
+                "attack": 429,
+                "defense": null,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 45000,
+                "local_name": "Bioptimus",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/bioptimus",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 310
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 311,
+                "weapontype_id": 2,
+                "weapon_parent_id": 310,
+                "final": 0,
+                "attack": 594,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 0,
+                "price_create": 105000,
+                "price_upgrade": 70000,
+                "local_name": "Bioptimus+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/longsword\/bioptimus+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 311
+                },
+                "weapontype": {
+                    "id": 2,
+                    "modifier": "3.3",
+                    "armortype_id": 2,
+                    "code": "ls",
+                    "model_prefix": "swo",
+                    "local_name": "Long Sword"
+                }
+            },
+            {
+                "id": 493,
+                "weapontype_id": 3,
+                "weapon_parent_id": 479,
+                "final": 0,
+                "attack": 140,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 1,
+                "price_create": 3225,
+                "price_upgrade": 2150,
+                "local_name": "Scaly Sword",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/scaly-sword",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 493
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 494,
+                "weapontype_id": 3,
+                "weapon_parent_id": 493,
+                "final": 0,
+                "attack": 154,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 7150,
+                "local_name": "Scaly Sword+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/scaly-sword+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 494
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 495,
+                "weapontype_id": 3,
+                "weapon_parent_id": 494,
+                "final": 0,
+                "attack": 182,
+                "defense": null,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Bloodscale Sword",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/bloodscale-sword",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 495
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 496,
+                "weapontype_id": 3,
+                "weapon_parent_id": 495,
+                "final": 0,
+                "attack": 224,
+                "defense": null,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 45000,
+                "local_name": "Bloodsquama Sword",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/bloodsquama-sword",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 496
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 497,
+                "weapontype_id": 3,
+                "weapon_parent_id": 496,
+                "final": 0,
+                "attack": 252,
+                "defense": null,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Bloodslaughter",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/sword\/bloodslaughter",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 497
+                },
+                "weapontype": {
+                    "id": 3,
+                    "modifier": "1.4",
+                    "armortype_id": 2,
+                    "code": "s",
+                    "model_prefix": "one",
+                    "local_name": "Sword"
+                }
+            },
+            {
+                "id": 802,
+                "weapontype_id": 5,
+                "weapon_parent_id": 778,
+                "final": 0,
+                "attack": 572,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 2600,
+                "local_name": "Cluster Hammer",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/cluster-hammer",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 802
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 803,
+                "weapontype_id": 5,
+                "weapon_parent_id": 802,
+                "final": 0,
+                "attack": 624,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 7150,
+                "local_name": "Cluster Hammer+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/cluster-hammer+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 803
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 804,
+                "weapontype_id": 5,
+                "weapon_parent_id": 803,
+                "final": 0,
+                "attack": 676,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Cluster Musterer",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/cluster-musterer",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 804
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 805,
+                "weapontype_id": 5,
+                "weapon_parent_id": 804,
+                "final": 0,
+                "attack": 728,
+                "defense": null,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 45000,
+                "local_name": "Master Musterer",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/master-musterer",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 805
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 806,
+                "weapontype_id": 5,
+                "weapon_parent_id": 805,
+                "final": 0,
+                "attack": 988,
+                "defense": null,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 1,
+                "price_create": 105000,
+                "price_upgrade": 70000,
+                "local_name": "Master Musterer+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/hammer\/master-musterer+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 806
+                },
+                "weapontype": {
+                    "id": 5,
+                    "modifier": "5.2",
+                    "armortype_id": 2,
+                    "code": "h",
+                    "model_prefix": "ham",
+                    "local_name": "Hammer"
+                }
+            },
+            {
+                "id": 1400,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1388,
+                "final": 0,
+                "attack": 230,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 1750,
+                "local_name": "Shell Gunbird",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/shell-gunbird",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1400
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1401,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1400,
+                "final": 0,
+                "attack": 253,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 7150,
+                "local_name": "Shell Gunbird+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/shell-gunbird+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1401
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1402,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1401,
+                "final": 0,
+                "attack": 299,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Noble Gunbird",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/noble-gunbird",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1402
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1403,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1402,
+                "final": 0,
+                "attack": 368,
+                "defense": null,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Royal Gunbird",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/royal-gunbird",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1403
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1404,
+                "weapontype_id": 8,
+                "weapon_parent_id": 1403,
+                "final": 0,
+                "attack": 437,
+                "defense": null,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 1,
+                "price_create": 105000,
+                "price_upgrade": 70000,
+                "local_name": "Royal Gunbird+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/gunlance\/royal-gunbird+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1404
+                },
+                "weapontype": {
+                    "id": 8,
+                    "modifier": "2.3",
+                    "armortype_id": 2,
+                    "code": "gl",
+                    "model_prefix": "gun",
+                    "local_name": "Gunlance"
+                }
+            },
+            {
+                "id": 1687,
+                "weapontype_id": 10,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 468,
+                "defense": null,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": 25000,
+                "price_upgrade": null,
+                "local_name": "Arachnoscale",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/arachnoscale",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1687
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1688,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1687,
+                "final": 0,
+                "attack": 540,
+                "defense": null,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 35000,
+                "local_name": "Arachnoscale+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/arachnoscale+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1688
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1689,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1688,
+                "final": 0,
+                "attack": 648,
+                "defense": null,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Arachnoscythe",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/arachnoscythe",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1689
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1690,
+                "weapontype_id": 10,
+                "weapon_parent_id": 1689,
+                "final": 1,
+                "attack": 864,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 9,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 120000,
+                "local_name": "Belobog's Scythe",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/chargeblade\/belobogs-scythe",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1690
+                },
+                "weapontype": {
+                    "id": 10,
+                    "modifier": "3.6",
+                    "armortype_id": 2,
+                    "code": "cb",
+                    "model_prefix": "gaxe",
+                    "local_name": "Charge Blade"
+                }
+            },
+            {
+                "id": 1742,
+                "weapontype_id": 11,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 403,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": 3900,
+                "price_upgrade": null,
+                "local_name": "Stealth Glaive",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/stealth-glaive",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1742
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1743,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1742,
+                "final": 0,
+                "attack": 465,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 5600,
+                "local_name": "Stealth Glaive+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/stealth-glaive+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1743
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1744,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1743,
+                "final": 0,
+                "attack": 496,
+                "defense": null,
+                "affinity": null,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Stealth Glaive Redux",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/stealth-glaive-redux",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1744
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1745,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1744,
+                "final": 0,
+                "attack": 558,
+                "defense": null,
+                "affinity": 5,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 45000,
+                "local_name": "Shadow Walker",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/shadow-walker",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1745
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1775,
+                "weapontype_id": 11,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 465,
+                "defense": null,
+                "affinity": 10,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": 37500,
+                "price_upgrade": null,
+                "local_name": "Assault Glaive",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/assault-glaive",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1775
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1776,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1775,
+                "final": 0,
+                "attack": 496,
+                "defense": null,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Assault Glaive+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/assault-glaive+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1776
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 1777,
+                "weapontype_id": 11,
+                "weapon_parent_id": 1776,
+                "final": 0,
+                "attack": 527,
+                "defense": null,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 7,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 55000,
+                "local_name": "Forewalker",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/insectglaive\/forewalker",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 1777
+                },
+                "weapontype": {
+                    "id": 11,
+                    "modifier": "3.1",
+                    "armortype_id": 2,
+                    "code": "ig",
+                    "model_prefix": "rod",
+                    "local_name": "Insect Glaive"
+                }
+            },
+            {
+                "id": 2050,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2044,
+                "final": 0,
+                "attack": 195,
+                "defense": null,
+                "affinity": 15,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": 3600,
+                "price_upgrade": 2400,
+                "local_name": "Ner Bustergun",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/ner-bustergun",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 2050
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2051,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2050,
+                "final": 0,
+                "attack": 210,
+                "defense": null,
+                "affinity": 25,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 6350,
+                "local_name": "Ner Bustergun+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/ner-bustergun+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 2051
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2052,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2051,
+                "final": 0,
+                "attack": 240,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Buster Blaster",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/buster-blaster",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 2052
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2053,
+                "weapontype_id": 13,
+                "weapon_parent_id": 2052,
+                "final": 0,
+                "attack": 315,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Buster Blaster+",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/heavybowgun\/buster-blaster+",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 2053
+                },
+                "weapontype": {
+                    "id": 13,
+                    "modifier": "1.5",
+                    "armortype_id": 3,
+                    "code": "hb",
+                    "model_prefix": "hbg",
+                    "local_name": "Heavy Bowgun"
+                }
+            },
+            {
+                "id": 2229,
+                "weapontype_id": 14,
+                "weapon_parent_id": 0,
+                "final": 0,
+                "attack": 120,
+                "defense": null,
+                "affinity": 20,
+                "affinity_virus": null,
+                "rarity": 2,
+                "slot": 0,
+                "price_create": 4650,
+                "price_upgrade": null,
+                "local_name": "Scylla Fist I",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/scylla-fist-i",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 2229
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2230,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2229,
+                "final": 0,
+                "attack": 144,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 3,
+                "slot": 0,
+                "price_create": null,
+                "price_upgrade": 7150,
+                "local_name": "Scylla Fist II",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/scylla-fist-ii",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 2230
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2231,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2230,
+                "final": 0,
+                "attack": 168,
+                "defense": null,
+                "affinity": 30,
+                "affinity_virus": null,
+                "rarity": 4,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 20000,
+                "local_name": "Scylla Weave I",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/scylla-weave-i",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 2231
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2232,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2231,
+                "final": 0,
+                "attack": 192,
+                "defense": null,
+                "affinity": 35,
+                "affinity_virus": null,
+                "rarity": 5,
+                "slot": 1,
+                "price_create": null,
+                "price_upgrade": 30000,
+                "local_name": "Scylla Weave II",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/scylla-weave-ii",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 2232
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2233,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2232,
+                "final": 0,
+                "attack": 204,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 6,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 45000,
+                "local_name": "Scylla Shredder",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/scylla-shredder",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 2233
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            },
+            {
+                "id": 2234,
+                "weapontype_id": 14,
+                "weapon_parent_id": 2233,
+                "final": 0,
+                "attack": 240,
+                "defense": null,
+                "affinity": 40,
+                "affinity_virus": null,
+                "rarity": 8,
+                "slot": 2,
+                "price_create": null,
+                "price_upgrade": 70000,
+                "local_name": "Scylla Webdart",
+                "link": "https:\/\/kiranico.com\/en\/mh4u\/weapon\/bow\/scylla-webdart",
+                "pivot": {
+                    "monster_id": 28,
+                    "weapon_id": 2234
+                },
+                "weapontype": {
+                    "id": 14,
+                    "modifier": "1.2",
+                    "armortype_id": 3,
+                    "code": "b",
+                    "model_prefix": "bow",
+                    "local_name": "Bow"
+                }
+            }
+        ]
+    }
+}
