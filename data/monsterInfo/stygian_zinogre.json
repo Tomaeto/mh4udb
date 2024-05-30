@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/stygian_zinogre.png",
         "id": 92,
         "base_hp": 5100,
         "size": "L",
