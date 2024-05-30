@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/blue_yian_kut_ku.png",
         "id": 36,
         "base_hp": 4000,
         "size": "L",
