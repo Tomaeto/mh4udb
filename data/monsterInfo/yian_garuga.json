@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/yian_garuga.png",
         "id": 39,
         "base_hp": 4200,
         "size": "L",
