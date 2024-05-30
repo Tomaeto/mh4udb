@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/nerscylla.png",
         "id": 28,
         "base_hp": 3900,
         "size": "L",
