@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/unknown.png",
         "id": 105,
         "base_hp": 8000,
         "size": "L",
