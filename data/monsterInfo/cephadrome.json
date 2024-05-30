@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/cephadrome.png",
         "id": 30,
         "base_hp": 3600,
         "size": "L",
