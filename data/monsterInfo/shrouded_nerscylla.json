@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/shrouded_nerscylla.png",
         "id": 29,
         "base_hp": 3900,
         "size": "L",
