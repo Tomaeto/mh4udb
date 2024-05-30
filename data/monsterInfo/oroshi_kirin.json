@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/oroshi_kirin.png",
         "id": 94,
         "base_hp": 3200,
         "size": "L",
