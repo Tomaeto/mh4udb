@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/dahren_mohran.png",
         "id": 96,
         "base_hp": 16000,
         "size": "L",
