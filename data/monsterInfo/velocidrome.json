@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/velocidrome.png",
         "id": 32,
         "base_hp": 2000,
         "size": "L",
