@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/savage_deviljho.png",
         "id": 61,
         "base_hp": 6000,
         "size": "L",
