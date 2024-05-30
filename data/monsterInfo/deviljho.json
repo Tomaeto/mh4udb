@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/deviljho.png",
         "id": 59,
         "base_hp": 6600,
         "size": "L",
