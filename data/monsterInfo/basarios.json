@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "/data/monsterIcons/basarios.png"
         "id": 64,
         "base_hp": 2400,
         "size": "L",
