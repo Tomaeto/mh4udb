@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/chameleos.png",
         "id": 100,
         "base_hp": 6400,
         "size": "L",
