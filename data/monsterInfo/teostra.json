@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/teostra.png",
         "id": 99,
         "base_hp": 5300,
         "size": "L",
