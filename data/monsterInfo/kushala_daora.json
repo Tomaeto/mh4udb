@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/kushala_daora.png",
         "id": 97,
         "base_hp": 4200,
         "size": "L",
