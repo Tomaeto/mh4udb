@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/red_khezu.png",
         "id": 63,
         "base_hp": 4500,
         "size": "L",
