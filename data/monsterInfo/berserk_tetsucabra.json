@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/berserk_tetsucabra.png",
         "id": 51,
         "base_hp": 4200,
         "size": "L",
