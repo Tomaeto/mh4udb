@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/najarala.png",
         "id": 54,
         "base_hp": 4350,
         "size": "L",
