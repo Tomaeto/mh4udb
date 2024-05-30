@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/shagaru_magala.png",
         "id": 95,
         "base_hp": 5500,
         "size": "L",
