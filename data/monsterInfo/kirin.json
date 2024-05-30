@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/kirin.png",
         "id": 93,
         "base_hp": 3200,
         "size": "L",
