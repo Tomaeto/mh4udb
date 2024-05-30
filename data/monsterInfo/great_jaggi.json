@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/great_jaggi.png",
         "id": 31,
         "base_hp": 2600,
         "size": "L",
