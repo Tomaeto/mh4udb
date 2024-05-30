@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/zinogre.png",
         "id": 90,
         "base_hp": 5300,
         "size": "L",
