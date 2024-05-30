@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/gendrome.png",
         "id": 33,
         "base_hp": 2500,
         "size": "L",
