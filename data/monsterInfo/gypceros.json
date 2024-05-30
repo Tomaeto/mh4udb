@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/gypceros.png",
         "id": 37,
         "base_hp": 3900,
         "size": "L",
