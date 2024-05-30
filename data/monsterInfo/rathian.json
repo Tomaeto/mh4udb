@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/rathian.png",
         "id": 69,
         "base_hp": 4500,
         "size": "L",
