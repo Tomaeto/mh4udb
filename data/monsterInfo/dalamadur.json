@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/dalamadur.png",
         "id": 101,
         "base_hp": 17600,
         "size": "L",
