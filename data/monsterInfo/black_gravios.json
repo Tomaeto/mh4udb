@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/black_gravios.png",
         "id": 68,
         "base_hp": 4600,
         "size": "L",
