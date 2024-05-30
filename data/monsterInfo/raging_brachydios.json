@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/raging_brachydios.png",
         "id": 58,
         "base_hp": 5500,
         "size": "L",
