@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/lagombi.png",
         "id": 44,
         "base_hp": 3600,
         "size": "L",
