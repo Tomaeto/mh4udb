@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/congalala.png",
         "id": 45,
         "base_hp": 4600,
         "size": "L",
