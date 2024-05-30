@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/rusted_kushala_daora.png",
         "id": 98,
         "base_hp": 4000,
         "size": "L",
