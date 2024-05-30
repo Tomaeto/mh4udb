@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/tidal_najarala.png",
         "id": 55,
         "base_hp": 4850,
         "size": "L",
