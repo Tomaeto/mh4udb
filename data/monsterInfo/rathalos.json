@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/rathalos.png",
         "id": 72,
         "base_hp": 4200,
         "size": "L",
