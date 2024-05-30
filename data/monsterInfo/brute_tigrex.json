@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/brute_tigrex.png",
         "id": 77,
         "base_hp": 4500,
         "size": "L",
