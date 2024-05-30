@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/tigrex.png",
         "id": 75,
         "base_hp": 5000,
         "size": "L",
