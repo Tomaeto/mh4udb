@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/tetsucabra.png",
         "id": 50,
         "base_hp": 4000,
         "size": "L",
