@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/ukanlos.png",
         "id": 89,
         "base_hp": 7000,
         "size": "L",
