@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/gore_magala.png",
         "id": 86,
         "base_hp": 5000,
         "size": "L",
