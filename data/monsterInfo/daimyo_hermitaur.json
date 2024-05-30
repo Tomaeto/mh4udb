@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/daimyo_hermitaur.png",
         "id": 40,
         "base_hp": 3300,
         "size": "L",
