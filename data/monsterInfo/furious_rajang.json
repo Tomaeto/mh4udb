@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/furious_rajang.png",
         "id": 49,
         "base_hp": 4800,
         "size": "L",
