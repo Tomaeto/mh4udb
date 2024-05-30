@@ -1,6 +1,6 @@
 {
     "monster": {
-        "imgPath": "./data/monsterIcons/azure_rathalos.png",
+        "imgPath": "/data/monsterIcons/azure_rathalos.png",
         "id": 73,
         "base_hp": 4300,
         "size": "L",
