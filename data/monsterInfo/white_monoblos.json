@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/white_monoblos.png",
         "id": 83,
         "base_hp": 6000,
         "size": "L",
