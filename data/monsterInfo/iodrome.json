@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/iodrome.png",
         "id": 34,
         "base_hp": 3500,
         "size": "L",
