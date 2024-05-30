@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/zamtrios.png",
         "id": 52,
         "base_hp": 5200,
         "size": "L",
