@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/seregios.png",
         "id": 84,
         "base_hp": 4200,
         "size": "L",
