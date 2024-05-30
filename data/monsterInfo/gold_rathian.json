@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/gold_rathian.png",
         "id": 71,
         "base_hp": 4700,
         "size": "L",
