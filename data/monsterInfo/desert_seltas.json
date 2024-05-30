@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/desert_seltas.png",
         "id": 25,
         "base_hp": 2500,
         "size": "L",
