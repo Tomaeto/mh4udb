@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/molten_tigrex.png",
         "id": 78,
         "base_hp": 5000,
         "size": "L",
