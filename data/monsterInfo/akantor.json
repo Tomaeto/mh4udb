@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "./data/MonsterIcons/akantor.png",
         "id": 88,
         "base_hp": 6000,
         "size": "L",
