@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/seltas_queen.png",
         "id": 26,
         "base_hp": 5200,
         "size": "L",
