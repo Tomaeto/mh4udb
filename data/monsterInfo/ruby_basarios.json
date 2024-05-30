@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/ruby_basarios.png",
         "id": 65,
         "base_hp": 2400,
         "size": "L",
