@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/brachydios.png",
         "id": 57,
         "base_hp": 4600,
         "size": "L",
