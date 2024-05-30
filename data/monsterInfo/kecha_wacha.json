@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/kecha_wacha.png",
         "id": 42,
         "base_hp": 3800,
         "size": "L",
