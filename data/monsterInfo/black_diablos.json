@@ -1,5 +1,6 @@
 {
     "monster": {
+        "imgPath": "data/monsterIcons/black_diablos.png",
         "id": 81,
         "base_hp": 4300,
         "size": "L",
